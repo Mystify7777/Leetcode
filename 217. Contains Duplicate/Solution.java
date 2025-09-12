@@ -1,3 +1,4 @@
+import java.util.HashSet;
 class Solution {
     public boolean containsDuplicate(int[] nums) {
         HashSet<Integer> seen = new HashSet<>();
