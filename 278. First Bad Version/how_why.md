@@ -64,8 +64,6 @@ public class Solution extends VersionControl {
 }
 ```
 
-*Note: The user-provided code used a 0-based `low` pointer; it has been adjusted to the problem's 1-based versioning for clarity, but both approaches are valid binary search patterns.*
-
 -----
 
 ## Why This Works
