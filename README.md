@@ -104,3 +104,18 @@ Solving DSA Problem With Why and How answered.
 - [Solution.java](./704. Binary Search/Solution.java)
 - [how_why.md](./704. Binary Search/how_why.md)
 
+### 26. [1935. Maximum Number of Words You Can Type](./1935. Maximum Number of Words You Can Type/)
+- [Solution.java](./1935. Maximum Number of Words You Can Type/Solution.java)
+- [how_why.md](./1935. Maximum Number of Words You Can Type/how_why.md)
+
+### 27. [2197. Replace Non-Coprime Numbers in Array](./2197. Replace Non-Coprime Numbers in Array/)
+- [Solution.java](./2197. Replace Non-Coprime Numbers in Array/Solution.java)
+- [how_why.md](./2197. Replace Non-Coprime Numbers in Array/how_why.md)
+
+### 28. [228. Summary Ranges](./228. Summary Ranges/)
+- [Solution.java](./228. Summary Ranges/Solution.java)
+- [how_why.md](./228. Summary Ranges/how_why.md)
+
+### 29. [966. Vowel Spellchecker](./966. Vowel Spellchecker/)
+- [Solution.java](./966. Vowel Spellchecker/Solution.java)
+- [how_why.md](./966. Vowel Spellchecker/how_why.md)
