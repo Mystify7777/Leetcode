@@ -6,6 +6,14 @@
  *               otherwise return 0
  * int guess(int num);
  */
+import java.util.Random;
+class GuessGame {
+    int guess(int num) {
+        int  rand = new Random().nextInt(10);
+
+        return num==rand?0:(num<rand?1:-1);
+    }
+}
 
 public class Solution extends GuessGame {
     public int guessNumber(int n) {
