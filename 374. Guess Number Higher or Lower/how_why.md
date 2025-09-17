@@ -7,6 +7,7 @@ int guess(int num);
 ```
 
 The API returns:
+
 - `-1` : your guess is higher than the picked number
 - `1`  : your guess is lower than the picked number
 - `0`  : your guess is correct
