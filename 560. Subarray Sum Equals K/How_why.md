@@ -1,133 +1,94 @@
+# Problem Recap
 
-# How_Why.md
-
-## Problem
-
-Given an integer array `nums` and an integer `k`, return the total number of subarrays whose sum equals `k`.
+We are given an integer array `nums` and an integer `k`. We want to **count the number of continuous subarrays whose sum equals `k`**.
 
 ---
 
-## How (Step-by-step Solution)
-
-### Approach 1: Prefix Sum + HashMap (Standard)
-
-1. Maintain a **running prefix sum** (`sum`) while iterating over `nums`.
-2. At each step, check if `(sum - k)` has been seen before:
-
-   * If yes, then there exists a subarray ending at current index with sum `k`.
-   * Add the frequency of `(sum - k)` to the result.
-3. Store/update the frequency of the current `sum` in the HashMap.
-
-   * Initialize with `{0: 1}` to handle subarrays starting from index `0`.
-
-**Code:**
+## 1. Standard HashMap Approach (Readable Version)
 
 ```java
 public int subarraySum(int[] nums, int k) {
     int count = 0, sum = 0;
     HashMap<Integer, Integer> map = new HashMap<>();
-    map.put(0, 1);
+    map.put(0, 1); // base case: prefix sum 0 occurs once
 
-    for (int num : nums) {
-        sum += num;
-        if (map.containsKey(sum - k)) {
-            count += map.get(sum - k);
-        }
+    for (int i = 0; i < nums.length; i++) {
+        sum += nums[i];
+        if (map.containsKey(sum - k)) 
+            count += map.get(sum - k); // found subarrays ending at i with sum=k
         map.put(sum, map.getOrDefault(sum, 0) + 1);
     }
     return count;
 }
 ```
 
----
+### How it works
 
-### Approach 2: Hand-Rolled Hash Table (Obfuscated Version)
+1. Compute **prefix sums**: `sum[i] = nums[0] + ... + nums[i]`.
+2. A subarray `[j+1..i]` sums to `k` if `sum[i] - sum[j] = k`.
+3. So we store all previous prefix sums in a map.
+4. Each time we see `sum[i]`, we check if `sum[i]-k` exists in the map → if yes, we found `map.get(sum[i]-k)` subarrays ending at `i` with sum `k`.
 
-This second code is doing essentially the same logic **without using Java’s HashMap**.
-
-* **Custom Hashing:**
-
-  * Uses constants `MIXER = 0x9E3779BA` (a known "golden ratio" hash mixer for integers).
-  * The `mask()` function ensures the array size is a power-of-two minus 1, so it can bitmask instead of using `%`.
-
-* **Hashtable:**
-
-  * `int[] hashtable` stores keys and values in pairs: `[key, count, key, count, ...]`.
-  * Probes linearly (open addressing) when collisions happen.
-
-* **Zeros handling:**
-
-  * Instead of storing `{0: 1}` like in HashMap, it maintains a `zeros` counter separately.
-
-In short, it’s **reinventing HashMap**, but much more cryptic and error-prone.
+**Time Complexity:** O(n)
+**Space Complexity:** O(n)
 
 ---
 
-## Why (Reasoning)
+## 2. The "Low-level" Version
 
-* The **clean HashMap solution** is straightforward, readable, and interview-ready.
-* The **obfuscated version**:
+This one is tricky, but let’s demystify it:
 
-  * Eliminates Java’s built-in HashMap overhead.
-  * Likely designed for performance (competitive programming, LeetCode speedruns).
-  * But **way harder to understand and maintain**.
+### Key observations
 
-Both do the same thing:
+* `hashtable` is a custom array representing an **open-addressed hash table**.
 
-* Track **prefix sums**.
-* Count how many times a given prefix sum has been seen before.
-* Use that to calculate number of subarrays with sum `k`.
-
----
-
-## Complexity Analysis
-
-* **Time Complexity**: O(n) (both approaches, each element processed once).
-* **Space Complexity**: O(n) for storing prefix sums in the map/hashtable.
+  * Keys are stored at even indices (`i`), values/counts at odd indices (`i+1`).
+* `MIXER = 0x9E3779BA` is a constant used to **mix the bits** of the key (a simple hash function).
+* `mask` is computed to get a table size as a power-of-two minus 1 for bitmasking.
+* `zeros` counts the number of times prefix sum equals 0 (special case).
+* `diff = sum - k` is the prefix sum difference we need to look for.
+* The while loops handle **collision resolution** using **linear probing**.
 
 ---
 
-## Example Walkthrough
+### Rough Walkthrough
 
-### Input
+1. **Iterate `nums`** and maintain `sum` (prefix sum).
+2. Compute `diff = sum - k`. If `diff != 0`, we want to see if there is a previous prefix sum equal to `diff`.
 
-```text
-nums = [1, 1, 1], k = 2
-```
-
-### Execution
-
-* Prefix sums:
-
-  * sum = 1 → map = {0:1, 1:1}
-  * sum = 2 → sum - k = 0 → count = 1 → map = {0:1, 1:1, 2:1}
-  * sum = 3 → sum - k = 1 → count = 2 → map = {0:1, 1:1, 2:1, 3:1}
-
-### Output
-
-```text
-2
-```
-
-(two subarrays `[1,1]`, `[1,1]`).
+   * Use `diff * MIXER & mask` to hash it into the table.
+   * If the slot is empty → stop (no match).
+   * If the slot has `key == diff` → increment `res` by count at `i+1`.
+   * Else → move to next slot (`i = i + 2 & mask`).
+3. After checking `diff`, store/update `sum` in the hash table using the same hash + probing mechanism.
+4. Special case: if `sum == 0`, increment `zeros`.
 
 ---
 
-## Alternate Approaches
+### Why is this “fast”?
 
-1. **Brute Force (O(n²))**
-
-   * For each subarray, compute sum and check if equals `k`.
-
-2. **Prefix Sum Array (O(n²))**
-
-   * Precompute prefix sums, check all pairs `(i, j)`.
-
-3. **Optimized Prefix Sum + HashMap (O(n))** ✅ Best.
+* Avoids `HashMap` overhead (boxing/unboxing of `Integer` objects).
+* Uses a **preallocated array** and **bitwise operations** for hashing.
+* Linear probing with bitmasking is much faster in tight loops.
+* Essentially a **manual, highly optimized HashMap for integers**.
 
 ---
 
-✨ **Conclusion**: Stick with the **HashMap solution** — it’s clear and optimal.
-The second version is just a custom low-level hash table that obfuscates the idea.
+### Comparison
+
+| Feature                 | Standard HashMap | Low-level array |
+| ----------------------- | ---------------- | --------------- |
+| Readability             | High             | Very low        |
+| Time Complexity         | O(n)             | O(n)            |
+| Space Complexity        | O(n)             | O(n)            |
+| Performance             | Moderate         | Very fast       |
+| Complexity to implement | Easy             | Very hard       |
+
+---
+
+### TL;DR
+
+* **Conceptually**, both do the same thing: count previous prefix sums that match `sum - k`.
+* The second version is just a **super-optimized implementation** for competitive programming or performance-critical cases.
 
 ---

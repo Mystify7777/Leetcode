@@ -1,77 +1,112 @@
-# How_Why.md
+
+# How\_Why.md: Longest Substring Without Repeating Characters
 
 ## Problem
 
-Given a string `s`, find the length of the longest substring without repeating characters.  
+Given a string `s`, find the length of the **longest substring without repeating characters**.
+
+**Example:**
+
+```java
+Input: s = "abcabcbb"
+Output: 3
+Explanation: The longest substring without repeating characters is "abc".
+```
 
 ---
 
-## How (Step-by-step Solution)
+## Brute-force Approach
 
-### Approach: Sliding Window + HashMap
+### Idea
 
-1. Use two pointers:
-   - `left`: start index of the current window.
-   - `right`: end index (moves forward one character at a time).
-2. Maintain a **HashMap** that stores each character’s most recent index.
-3. For each character at `s[right]`:
-   - If it is **not seen before** (or last seen before the current `left` boundary):
-     - Extend the window → update max length as `right - left + 1`.
-   - If it is **seen inside the current window**:
-     - Move `left` to one position after the last occurrence of `s[right]`.
-   - Update the character’s last seen index in the map.
-4. Continue until the end of the string.
+* Check **all substrings** of `s` and determine if each has all unique characters.
+* Keep track of the **maximum length** found.
 
----
+### Code
 
-## Why (Reasoning)
+```java
+public int lengthOfLongestSubstringBF(String s) {
+    int maxLen = 0;
+    for (int i = 0; i < s.length(); i++) {
+        Set<Character> set = new HashSet<>();
+        int length = 0;
+        for (int j = i; j < s.length(); j++) {
+            if (set.contains(s.charAt(j))) break;
+            set.add(s.charAt(j));
+            length++;
+        }
+        maxLen = Math.max(maxLen, length);
+    }
+    return maxLen;
+}
+```
 
-- The sliding window ensures we only process each character once.
-- Moving `left` past duplicates avoids recomputation of substrings.
-- The map gives O(1) lookup for the last index of a character.
-- This guarantees we always maintain a valid substring without repeating characters.
+### Example Walkthrough
 
----
+* Input: `"abcabcbb"`
+* Substrings checked:
 
-## Complexity Analysis
+  * `"a"` → valid, maxLen = 1
+  * `"ab"` → valid, maxLen = 2
+  * `"abc"` → valid, maxLen = 3
+  * `"abca"` → repeats `'a'` → stop
+* Returns `3`
 
-- **Time Complexity**: O(n), where `n` is the length of the string. Each character is visited at most twice (once by `right`, once by `left`).
-- **Space Complexity**: O(min(n, alphabet size)) — HashMap stores only unique characters at a time.
+### Limitation
 
----
-
-## Example Walkthrough
-
-### Input
-
-```s = "abcabcbb"```
-
-### Steps
-
-- right=0 → "a" → maxLength=1  
-- right=1 → "ab" → maxLength=2  
-- right=2 → "abc" → maxLength=3  
-- right=3 → duplicate "a" → move left to 1 → substring = "bca" → maxLength=3  
-- right=4 → duplicate "b" → move left to 2 → substring = "cab" → maxLength=3  
-- right=5 → duplicate "c" → move left to 3 → substring = "abc" → maxLength=3  
-- right=6 → duplicate "b" → move left to 5 → substring = "cb" → maxLength=3  
-- right=7 → duplicate "b" → move left to 7 → substring = "b" → maxLength=3  
-
-Final answer = **3**.
+* **Time complexity:** O(n²)
+* Inefficient for long strings (`n` up to 10⁵).
 
 ---
 
-## Alternate Approaches
+## Sliding Window Approach (Optimized)
 
-1. **Brute Force**:
-   - Generate all substrings, check uniqueness.
-   - Time: O(n³), Space: O(1).
-   - Too slow for large inputs.
+### Idea_
 
-2. **Sliding Window with HashSet**:
-   - Use a set to track characters in the current window.
-   - When a duplicate appears, shrink from the left until valid.
-   - Time: O(n), Space: O(n).
-   - Slightly less efficient than HashMap method due to multiple removals.
+* Use **two pointers** (`left` and `right`) to maintain a window of unique characters.
+* Expand `right` to include new characters.
+* Move `left` forward whenever a duplicate is found.
+* Track the **maximum window size**.
 
-✅ **Optimal Approach**: Sliding Window + HashMap (used in the solution).
+### Code_
+
+```java
+public int lengthOfLongestSubstring(String s) {
+    Set<Character> set = new HashSet<>();
+    int left = 0, maxLen = 0;
+
+    for (int right = 0; right < s.length(); right++) {
+        while (set.contains(s.charAt(right))) {
+            set.remove(s.charAt(left));
+            left++;
+        }
+        set.add(s.charAt(right));
+        maxLen = Math.max(maxLen, right - left + 1);
+    }
+    return maxLen;
+}
+```
+
+### Example Walkthrough_
+
+* Input: `"abcabcbb"`
+* `left=0, right=0` → add `'a'` → window: `"a"`, maxLen=1
+* `right=1` → add `'b'` → window: `"ab"`, maxLen=2
+* `right=2` → add `'c'` → window: `"abc"`, maxLen=3
+* `right=3` → `'a'` exists → remove `'a'`, move left=1 → window: `"bca"`, maxLen still 3
+* Continue → final maxLen = 3
+
+### Advantages
+
+* **Time complexity:** O(n) → each character is added/removed at most once
+* **Space complexity:** O(min(n, charset size)) → HashSet stores current window characters
+
+---
+
+## Key Takeaways
+
+1. **Brute-force:** simple, easy to implement but O(n²) → too slow for large strings.
+2. **Sliding window:** linear time, optimal for this problem.
+3. Maintaining a **HashSet** ensures uniqueness, and moving the left pointer removes duplicates efficiently.
+
+---
