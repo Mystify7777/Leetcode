@@ -1,110 +1,141 @@
-# How_Why.md
+# How\_Why.md: Set Matrix Zeroes (LeetCode 73)
 
 ## Problem
 
-Given an `m x n` integer matrix, if an element is `0`, set its entire row and column to `0`.  
-You must do it **in place** (without using extra space for another matrix).
+Given an `m x n` matrix, if an element is 0, set its **entire row and column** to 0. Do it **in-place**.
 
----
+**Example:**
 
-## How (Step-by-step Solution)
-
-### Approach: Using First Row & First Column as Markers
-
-1. **Check the first column separately**  
-   - Use a boolean flag `zeroinFirstCol` to track if the first column needs to be zeroed.  
-   - We separate it because the first cell `(0,0)` would otherwise overlap between row and column markers.
-
-2. **Mark zero rows and columns**  
-   - For each cell `(row, col)` starting from column `1`:  
-     - If `matrix[row][col] == 0`:  
-       - Mark its row → set `matrix[row][0] = 0`  
-       - Mark its column → set `matrix[0][col] = 0`
-
-3. **Apply zeroes in reverse order**  
-   - Traverse the matrix **backwards** (bottom-right to top-left).  
-   - For each cell `(row, col)` (col ≥ 1):  
-     - If `matrix[row][0] == 0` **or** `matrix[0][col] == 0`, set `matrix[row][col] = 0`.  
-   - If `zeroinFirstCol` is true, set the entire first column to `0`.
-
----
-
-## Why (Reasoning)
-
-- Normally, we’d need two extra arrays to track zero rows and zero columns (O(m+n) space).  
-- Instead, we **reuse the first row and first column as markers**, avoiding extra space.  
-- Traversing **in reverse order** ensures we don’t overwrite markers before using them.
-
----
-
-## Complexity Analysis
-
-- **Time Complexity**: O(m × n) → Each cell is processed at most twice.  
-- **Space Complexity**: O(1) → No extra space except the boolean flag.  
-
----
-
-## Example Walkthrough
-
-### Input
-
-```text
+```java
+Input:
 [
- [1, 1, 1],
- [1, 0, 1],
- [1, 1, 1]
+  [1,1,1],
+  [1,0,1],
+  [1,1,1]
 ]
-```
-
-### Step 1: Mark zeros
-
-- Encounter `matrix[1][1] = 0`
-    → mark `matrix[1][0] = 0`, `matrix[0][1] = 0`
-
-**Matrix now:**
-
-```text
+Output:
 [
- [1, 0, 1],
- [0, 0, 1],
- [1, 1, 1]
-]
-```
-
-### Step 2: Apply zeros in reverse
-
-- Row 1 and Column 1 → set entire row and column to 0.
-
-**Final Matrix:**
-
-```text
-[
- [1, 0, 1],
- [0, 0, 0],
- [1, 0, 1]
+  [1,0,1],
+  [0,0,0],
+  [1,0,1]
 ]
 ```
 
 ---
 
-## Alternate Approaches
+## Brute-force Approach
 
-1. Brute Force (O(m×n) space)
+### Idea
 
-   - Use two arrays to track zero rows and zero columns.
+* Iterate over the matrix.
+* For each 0 found, mark its row and column (e.g., with a placeholder like `-1`) to indicate it will become 0.
+* Then iterate again to set all marked cells to 0.
 
-   - Simpler but not in-place.
+### Code
 
-2. Set-based Approach
+```java
+public void setZeroesBF(int[][] matrix) {
+    int m = matrix.length;
+    int n = matrix[0].length;
 
-   - Store rows and columns in hash sets, then iterate again to zero them.
+    boolean[][] mark = new boolean[m][n];
 
-   - Uses O(m+n) extra space.
+    for (int i = 0; i < m; i++) {
+        for (int j = 0; j < n; j++) {
+            if (matrix[i][j] == 0) mark[i][j] = true;
+        }
+    }
 
-3. In-place with markers (optimal, current solution)
+    for (int i = 0; i < m; i++) {
+        for (int j = 0; j < n; j++) {
+            if (mark[i][j]) {
+                for (int k = 0; k < n; k++) matrix[i][k] = 0;
+                for (int k = 0; k < m; k++) matrix[k][j] = 0;
+            }
+        }
+    }
+}
+```
 
-   - Reuses first row and first column.
+### Limitations
 
-   - Achieves O(1) extra space.
+* **Time Complexity:** O((m*n)*(m+n)) → inefficient for large matrices.
+* **Space Complexity:** O(m\*n) for the extra mark array.
 
-   ---
+---
+
+## User Approach (Optimized In-place Using First Row/Column as Markers)
+
+### Idea_
+
+* Use **first row** and **first column** as markers for rows/columns that should be zeroed.
+* Keep a boolean to track if the **first column** itself has any zero.
+* Traverse matrix top-down, left-right:
+
+  * For each zero at `(i,j)`, set `matrix[i][0] = 0` and `matrix[0][j] = 0`.
+* Traverse matrix bottom-up, right-left:
+
+  * If `matrix[i][0] == 0 || matrix[0][j] == 0`, set `matrix[i][j] = 0`.
+
+### Code_
+
+```java
+public void setZeroes(int[][] matrix) {
+    boolean zeroinFirstCol = false;
+
+    for (int row = 0; row < matrix.length; row++) {
+        if (matrix[row][0] == 0) zeroinFirstCol = true;
+        for (int col = 1; col < matrix[0].length; col++) {
+            if (matrix[row][col] == 0) {
+                matrix[row][0] = 0;
+                matrix[0][col] = 0;
+            }
+        }
+    }
+
+    for (int row = matrix.length - 1; row >= 0; row--) {
+        for (int col = matrix[0].length - 1; col >= 1; col--) {
+            if (matrix[row][0] == 0 || matrix[0][col] == 0) {
+                matrix[row][col] = 0;
+            }
+        }
+        if (zeroinFirstCol) matrix[row][0] = 0;
+    }
+}
+```
+
+### Example Walkthrough
+
+```java
+Input:
+1 1 1
+1 0 1
+1 1 1
+
+Step 1: Mark zeros in first row/col:
+1 0 1
+0 0 1
+1 1 1
+
+Step 2: Set zeros using markers (traverse bottom-up):
+1 0 1
+0 0 0
+1 0 1
+
+Result matches expected output.
+```
+
+### Complexity
+
+* **Time Complexity:** O(m\*n) — each cell visited twice.
+* **Space Complexity:** O(1) — in-place, only one extra boolean for first column.
+
+---
+
+### Key Takeaways
+
+1. Brute-force works but wastes both space and time.
+2. Using the first row and column as markers is a **clever trick** to reduce space.
+3. Always handle the **first row and first column carefully**, since they’re both markers and part of the matrix.
+
+---
