@@ -1,4 +1,5 @@
 // 3. Longest Substring Without Repeating Characters
+import java.util.HashSet;
 class Solution {
     public int lengthOfLongestSubstring(String s) {
         int left = 0;

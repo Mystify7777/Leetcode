@@ -1,4 +1,5 @@
 // 560. Subarray Sum Equals K
+import java.util.HashMap;
 public class Solution {
     public int subarraySum(int[] nums, int k) {
         int count = 0, sum = 0;
