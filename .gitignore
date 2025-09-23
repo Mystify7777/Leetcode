@@ -5,6 +5,10 @@
 migrate_to_maven.py
 JAVA21_UPGRADE.md
 
+# Maven project structure - Keep only original problem solutions
+src/
+pom.xml
+
 # Maven build artifacts
 target/
 pom.xml.tag
@@ -16,9 +20,6 @@ dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
 .mvn/wrapper/maven-wrapper.jar
-
-# Maven configuration (comment out if you want to keep pom.xml)
-pom.xml
 
 # IDE files
 .idea/
