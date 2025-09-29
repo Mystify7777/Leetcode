@@ -2,7 +2,7 @@
 
 Solving DSA problems with explanations for "why" and "how".
 
-Total problems: **113**
+Total problems: **114**
 
 Problems (sorted by LeetCode problem number)
 ---
@@ -401,59 +401,63 @@ Problems (sorted by LeetCode problem number)
    - [Solution.java](./976.%20Largest%20Perimeter%20Triangle/Solution.java)
    - [how_why.md](./976.%20Largest%20Perimeter%20Triangle/how_why.md)
 
-100. [1207. Unique Number of Occurrences](./1207.%20Unique%20Number%20of%20Occurrences/)
+100. [1039. Minimum Score Triangulation of Polygon](./1039.%20Minimum%20Score%20Triangulation%20of%20Polygon/)
+   - [Solution.java](./1039.%20Minimum%20Score%20Triangulation%20of%20Polygon/Solution.java)
+   - [how_why.md](./1039.%20Minimum%20Score%20Triangulation%20of%20Polygon/how_why.md)
+
+101. [1207. Unique Number of Occurrences](./1207.%20Unique%20Number%20of%20Occurrences/)
    - [Solution.java](./1207.%20Unique%20Number%20of%20Occurrences/Solution.java)
    - [how_why.md](./1207.%20Unique%20Number%20of%20Occurrences/how_why.md)
 
-101. [1572. Matrix Diagonal Sum](./1572.%20Matrix%20Diagonal%20Sum/)
+102. [1572. Matrix Diagonal Sum](./1572.%20Matrix%20Diagonal%20Sum/)
    - [Solution.java](./1572.%20Matrix%20Diagonal%20Sum/Solution.java)
    - [how_why.md](./1572.%20Matrix%20Diagonal%20Sum/how_why.md)
 
-102. [1733. Minimum Number of People to Teach](./1733.%20Minimum%20Number%20of%20People%20to%20Teach/)
+103. [1733. Minimum Number of People to Teach](./1733.%20Minimum%20Number%20of%20People%20to%20Teach/)
    - [Solution.java](./1733.%20Minimum%20Number%20of%20People%20to%20Teach/Solution.java)
    - [how_why.md](./1733.%20Minimum%20Number%20of%20People%20to%20Teach/how_why.md)
 
-103. [1912. Design Movie Rental System](./1912.%20Design%20Movie%20Rental%20System/)
+104. [1912. Design Movie Rental System](./1912.%20Design%20Movie%20Rental%20System/)
    - [Solution.java](./1912.%20Design%20Movie%20Rental%20System/Solution.java)
    - [how_why.md](./1912.%20Design%20Movie%20Rental%20System/how_why.md)
 
-104. [1935. Maximum Number of Words You Can Type](./1935.%20Maximum%20Number%20of%20Words%20You%20Can%20Type/)
+105. [1935. Maximum Number of Words You Can Type](./1935.%20Maximum%20Number%20of%20Words%20You%20Can%20Type/)
    - [Solution.java](./1935.%20Maximum%20Number%20of%20Words%20You%20Can%20Type/Solution.java)
    - [how_why.md](./1935.%20Maximum%20Number%20of%20Words%20You%20Can%20Type/how_why.md)
 
-105. [2197. Replace Non-Coprime Numbers in Array](./2197.%20Replace%20Non-Coprime%20Numbers%20in%20Array/)
+106. [2197. Replace Non-Coprime Numbers in Array](./2197.%20Replace%20Non-Coprime%20Numbers%20in%20Array/)
    - [Solution.java](./2197.%20Replace%20Non-Coprime%20Numbers%20in%20Array/Solution.java)
    - [how_why.md](./2197.%20Replace%20Non-Coprime%20Numbers%20in%20Array/how_why.md)
 
-106. [2327. Number of People Aware of a Secret](./2327.%20Number%20of%20People%20Aware%20of%20a%20Secret/)
+107. [2327. Number of People Aware of a Secret](./2327.%20Number%20of%20People%20Aware%20of%20a%20Secret/)
    - [Solution.java](./2327.%20Number%20of%20People%20Aware%20of%20a%20Secret/Solution.java)
    - [how_why.md](./2327.%20Number%20of%20People%20Aware%20of%20a%20Secret/how_why.md)
 
-107. [2353. Design a Food Rating System](./2353.%20Design%20a%20Food%20Rating%20System/)
+108. [2353. Design a Food Rating System](./2353.%20Design%20a%20Food%20Rating%20System/)
    - [Solution.java](./2353.%20Design%20a%20Food%20Rating%20System/Solution.java)
    - [how_why.md](./2353.%20Design%20a%20Food%20Rating%20System/how_why.md)
 
-108. [2785. Sort Vowels in a String](./2785.%20Sort%20Vowels%20in%20a%20String/)
+109. [2785. Sort Vowels in a String](./2785.%20Sort%20Vowels%20in%20a%20String/)
    - [Solution.java](./2785.%20Sort%20Vowels%20in%20a%20String/Solution.java)
    - [how_why.md](./2785.%20Sort%20Vowels%20in%20a%20String/how_why.md)
 
-109. [3227. Vowels Game in a String](./3227.%20Vowels%20Game%20in%20a%20String/)
+110. [3227. Vowels Game in a String](./3227.%20Vowels%20Game%20in%20a%20String/)
    - [Solution.java](./3227.%20Vowels%20Game%20in%20a%20String/Solution.java)
    - [how_why.md](./3227.%20Vowels%20Game%20in%20a%20String/how_why.md)
 
-110. [3408. Design Task Manager](./3408.%20Design%20Task%20Manager/)
+111. [3408. Design Task Manager](./3408.%20Design%20Task%20Manager/)
    - [Solution.java](./3408.%20Design%20Task%20Manager/Solution.java)
    - [how_why.md](./3408.%20Design%20Task%20Manager/how_why.md)
 
-111. [3484. Design Spreadsheet](./3484.%20Design%20Spreadsheet/)
+112. [3484. Design Spreadsheet](./3484.%20Design%20Spreadsheet/)
    - [Solution.java](./3484.%20Design%20Spreadsheet/Solution.java)
    - [how_why.md](./3484.%20Design%20Spreadsheet/how_why.md)
 
-112. [3508. Implement Router](./3508.%20Implement%20Router/)
+113. [3508. Implement Router](./3508.%20Implement%20Router/)
    - [Solution.java](./3508.%20Implement%20Router/Solution.java)
    - [how_why.md](./3508.%20Implement%20Router/how_why.md)
 
-113. [3541. Find Most Frequent Vowel and Consonant](./3541.%20Find%20Most%20Frequent%20Vowel%20and%20Consonant/)
+114. [3541. Find Most Frequent Vowel and Consonant](./3541.%20Find%20Most%20Frequent%20Vowel%20and%20Consonant/)
    - [Solution.java](./3541.%20Find%20Most%20Frequent%20Vowel%20and%20Consonant/Solution.java)
    - [how_why.md](./3541.%20Find%20Most%20Frequent%20Vowel%20and%20Consonant/how_why.md)
 
