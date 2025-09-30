@@ -5,7 +5,7 @@
 
 We’re asked to repeatedly reduce an array until only **one number remains**, where each new row is built as:
 
-```
+```java
 a[i] = (a[i] + a[i+1]) % 10
 ```
 
@@ -14,7 +14,7 @@ a[i] = (a[i] + a[i+1]) % 10
 * Keep modifying the array until only one element remains.
 * Example:
 
-  ```
+  ```math
   nums = [1,2,3,4,5]
   → [3,5,7,9] → [8,2,6] → [0,8] → [8]
   ```
@@ -61,7 +61,7 @@ The second solution exploits math:
 Observation:
 The final number is essentially:
 
-```
+```math
 ans = Σ ( C(n-1, i) * nums[i] ) mod 10
 ```
 
@@ -93,7 +93,7 @@ But `10 = 2 × 5`, so we can use **Chinese Remainder Theorem**:
 
 ### Brute Force
 
-```
+```math
 [1,2,3,4,5]
 → [3,5,7,9]
 → [8,2,6]
@@ -107,7 +107,7 @@ Answer = 8
 `n = 5 → N = 4`
 Final = Σ C(4,i) * nums[i] mod 10
 
-```
+```math
 = 1*1 + 4*2 + 6*3 + 4*4 + 1*5
 = 1 + 8 + 18 + 16 + 5 = 48
 48 mod 10 = 8
@@ -125,5 +125,3 @@ Matches.
 * In practice, since LeetCode constraints are small (`n ≤ 1000`), the recursive/brute force is enough.
 
 ---
-
-Would you like me to also write the **optimized CRT-based solution** in a cleaner, contest-ready Java form (without the extra reference code and debugging)?
