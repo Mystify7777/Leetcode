@@ -2,7 +2,7 @@
 
 Solving DSA problems with explanations for "why" and "how".
 
-Total problems: **137**
+Total problems: **138**
 
 Problems (sorted by LeetCode problem number)
 ---
@@ -385,171 +385,175 @@ Problems (sorted by LeetCode problem number)
    - [Solution.java](./389.%20Find%20the%20Difference/Solution.java)
    - [how_why.md](./389.%20Find%20the%20Difference/how_why.md)
 
-96. [412. Fizz Buzz](./412.%20Fizz%20Buzz/)
+96. [407. Trapping Rain Water II](./407.%20Trapping%20Rain%20Water%20II/)
+   - [Solution.java](./407.%20Trapping%20Rain%20Water%20II/Solution.java)
+   - [how_why.md](./407.%20Trapping%20Rain%20Water%20II/how_why.md)
+
+97. [412. Fizz Buzz](./412.%20Fizz%20Buzz/)
    - [Solution.java](./412.%20Fizz%20Buzz/Solution.java)
    - [how_why.md](./412.%20Fizz%20Buzz/how_why.md)
 
-97. [416. Partition Equal Subset Sum](./416.%20Partition%20Equal%20Subset%20Sum/)
+98. [416. Partition Equal Subset Sum](./416.%20Partition%20Equal%20Subset%20Sum/)
    - [Solution.java](./416.%20Partition%20Equal%20Subset%20Sum/Solution.java)
    - [how_why.md](./416.%20Partition%20Equal%20Subset%20Sum/how_why.md)
 
-98. [417. Pacific Atlantic Water Flow](./417.%20Pacific%20Atlantic%20Water%20Flow/)
+99. [417. Pacific Atlantic Water Flow](./417.%20Pacific%20Atlantic%20Water%20Flow/)
    - [Solution.java](./417.%20Pacific%20Atlantic%20Water%20Flow/Solution.java)
    - [how_why.md](./417.%20Pacific%20Atlantic%20Water%20Flow/how_why.md)
 
-99. [438. Find All Anagrams in a String](./438.%20Find%20All%20Anagrams%20in%20a%20String/)
+100. [438. Find All Anagrams in a String](./438.%20Find%20All%20Anagrams%20in%20a%20String/)
    - [Solution.java](./438.%20Find%20All%20Anagrams%20in%20a%20String/Solution.java)
    - [how_why.md](./438.%20Find%20All%20Anagrams%20in%20a%20String/how_why.md)
 
-100. [442. Find All Duplicates in an Array](./442.%20Find%20All%20Duplicates%20in%20an%20Array/)
+101. [442. Find All Duplicates in an Array](./442.%20Find%20All%20Duplicates%20in%20an%20Array/)
    - [Solution.java](./442.%20Find%20All%20Duplicates%20in%20an%20Array/Solution.java)
    - [how_why.md](./442.%20Find%20All%20Duplicates%20in%20an%20Array/how_why.md)
 
-101. [515. Find Largest Value in Each Tree Row](./515.%20Find%20Largest%20Value%20in%20Each%20Tree%20Row/)
+102. [515. Find Largest Value in Each Tree Row](./515.%20Find%20Largest%20Value%20in%20Each%20Tree%20Row/)
    - [Solution.java](./515.%20Find%20Largest%20Value%20in%20Each%20Tree%20Row/Solution.java)
    - [how_why.md](./515.%20Find%20Largest%20Value%20in%20Each%20Tree%20Row/how_why.md)
 
-102. [516. Longest Palindromic Subsequence](./516.%20Longest%20Palindromic%20Subsequence/)
+103. [516. Longest Palindromic Subsequence](./516.%20Longest%20Palindromic%20Subsequence/)
    - [Solution.java](./516.%20Longest%20Palindromic%20Subsequence/Solution.java)
    - [how_why.md](./516.%20Longest%20Palindromic%20Subsequence/how_why.md)
 
-103. [528. Random Pick with Weight](./528.%20Random%20Pick%20with%20Weight/)
+104. [528. Random Pick with Weight](./528.%20Random%20Pick%20with%20Weight/)
    - [Solution.java](./528.%20Random%20Pick%20with%20Weight/Solution.java)
    - [how_why.md](./528.%20Random%20Pick%20with%20Weight/how_why.md)
 
-104. [547. Number of Provinces](./547.%20Number%20of%20Provinces/)
+105. [547. Number of Provinces](./547.%20Number%20of%20Provinces/)
    - [Solution.java](./547.%20Number%20of%20Provinces/Solution.java)
    - [how_why.md](./547.%20Number%20of%20Provinces/how_why.md)
 
-105. [560. Subarray Sum Equals K](./560.%20Subarray%20Sum%20Equals%20K/)
+106. [560. Subarray Sum Equals K](./560.%20Subarray%20Sum%20Equals%20K/)
    - [Solution.java](./560.%20Subarray%20Sum%20Equals%20K/Solution.java)
    - [how_why.md](./560.%20Subarray%20Sum%20Equals%20K/how_why.md)
 
-106. [611. Valid Triangle Number](./611.%20Valid%20Triangle%20Number/)
+107. [611. Valid Triangle Number](./611.%20Valid%20Triangle%20Number/)
    - [Solution.java](./611.%20Valid%20Triangle%20Number/Solution.java)
    - [how_why.md](./611.%20Valid%20Triangle%20Number/how_why.md)
 
-107. [621. Task Scheduler](./621.%20Task%20Scheduler/)
+108. [621. Task Scheduler](./621.%20Task%20Scheduler/)
    - [Solution.java](./621.%20Task%20Scheduler/Solution.java)
    - [how_why.md](./621.%20Task%20Scheduler/how_why.md)
 
-108. [630. Course Schedule III](./630.%20Course%20Schedule%20III/)
+109. [630. Course Schedule III](./630.%20Course%20Schedule%20III/)
    - [Solution.java](./630.%20Course%20Schedule%20III/Solution.java)
    - [how_why.md](./630.%20Course%20Schedule%20III/how_why.md)
 
-109. [658. Find K Closest Elements](./658.%20Find%20K%20Closest%20Elements/)
+110. [658. Find K Closest Elements](./658.%20Find%20K%20Closest%20Elements/)
    - [Solution.java](./658.%20Find%20K%20Closest%20Elements/Solution.java)
    - [how_why.md](./658.%20Find%20K%20Closest%20Elements/how_why.md)
 
-110. [680. Valid Palindrome II](./680.%20Valid%20Palindrome%20II/)
+111. [680. Valid Palindrome II](./680.%20Valid%20Palindrome%20II/)
    - [Solution.java](./680.%20Valid%20Palindrome%20II/Solution.java)
    - [how_why.md](./680.%20Valid%20Palindrome%20II/how_why.md)
 
-111. [704. Binary Search](./704.%20Binary%20Search/)
+112. [704. Binary Search](./704.%20Binary%20Search/)
    - [Solution.java](./704.%20Binary%20Search/Solution.java)
    - [how_why.md](./704.%20Binary%20Search/how_why.md)
 
-112. [739. Daily Temperatures](./739.%20Daily%20Temperatures/)
+113. [739. Daily Temperatures](./739.%20Daily%20Temperatures/)
    - [Solution.java](./739.%20Daily%20Temperatures/Solution.java)
    - [how_why.md](./739.%20Daily%20Temperatures/how_why.md)
 
-113. [743. Network Delay Time](./743.%20Network%20Delay%20Time/)
+114. [743. Network Delay Time](./743.%20Network%20Delay%20Time/)
    - [Solution.java](./743.%20Network%20Delay%20Time/Solution.java)
    - [how_why.md](./743.%20Network%20Delay%20Time/how_why.md)
 
-114. [797. All Paths From Source to Target](./797.%20All%20Paths%20From%20Source%20to%20Target/)
+115. [797. All Paths From Source to Target](./797.%20All%20Paths%20From%20Source%20to%20Target/)
    - [Solution.java](./797.%20All%20Paths%20From%20Source%20to%20Target/Solution.java)
    - [how_why.md](./797.%20All%20Paths%20From%20Source%20to%20Target/how_why.md)
 
-115. [802. Find Eventual Safe States](./802.%20Find%20Eventual%20Safe%20States/)
+116. [802. Find Eventual Safe States](./802.%20Find%20Eventual%20Safe%20States/)
    - [Solution.java](./802.%20Find%20Eventual%20Safe%20States/Solution.java)
    - [how_why.md](./802.%20Find%20Eventual%20Safe%20States/how_why.md)
 
-116. [812. Largest Triangle Area](./812.%20Largest%20Triangle%20Area/)
+117. [812. Largest Triangle Area](./812.%20Largest%20Triangle%20Area/)
    - [Solution.java](./812.%20Largest%20Triangle%20Area/Solution.java)
    - [how_why.md](./812.%20Largest%20Triangle%20Area/how_why.md)
 
-117. [934. Shortest Bridge](./934.%20Shortest%20Bridge/)
+118. [934. Shortest Bridge](./934.%20Shortest%20Bridge/)
    - [Solution.java](./934.%20Shortest%20Bridge/Solution.java)
    - [how_why.md](./934.%20Shortest%20Bridge/how_why.md)
 
-118. [966. Vowel Spellchecker](./966.%20Vowel%20Spellchecker/)
+119. [966. Vowel Spellchecker](./966.%20Vowel%20Spellchecker/)
    - [Solution.java](./966.%20Vowel%20Spellchecker/Solution.java)
    - [how_why.md](./966.%20Vowel%20Spellchecker/how_why.md)
 
-119. [976. Largest Perimeter Triangle](./976.%20Largest%20Perimeter%20Triangle/)
+120. [976. Largest Perimeter Triangle](./976.%20Largest%20Perimeter%20Triangle/)
    - [Solution.java](./976.%20Largest%20Perimeter%20Triangle/Solution.java)
    - [how_why.md](./976.%20Largest%20Perimeter%20Triangle/how_why.md)
 
-120. [1039. Minimum Score Triangulation of Polygon](./1039.%20Minimum%20Score%20Triangulation%20of%20Polygon/)
+121. [1039. Minimum Score Triangulation of Polygon](./1039.%20Minimum%20Score%20Triangulation%20of%20Polygon/)
    - [Solution.java](./1039.%20Minimum%20Score%20Triangulation%20of%20Polygon/Solution.java)
    - [how_why.md](./1039.%20Minimum%20Score%20Triangulation%20of%20Polygon/how_why.md)
 
-121. [1207. Unique Number of Occurrences](./1207.%20Unique%20Number%20of%20Occurrences/)
+122. [1207. Unique Number of Occurrences](./1207.%20Unique%20Number%20of%20Occurrences/)
    - [Solution.java](./1207.%20Unique%20Number%20of%20Occurrences/Solution.java)
    - [how_why.md](./1207.%20Unique%20Number%20of%20Occurrences/how_why.md)
 
-122. [1518. Water Bottles](./1518.%20Water%20Bottles/)
+123. [1518. Water Bottles](./1518.%20Water%20Bottles/)
    - [Solution.java](./1518.%20Water%20Bottles/Solution.java)
    - [how_why.md](./1518.%20Water%20Bottles/how_why.md)
 
-123. [1572. Matrix Diagonal Sum](./1572.%20Matrix%20Diagonal%20Sum/)
+124. [1572. Matrix Diagonal Sum](./1572.%20Matrix%20Diagonal%20Sum/)
    - [Solution.java](./1572.%20Matrix%20Diagonal%20Sum/Solution.java)
    - [how_why.md](./1572.%20Matrix%20Diagonal%20Sum/how_why.md)
 
-124. [1733. Minimum Number of People to Teach](./1733.%20Minimum%20Number%20of%20People%20to%20Teach/)
+125. [1733. Minimum Number of People to Teach](./1733.%20Minimum%20Number%20of%20People%20to%20Teach/)
    - [Solution.java](./1733.%20Minimum%20Number%20of%20People%20to%20Teach/Solution.java)
    - [how_why.md](./1733.%20Minimum%20Number%20of%20People%20to%20Teach/how_why.md)
 
-125. [1912. Design Movie Rental System](./1912.%20Design%20Movie%20Rental%20System/)
+126. [1912. Design Movie Rental System](./1912.%20Design%20Movie%20Rental%20System/)
    - [Solution.java](./1912.%20Design%20Movie%20Rental%20System/Solution.java)
    - [how_why.md](./1912.%20Design%20Movie%20Rental%20System/how_why.md)
 
-126. [1935. Maximum Number of Words You Can Type](./1935.%20Maximum%20Number%20of%20Words%20You%20Can%20Type/)
+127. [1935. Maximum Number of Words You Can Type](./1935.%20Maximum%20Number%20of%20Words%20You%20Can%20Type/)
    - [Solution.java](./1935.%20Maximum%20Number%20of%20Words%20You%20Can%20Type/Solution.java)
    - [how_why.md](./1935.%20Maximum%20Number%20of%20Words%20You%20Can%20Type/how_why.md)
 
-127. [2197. Replace Non-Coprime Numbers in Array](./2197.%20Replace%20Non-Coprime%20Numbers%20in%20Array/)
+128. [2197. Replace Non-Coprime Numbers in Array](./2197.%20Replace%20Non-Coprime%20Numbers%20in%20Array/)
    - [Solution.java](./2197.%20Replace%20Non-Coprime%20Numbers%20in%20Array/Solution.java)
    - [how_why.md](./2197.%20Replace%20Non-Coprime%20Numbers%20in%20Array/how_why.md)
 
-128. [2221. Find Triangular Sum of an Array](./2221.%20Find%20Triangular%20Sum%20of%20an%20Array/)
+129. [2221. Find Triangular Sum of an Array](./2221.%20Find%20Triangular%20Sum%20of%20an%20Array/)
    - [Solution.java](./2221.%20Find%20Triangular%20Sum%20of%20an%20Array/Solution.java)
    - [how_why.md](./2221.%20Find%20Triangular%20Sum%20of%20an%20Array/how_why.md)
 
-129. [2327. Number of People Aware of a Secret](./2327.%20Number%20of%20People%20Aware%20of%20a%20Secret/)
+130. [2327. Number of People Aware of a Secret](./2327.%20Number%20of%20People%20Aware%20of%20a%20Secret/)
    - [Solution.java](./2327.%20Number%20of%20People%20Aware%20of%20a%20Secret/Solution.java)
    - [how_why.md](./2327.%20Number%20of%20People%20Aware%20of%20a%20Secret/how_why.md)
 
-130. [2353. Design a Food Rating System](./2353.%20Design%20a%20Food%20Rating%20System/)
+131. [2353. Design a Food Rating System](./2353.%20Design%20a%20Food%20Rating%20System/)
    - [Solution.java](./2353.%20Design%20a%20Food%20Rating%20System/Solution.java)
    - [how_why.md](./2353.%20Design%20a%20Food%20Rating%20System/how_why.md)
 
-131. [2785. Sort Vowels in a String](./2785.%20Sort%20Vowels%20in%20a%20String/)
+132. [2785. Sort Vowels in a String](./2785.%20Sort%20Vowels%20in%20a%20String/)
    - [Solution.java](./2785.%20Sort%20Vowels%20in%20a%20String/Solution.java)
    - [how_why.md](./2785.%20Sort%20Vowels%20in%20a%20String/how_why.md)
 
-132. [3100. Water Bottles II](./3100.%20Water%20Bottles%20II/)
+133. [3100. Water Bottles II](./3100.%20Water%20Bottles%20II/)
    - [Solution.java](./3100.%20Water%20Bottles%20II/Solution.java)
    - [how_why.md](./3100.%20Water%20Bottles%20II/how_why.md)
 
-133. [3227. Vowels Game in a String](./3227.%20Vowels%20Game%20in%20a%20String/)
+134. [3227. Vowels Game in a String](./3227.%20Vowels%20Game%20in%20a%20String/)
    - [Solution.java](./3227.%20Vowels%20Game%20in%20a%20String/Solution.java)
    - [how_why.md](./3227.%20Vowels%20Game%20in%20a%20String/how_why.md)
 
-134. [3408. Design Task Manager](./3408.%20Design%20Task%20Manager/)
+135. [3408. Design Task Manager](./3408.%20Design%20Task%20Manager/)
    - [Solution.java](./3408.%20Design%20Task%20Manager/Solution.java)
    - [how_why.md](./3408.%20Design%20Task%20Manager/how_why.md)
 
-135. [3484. Design Spreadsheet](./3484.%20Design%20Spreadsheet/)
+136. [3484. Design Spreadsheet](./3484.%20Design%20Spreadsheet/)
    - [Solution.java](./3484.%20Design%20Spreadsheet/Solution.java)
    - [how_why.md](./3484.%20Design%20Spreadsheet/how_why.md)
 
-136. [3508. Implement Router](./3508.%20Implement%20Router/)
+137. [3508. Implement Router](./3508.%20Implement%20Router/)
    - [Solution.java](./3508.%20Implement%20Router/Solution.java)
    - [how_why.md](./3508.%20Implement%20Router/how_why.md)
 
-137. [3541. Find Most Frequent Vowel and Consonant](./3541.%20Find%20Most%20Frequent%20Vowel%20and%20Consonant/)
+138. [3541. Find Most Frequent Vowel and Consonant](./3541.%20Find%20Most%20Frequent%20Vowel%20and%20Consonant/)
    - [Solution.java](./3541.%20Find%20Most%20Frequent%20Vowel%20and%20Consonant/Solution.java)
    - [how_why.md](./3541.%20Find%20Most%20Frequent%20Vowel%20and%20Consonant/how_why.md)
 
