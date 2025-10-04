@@ -1,154 +1,126 @@
-
-# How & Why — Problem 11: Container With Most Water
-
-## Problem Restatement
-
-You are given an array `height[]` where each element represents the height of a vertical line drawn at index `i`. The task is to find two lines such that together with the x-axis, they form a container that can hold the maximum amount of water.
-
-Formally:
-
-$$
-\text{Area} = (j - i) \times \min(height[i], height[j])
-$$
-
-where `0 <= i < j < n`.
+# How_Why.md — Container With Most Water (LeetCode 11)
 
 ---
 
-## 1. Brute Force Approach
+## ❌ Brute Force Approach
 
-### Idea
+### **Idea**
 
-Check **all possible pairs** `(i, j)` of lines, compute the area, and track the maximum.
+* Consider all pairs `(i, j)` of lines.
+* Compute the area as:
 
-### Steps
+  ```java
+  area = min(height[i], height[j]) * (j - i)
+  ```
 
-1. Loop `i` from `0` to `n-1`.
-2. Loop `j` from `i+1` to `n-1`.
-3. Calculate area = `(j - i) * min(height[i], height[j])`.
-4. Keep track of the maximum area found.
+* Keep track of the maximum area seen.
 
-### Complexity
+### **Limitation**
 
-* **Time:** $O(n^2)$ — double loop over all pairs.
-* **Space:** $O(1)$.
-
-### Example
-
-Input: `height = [1,8,6,2,5,4,8,3,7]`
-
-* Pair `(0,8)` → Area = `(8-0) * min(1,7) = 8`.
-* Pair `(1,8)` → Area = `(8-1) * min(8,7) = 49`.
-* Pair `(2,8)` → Area = `(8-2) * min(6,7) = 36`.
-* … check all pairs.
-
-**Answer:** 49.
-
-**Limitation:** Too slow for large `n` (up to 10^5).
+* Time Complexity: `O(n²)` — too slow for large inputs (up to 10⁵).
+* We compute every possible pair even though many can’t possibly be the max.
 
 ---
 
-## 2. Two-Pointer Approach (Your Code)
+## ✅ Optimized Approach — Two Pointer Technique
 
-### Idea_
+### **Why It Works**
 
-Use **two pointers** — one at the start, one at the end.
+* The **width** between the two pointers shrinks as we move inward.
+* The **height** of water is limited by the shorter line.
+* To maximize the area, we need **taller heights** while still having decent width.
+* Hence, move the pointer at the **shorter line** inward — because only that can lead to a taller height and possibly a larger area.
 
-* At each step, compute the area.
-* Move the pointer pointing to the **shorter line**, since it limits the area.
-* Continue until the two pointers meet.
+---
 
-### Why It Works
+### **Algorithm**
 
-* Moving the taller line doesn’t increase area (width decreases, height can’t improve beyond the shorter one).
-* So only moving the shorter line can potentially improve area.
+1. Initialize two pointers:
 
-### Steps_
+   ```java
+   left = 0
+   right = n - 1
+   maxArea = 0
+   ```
 
-1. Initialize `left = 0`, `right = n-1`.
 2. While `left < right`:
 
-   * Calculate area.
-   * Update max area.
-   * Move `left++` if `height[left] < height[right]`, else `right--`.
-3. Return max area.
+   * Calculate area = `(right - left) * min(height[left], height[right])`
+   * Update `maxArea` if current area is greater.
+   * Move pointer at the **shorter line** inward:
 
-### Complexity_
-
-* **Time:** $O(n)$ — each index visited at most once.
-* **Space:** $O(1)$.
+     * If `height[left] < height[right]` → `left++`
+     * Else → `right--`
+3. Return `maxArea`
 
 ---
 
-## 3. Step-by-Step Walkthrough with Diagram
-
-Input: `height = [1,8,6,2,5,4,8,3,7]`
+### **Example Walkthrough**
 
 ```text
-Index:    0  1  2  3  4  5  6  7  8
-Height:   1  8  6  2  5  4  8  3  7
+height = [1,8,6,2,5,4,8,3,7]
+
+Step 1: left=0, right=8 → area = min(1,7)*(8-0)=7 → max=7
+Step 2: Move left++ (since 1<7)
+Step 3: left=1, right=8 → area = min(8,7)*(8-1)=49 → max=49
+Step 4: Move right-- (since 8>7)
+Step 5: left=1, right=7 → area = min(8,3)*(7-1)=18 → max=49
+...
+Final maxArea = 49
 ```
-
-* **Step 1**: `left=0`, `right=8`
-
-```text
-1 |                         | 7
-  |                         |
-  |                         |
-  |                         |
-  |                         |
-  |                         |
-  |                         |
-----------------------------------
-```
-
-Area = (8-0) \* min(1,7) = 8 → Move `left` (since 1 < 7).
 
 ---
 
-* **Step 2**: `left=1`, `right=8`
+### **Code (Two Pointer)**
 
-```text
-   8 |                       | 7
-     |                       |
-     |                       |
-     |                       |
-     |                       |
-     |                       |
-----------------------------------
+```java
+class Solution {
+    public int maxArea(int[] height) {
+        int maxArea = 0;
+        int left = 0;
+        int right = height.length - 1;
+
+        while (left < right) {
+            maxArea = Math.max(maxArea, (right - left) * Math.min(height[left], height[right]));
+
+            if (height[left] < height[right]) {
+                left++;
+            } else {
+                right--;
+            }
+        }
+
+        return maxArea;        
+    }
+}
 ```
 
-Area = (8-1) \* min(8,7) = 49 → Max updated. Move `right` (since 8 > 7).
-
 ---
 
-* **Step 3**: `left=1`, `right=7`
+### **Alternative Optimization**
 
-```text
-   8 |                 | 3
-     |                 |
-     |                 |
-----------------------------------
+Skip all smaller heights after moving the pointer:
+
+```java
+while (i < j && height[i] <= min) i++;
+while (i < j && height[j] <= min) j--;
 ```
 
-Area = (7-1) \* min(8,3) = 18 → Max still 49. Move `right`.
+⏩ Skips redundant pairs where area will only decrease.
 
 ---
 
-* Continue moving pointers inward…
-  Final max area = **49**.
+## 🧮 Complexity
+
+* **Time:** `O(n)` — each pointer moves at most `n` times.
+* **Space:** `O(1)` — only a few variables used.
 
 ---
 
-## 4. Optimized Version
+## ✅ Key Insights
 
-The two-pointer method **is already optimal**:
-
-* Any solution must examine pairs in some systematic way.
-* We reduce complexity from $O(n^2)$ → $O(n)$ with no extra space.
-
-✅ **Best Method:** Two-Pointer Approach
-✅ **Time Complexity:** $O(n)$
-✅ **Space Complexity:** $O(1)$
+* The area depends on both width and min height.
+* Width always decreases → to compensate, you must find a taller line.
+* Moving the shorter pointer guarantees exploration of better possibilities.
 
 ---
