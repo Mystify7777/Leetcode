@@ -2,7 +2,7 @@
 
 Solving DSA problems with explanations for "why" and "how".
 
-Total problems: **152**
+Total problems: **153**
 
 Problems (sorted by LeetCode problem number)
 ---
@@ -589,27 +589,31 @@ Problems (sorted by LeetCode problem number)
    - [Solution.java](./3100.%20Water%20Bottles%20II/Solution.java)
    - [how_why.md](./3100.%20Water%20Bottles%20II/how_why.md)
 
-147. [3227. Vowels Game in a String](./3227.%20Vowels%20Game%20in%20a%20String/)
+147. [3147. Taking Maximum Energy From the Mystic Dungeon](./3147.%20Taking%20Maximum%20Energy%20From%20the%20Mystic%20Dungeon/)
+   - [Solution.java](./3147.%20Taking%20Maximum%20Energy%20From%20the%20Mystic%20Dungeon/Solution.java)
+   - [how_why.md](./3147.%20Taking%20Maximum%20Energy%20From%20the%20Mystic%20Dungeon/how_why.md)
+
+148. [3227. Vowels Game in a String](./3227.%20Vowels%20Game%20in%20a%20String/)
    - [Solution.java](./3227.%20Vowels%20Game%20in%20a%20String/Solution.java)
    - [how_why.md](./3227.%20Vowels%20Game%20in%20a%20String/how_why.md)
 
-148. [3408. Design Task Manager](./3408.%20Design%20Task%20Manager/)
+149. [3408. Design Task Manager](./3408.%20Design%20Task%20Manager/)
    - [Solution.java](./3408.%20Design%20Task%20Manager/Solution.java)
    - [how_why.md](./3408.%20Design%20Task%20Manager/how_why.md)
 
-149. [3484. Design Spreadsheet](./3484.%20Design%20Spreadsheet/)
+150. [3484. Design Spreadsheet](./3484.%20Design%20Spreadsheet/)
    - [Solution.java](./3484.%20Design%20Spreadsheet/Solution.java)
    - [how_why.md](./3484.%20Design%20Spreadsheet/how_why.md)
 
-150. [3494. Find the Minimum Amount of Time to Brew Potions](./3494.%20Find%20the%20Minimum%20Amount%20of%20Time%20to%20Brew%20Potions/)
+151. [3494. Find the Minimum Amount of Time to Brew Potions](./3494.%20Find%20the%20Minimum%20Amount%20of%20Time%20to%20Brew%20Potions/)
    - [Solution.java](./3494.%20Find%20the%20Minimum%20Amount%20of%20Time%20to%20Brew%20Potions/Solution.java)
    - [how_why.md](./3494.%20Find%20the%20Minimum%20Amount%20of%20Time%20to%20Brew%20Potions/how_why.md)
 
-151. [3508. Implement Router](./3508.%20Implement%20Router/)
+152. [3508. Implement Router](./3508.%20Implement%20Router/)
    - [Solution.java](./3508.%20Implement%20Router/Solution.java)
    - [how_why.md](./3508.%20Implement%20Router/how_why.md)
 
-152. [3541. Find Most Frequent Vowel and Consonant](./3541.%20Find%20Most%20Frequent%20Vowel%20and%20Consonant/)
+153. [3541. Find Most Frequent Vowel and Consonant](./3541.%20Find%20Most%20Frequent%20Vowel%20and%20Consonant/)
    - [Solution.java](./3541.%20Find%20Most%20Frequent%20Vowel%20and%20Consonant/Solution.java)
    - [how_why.md](./3541.%20Find%20Most%20Frequent%20Vowel%20and%20Consonant/how_why.md)
 
