@@ -2,7 +2,7 @@
 
 Solving DSA problems with explanations for "why" and "how".
 
-Total problems: **160**
+Total problems: **161**
 
 Problems (sorted by LeetCode problem number)
 ---
@@ -621,27 +621,31 @@ Problems (sorted by LeetCode problem number)
    - [Solution.java](./3350.%20Adjacent%20Increasing%20Subarrays%20Detection%20II/Solution.java)
    - [how_why.md](./3350.%20Adjacent%20Increasing%20Subarrays%20Detection%20II/how_why.md)
 
-155. [3408. Design Task Manager](./3408.%20Design%20Task%20Manager/)
+155. [3397. Maximum Number of Distinct Elements After Operations](./3397.%20Maximum%20Number%20of%20Distinct%20Elements%20After%20Operations/)
+   - [Solution.java](./3397.%20Maximum%20Number%20of%20Distinct%20Elements%20After%20Operations/Solution.java)
+   - [how_why.md](./3397.%20Maximum%20Number%20of%20Distinct%20Elements%20After%20Operations/how_why.md)
+
+156. [3408. Design Task Manager](./3408.%20Design%20Task%20Manager/)
    - [Solution.java](./3408.%20Design%20Task%20Manager/Solution.java)
    - [how_why.md](./3408.%20Design%20Task%20Manager/how_why.md)
 
-156. [3484. Design Spreadsheet](./3484.%20Design%20Spreadsheet/)
+157. [3484. Design Spreadsheet](./3484.%20Design%20Spreadsheet/)
    - [Solution.java](./3484.%20Design%20Spreadsheet/Solution.java)
    - [how_why.md](./3484.%20Design%20Spreadsheet/how_why.md)
 
-157. [3494. Find the Minimum Amount of Time to Brew Potions](./3494.%20Find%20the%20Minimum%20Amount%20of%20Time%20to%20Brew%20Potions/)
+158. [3494. Find the Minimum Amount of Time to Brew Potions](./3494.%20Find%20the%20Minimum%20Amount%20of%20Time%20to%20Brew%20Potions/)
    - [Solution.java](./3494.%20Find%20the%20Minimum%20Amount%20of%20Time%20to%20Brew%20Potions/Solution.java)
    - [how_why.md](./3494.%20Find%20the%20Minimum%20Amount%20of%20Time%20to%20Brew%20Potions/how_why.md)
 
-158. [3508. Implement Router](./3508.%20Implement%20Router/)
+159. [3508. Implement Router](./3508.%20Implement%20Router/)
    - [Solution.java](./3508.%20Implement%20Router/Solution.java)
    - [how_why.md](./3508.%20Implement%20Router/how_why.md)
 
-159. [3539. Find Sum of Array Product of Magical Sequences](./3539.%20Find%20Sum%20of%20Array%20Product%20of%20Magical%20Sequences/)
+160. [3539. Find Sum of Array Product of Magical Sequences](./3539.%20Find%20Sum%20of%20Array%20Product%20of%20Magical%20Sequences/)
    - [Solution.java](./3539.%20Find%20Sum%20of%20Array%20Product%20of%20Magical%20Sequences/Solution.java)
    - [how_why.md](./3539.%20Find%20Sum%20of%20Array%20Product%20of%20Magical%20Sequences/how_why.md)
 
-160. [3541. Find Most Frequent Vowel and Consonant](./3541.%20Find%20Most%20Frequent%20Vowel%20and%20Consonant/)
+161. [3541. Find Most Frequent Vowel and Consonant](./3541.%20Find%20Most%20Frequent%20Vowel%20and%20Consonant/)
    - [Solution.java](./3541.%20Find%20Most%20Frequent%20Vowel%20and%20Consonant/Solution.java)
    - [how_why.md](./3541.%20Find%20Most%20Frequent%20Vowel%20and%20Consonant/how_why.md)
 
