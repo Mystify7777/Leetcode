@@ -2,7 +2,7 @@
 
 Solving DSA problems with explanations for "why" and "how".
 
-Total problems: **168**
+Total problems: **169**
 
 Problems (sorted by LeetCode problem number)
 ---
@@ -573,107 +573,111 @@ Problems (sorted by LeetCode problem number)
    - [Solution.java](./2011.%20Final%20Value%20of%20Variable%20After%20Performing%20Operations/Solution.java)
    - [how_why.md](./2011.%20Final%20Value%20of%20Variable%20After%20Performing%20Operations/how_why.md)
 
-143. [2048. Next Greater Numerically Balanced Number](./2048.%20Next%20Greater%20Numerically%20Balanced%20Number/)
+143. [2043. Simple Bank System](./2043.%20Simple%20Bank%20System/)
+   - [Solution.java](./2043.%20Simple%20Bank%20System/Solution.java)
+   - [how_why.md](./2043.%20Simple%20Bank%20System/how_why.md)
+
+144. [2048. Next Greater Numerically Balanced Number](./2048.%20Next%20Greater%20Numerically%20Balanced%20Number/)
    - [Solution.java](./2048.%20Next%20Greater%20Numerically%20Balanced%20Number/Solution.java)
    - [how_why.md](./2048.%20Next%20Greater%20Numerically%20Balanced%20Number/how_why.md)
 
-144. [2197. Replace Non-Coprime Numbers in Array](./2197.%20Replace%20Non-Coprime%20Numbers%20in%20Array/)
+145. [2197. Replace Non-Coprime Numbers in Array](./2197.%20Replace%20Non-Coprime%20Numbers%20in%20Array/)
    - [Solution.java](./2197.%20Replace%20Non-Coprime%20Numbers%20in%20Array/Solution.java)
    - [how_why.md](./2197.%20Replace%20Non-Coprime%20Numbers%20in%20Array/how_why.md)
 
-145. [2221. Find Triangular Sum of an Array](./2221.%20Find%20Triangular%20Sum%20of%20an%20Array/)
+146. [2221. Find Triangular Sum of an Array](./2221.%20Find%20Triangular%20Sum%20of%20an%20Array/)
    - [Solution.java](./2221.%20Find%20Triangular%20Sum%20of%20an%20Array/Solution.java)
    - [how_why.md](./2221.%20Find%20Triangular%20Sum%20of%20an%20Array/how_why.md)
 
-146. [2273. Find Resultant Array After Removing Anagrams](./2273.%20Find%20Resultant%20Array%20After%20Removing%20Anagrams/)
+147. [2273. Find Resultant Array After Removing Anagrams](./2273.%20Find%20Resultant%20Array%20After%20Removing%20Anagrams/)
    - [Solution.java](./2273.%20Find%20Resultant%20Array%20After%20Removing%20Anagrams/Solution.java)
    - [how_why.md](./2273.%20Find%20Resultant%20Array%20After%20Removing%20Anagrams/how_why.md)
 
-147. [2300. Successful Pairs of Spells and Potions](./2300.%20Successful%20Pairs%20of%20Spells%20and%20Potions/)
+148. [2300. Successful Pairs of Spells and Potions](./2300.%20Successful%20Pairs%20of%20Spells%20and%20Potions/)
    - [Solution.java](./2300.%20Successful%20Pairs%20of%20Spells%20and%20Potions/Solution.java)
    - [how_why.md](./2300.%20Successful%20Pairs%20of%20Spells%20and%20Potions/how_why.md)
 
-148. [2327. Number of People Aware of a Secret](./2327.%20Number%20of%20People%20Aware%20of%20a%20Secret/)
+149. [2327. Number of People Aware of a Secret](./2327.%20Number%20of%20People%20Aware%20of%20a%20Secret/)
    - [Solution.java](./2327.%20Number%20of%20People%20Aware%20of%20a%20Secret/Solution.java)
    - [how_why.md](./2327.%20Number%20of%20People%20Aware%20of%20a%20Secret/how_why.md)
 
-149. [2353. Design a Food Rating System](./2353.%20Design%20a%20Food%20Rating%20System/)
+150. [2353. Design a Food Rating System](./2353.%20Design%20a%20Food%20Rating%20System/)
    - [Solution.java](./2353.%20Design%20a%20Food%20Rating%20System/Solution.java)
    - [how_why.md](./2353.%20Design%20a%20Food%20Rating%20System/how_why.md)
 
-150. [2598. Smallest Missing Non-negative Integer After Operations](./2598.%20Smallest%20Missing%20Non-negative%20Integer%20After%20Operations/)
+151. [2598. Smallest Missing Non-negative Integer After Operations](./2598.%20Smallest%20Missing%20Non-negative%20Integer%20After%20Operations/)
    - [Solution.java](./2598.%20Smallest%20Missing%20Non-negative%20Integer%20After%20Operations/Solution.java)
    - [how_why.md](./2598.%20Smallest%20Missing%20Non-negative%20Integer%20After%20Operations/how_why.md)
 
-151. [2785. Sort Vowels in a String](./2785.%20Sort%20Vowels%20in%20a%20String/)
+152. [2785. Sort Vowels in a String](./2785.%20Sort%20Vowels%20in%20a%20String/)
    - [Solution.java](./2785.%20Sort%20Vowels%20in%20a%20String/Solution.java)
    - [how_why.md](./2785.%20Sort%20Vowels%20in%20a%20String/how_why.md)
 
-152. [3003. Maximize the Number of Partitions After Operations](./3003.%20Maximize%20the%20Number%20of%20Partitions%20After%20Operations/)
+153. [3003. Maximize the Number of Partitions After Operations](./3003.%20Maximize%20the%20Number%20of%20Partitions%20After%20Operations/)
    - [Solution.java](./3003.%20Maximize%20the%20Number%20of%20Partitions%20After%20Operations/Solution.java)
    - [how_why.md](./3003.%20Maximize%20the%20Number%20of%20Partitions%20After%20Operations/how_why.md)
 
-153. [3100. Water Bottles II](./3100.%20Water%20Bottles%20II/)
+154. [3100. Water Bottles II](./3100.%20Water%20Bottles%20II/)
    - [Solution.java](./3100.%20Water%20Bottles%20II/Solution.java)
    - [how_why.md](./3100.%20Water%20Bottles%20II/how_why.md)
 
-154. [3147. Taking Maximum Energy From the Mystic Dungeon](./3147.%20Taking%20Maximum%20Energy%20From%20the%20Mystic%20Dungeon/)
+155. [3147. Taking Maximum Energy From the Mystic Dungeon](./3147.%20Taking%20Maximum%20Energy%20From%20the%20Mystic%20Dungeon/)
    - [Solution.java](./3147.%20Taking%20Maximum%20Energy%20From%20the%20Mystic%20Dungeon/Solution.java)
    - [how_why.md](./3147.%20Taking%20Maximum%20Energy%20From%20the%20Mystic%20Dungeon/how_why.md)
 
-155. [3186. Maximum Total Damage With Spell Casting](./3186.%20Maximum%20Total%20Damage%20With%20Spell%20Casting/)
+156. [3186. Maximum Total Damage With Spell Casting](./3186.%20Maximum%20Total%20Damage%20With%20Spell%20Casting/)
    - [Solution.java](./3186.%20Maximum%20Total%20Damage%20With%20Spell%20Casting/Solution.java)
    - [how_why.md](./3186.%20Maximum%20Total%20Damage%20With%20Spell%20Casting/how_why.md)
 
-156. [3227. Vowels Game in a String](./3227.%20Vowels%20Game%20in%20a%20String/)
+157. [3227. Vowels Game in a String](./3227.%20Vowels%20Game%20in%20a%20String/)
    - [Solution.java](./3227.%20Vowels%20Game%20in%20a%20String/Solution.java)
    - [how_why.md](./3227.%20Vowels%20Game%20in%20a%20String/how_why.md)
 
-157. [3346. Maximum Frequency of an Element After Performing Operations I](./3346.%20Maximum%20Frequency%20of%20an%20Element%20After%20Performing%20Operations%20I/)
+158. [3346. Maximum Frequency of an Element After Performing Operations I](./3346.%20Maximum%20Frequency%20of%20an%20Element%20After%20Performing%20Operations%20I/)
    - [Solution.java](./3346.%20Maximum%20Frequency%20of%20an%20Element%20After%20Performing%20Operations%20I/Solution.java)
    - [how_why.md](./3346.%20Maximum%20Frequency%20of%20an%20Element%20After%20Performing%20Operations%20I/how_why.md)
 
-158. [3347. Maximum Frequency of an Element After Performing Operations II](./3347.%20Maximum%20Frequency%20of%20an%20Element%20After%20Performing%20Operations%20II/)
+159. [3347. Maximum Frequency of an Element After Performing Operations II](./3347.%20Maximum%20Frequency%20of%20an%20Element%20After%20Performing%20Operations%20II/)
    - [Solution.java](./3347.%20Maximum%20Frequency%20of%20an%20Element%20After%20Performing%20Operations%20II/Solution.java)
    - [how_why.md](./3347.%20Maximum%20Frequency%20of%20an%20Element%20After%20Performing%20Operations%20II/how_why.md)
 
-159. [3349. Adjacent Increasing Subarrays Detection I](./3349.%20Adjacent%20Increasing%20Subarrays%20Detection%20I/)
+160. [3349. Adjacent Increasing Subarrays Detection I](./3349.%20Adjacent%20Increasing%20Subarrays%20Detection%20I/)
    - [Solution.java](./3349.%20Adjacent%20Increasing%20Subarrays%20Detection%20I/Solution.java)
    - [how_why.md](./3349.%20Adjacent%20Increasing%20Subarrays%20Detection%20I/how_why.md)
 
-160. [3350. Adjacent Increasing Subarrays Detection II](./3350.%20Adjacent%20Increasing%20Subarrays%20Detection%20II/)
+161. [3350. Adjacent Increasing Subarrays Detection II](./3350.%20Adjacent%20Increasing%20Subarrays%20Detection%20II/)
    - [Solution.java](./3350.%20Adjacent%20Increasing%20Subarrays%20Detection%20II/Solution.java)
    - [how_why.md](./3350.%20Adjacent%20Increasing%20Subarrays%20Detection%20II/how_why.md)
 
-161. [3397. Maximum Number of Distinct Elements After Operations](./3397.%20Maximum%20Number%20of%20Distinct%20Elements%20After%20Operations/)
+162. [3397. Maximum Number of Distinct Elements After Operations](./3397.%20Maximum%20Number%20of%20Distinct%20Elements%20After%20Operations/)
    - [Solution.java](./3397.%20Maximum%20Number%20of%20Distinct%20Elements%20After%20Operations/Solution.java)
    - [how_why.md](./3397.%20Maximum%20Number%20of%20Distinct%20Elements%20After%20Operations/how_why.md)
 
-162. [3408. Design Task Manager](./3408.%20Design%20Task%20Manager/)
+163. [3408. Design Task Manager](./3408.%20Design%20Task%20Manager/)
    - [Solution.java](./3408.%20Design%20Task%20Manager/Solution.java)
    - [how_why.md](./3408.%20Design%20Task%20Manager/how_why.md)
 
-163. [3461. Check If Digits Are Equal in String After Operations I](./3461.%20Check%20If%20Digits%20Are%20Equal%20in%20String%20After%20Operations%20I/)
+164. [3461. Check If Digits Are Equal in String After Operations I](./3461.%20Check%20If%20Digits%20Are%20Equal%20in%20String%20After%20Operations%20I/)
    - [Solution.java](./3461.%20Check%20If%20Digits%20Are%20Equal%20in%20String%20After%20Operations%20I/Solution.java)
    - [how_why.md](./3461.%20Check%20If%20Digits%20Are%20Equal%20in%20String%20After%20Operations%20I/how_why.md)
 
-164. [3484. Design Spreadsheet](./3484.%20Design%20Spreadsheet/)
+165. [3484. Design Spreadsheet](./3484.%20Design%20Spreadsheet/)
    - [Solution.java](./3484.%20Design%20Spreadsheet/Solution.java)
    - [how_why.md](./3484.%20Design%20Spreadsheet/how_why.md)
 
-165. [3494. Find the Minimum Amount of Time to Brew Potions](./3494.%20Find%20the%20Minimum%20Amount%20of%20Time%20to%20Brew%20Potions/)
+166. [3494. Find the Minimum Amount of Time to Brew Potions](./3494.%20Find%20the%20Minimum%20Amount%20of%20Time%20to%20Brew%20Potions/)
    - [Solution.java](./3494.%20Find%20the%20Minimum%20Amount%20of%20Time%20to%20Brew%20Potions/Solution.java)
    - [how_why.md](./3494.%20Find%20the%20Minimum%20Amount%20of%20Time%20to%20Brew%20Potions/how_why.md)
 
-166. [3508. Implement Router](./3508.%20Implement%20Router/)
+167. [3508. Implement Router](./3508.%20Implement%20Router/)
    - [Solution.java](./3508.%20Implement%20Router/Solution.java)
    - [how_why.md](./3508.%20Implement%20Router/how_why.md)
 
-167. [3539. Find Sum of Array Product of Magical Sequences](./3539.%20Find%20Sum%20of%20Array%20Product%20of%20Magical%20Sequences/)
+168. [3539. Find Sum of Array Product of Magical Sequences](./3539.%20Find%20Sum%20of%20Array%20Product%20of%20Magical%20Sequences/)
    - [Solution.java](./3539.%20Find%20Sum%20of%20Array%20Product%20of%20Magical%20Sequences/Solution.java)
    - [how_why.md](./3539.%20Find%20Sum%20of%20Array%20Product%20of%20Magical%20Sequences/how_why.md)
 
-168. [3541. Find Most Frequent Vowel and Consonant](./3541.%20Find%20Most%20Frequent%20Vowel%20and%20Consonant/)
+169. [3541. Find Most Frequent Vowel and Consonant](./3541.%20Find%20Most%20Frequent%20Vowel%20and%20Consonant/)
    - [Solution.java](./3541.%20Find%20Most%20Frequent%20Vowel%20and%20Consonant/Solution.java)
    - [how_why.md](./3541.%20Find%20Most%20Frequent%20Vowel%20and%20Consonant/how_why.md)
 
