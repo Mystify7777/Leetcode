@@ -2,7 +2,7 @@
 
 Solving DSA problems with explanations for "why" and "how".
 
-Total problems: **179**
+Total problems: **180**
 
 Problems (sorted by LeetCode problem number)
 ---
@@ -720,4 +720,8 @@ Problems (sorted by LeetCode problem number)
 179. [3541. Find Most Frequent Vowel and Consonant](./3541.%20Find%20Most%20Frequent%20Vowel%20and%20Consonant/)
    - [Solution.java](./3541.%20Find%20Most%20Frequent%20Vowel%20and%20Consonant/Solution.java)
    - [how_why.md](./3541.%20Find%20Most%20Frequent%20Vowel%20and%20Consonant/how_why.md)
+
+180. [3607. Power Grid Maintenance](./3607.%20Power%20Grid%20Maintenance/)
+   - [Solution.java](./3607.%20Power%20Grid%20Maintenance/Solution.java)
+   - [how_why.md](./3607.%20Power%20Grid%20Maintenance/how_why.md)
 
