@@ -29,14 +29,14 @@ We can compute `f(n)` by XORing `n` with its successive right shifts until `n` b
 
 ```java
 class Solution {
-	public int minimumOneBitOperations(int n) {
-		int res = 0;
-		while (n > 0) {
-			res ^= n;
-			n >>= 1;
-		}
-		return res;
-	}
+    public int minimumOneBitOperations(int n) {
+        int res = 0;
+        while (n > 0) {
+            res ^= n;
+            n >>= 1;
+        }
+        return res;
+    }
 }
 ```
 
@@ -48,11 +48,11 @@ Use the relation `f(msb + x) = (2*msb - 1) - f(x)` where `msb` is the highest po
 
 ```java
 class Solution {
-	public int minimumOneBitOperations(int n) {
-		if (n == 0) return 0;
-		int msb = Integer.highestOneBit(n); // largest power of two ≤ n
-		return (msb << 1) - 1 - minimumOneBitOperations(n ^ msb);
-	}
+    public int minimumOneBitOperations(int n) {
+        if (n == 0) return 0;
+        int msb = Integer.highestOneBit(n); // largest power of two ≤ n
+        return (msb << 1) - 1 - minimumOneBitOperations(n ^ msb);
+    }
 }
 ```
 
@@ -64,17 +64,17 @@ Your file uses an equivalent low-bit accumulation with alternating signs (proces
 
 ```java
 class Solution {
-	public int minimumOneBitOperations(int n) {
-		int multiplier = 1;
-		int res = 0;
-		while (n > 0) {
-			// Add or subtract the block size contributed by the lowest set bit span
-			res += (n ^ (n - 1)) * multiplier;
-			multiplier = -multiplier;  // flip sign each set-bit block
-			n &= n - 1;                // remove lowest set bit
-		}
-		return Math.abs(res);
-	}
+    public int minimumOneBitOperations(int n) {
+        int multiplier = 1;
+        int res = 0;
+        while (n > 0) {
+            // Add or subtract the block size contributed by the lowest set bit span
+            res += (n ^ (n - 1)) * multiplier;
+            multiplier = -multiplier;  // flip sign each set-bit block
+            n &= n - 1;                // remove lowest set bit
+        }
+        return Math.abs(res);
+    }
 }
 ```
 
