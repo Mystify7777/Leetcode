@@ -2,7 +2,7 @@
 
 Solving DSA problems with explanations for "why" and "how".
 
-Total problems: **183**
+Total problems: **184**
 
 Problems (sorted by LeetCode problem number)
 ---
@@ -733,7 +733,11 @@ Problems (sorted by LeetCode problem number)
    - [Solution.java](./3541.%20Find%20Most%20Frequent%20Vowel%20and%20Consonant/Solution.java)
    - [how_why.md](./3541.%20Find%20Most%20Frequent%20Vowel%20and%20Consonant/how_why.md)
 
-183. [3607. Power Grid Maintenance](./3607.%20Power%20Grid%20Maintenance/)
+183. [3542. Minimum Operations to Convert All Elements to Zero](./3542.%20Minimum%20Operations%20to%20Convert%20All%20Elements%20to%20Zero/)
+   - [Solution.java](./3542.%20Minimum%20Operations%20to%20Convert%20All%20Elements%20to%20Zero/Solution.java)
+   - [how_why.md](./3542.%20Minimum%20Operations%20to%20Convert%20All%20Elements%20to%20Zero/how_why.md)
+
+184. [3607. Power Grid Maintenance](./3607.%20Power%20Grid%20Maintenance/)
    - [Solution.java](./3607.%20Power%20Grid%20Maintenance/Solution.java)
    - [how_why.md](./3607.%20Power%20Grid%20Maintenance/how_why.md)
 
