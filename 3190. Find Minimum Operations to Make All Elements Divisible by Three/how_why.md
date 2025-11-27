@@ -1,4 +1,6 @@
-# Recap
+# 3190. Find Minimum Operations to Make All Elements Divisible by Three — how/why
+
+## Recap
 
 You are given an integer array `nums`. In one operation you may choose any element and add 1 to it. Return the minimum number of operations needed so that every element becomes divisible by 3.
 
@@ -6,9 +8,9 @@ You are given an integer array `nums`. In one operation you may choose any eleme
 
 Only the residue of each number modulo 3 matters. Adding 1 cycles residues: 0 → 1 → 2 → 0. For an element with residue:
 
-* 0: already divisible, needs 0 operations.
-* 1: needs 2 increments (1 → 2 → 0).
-* 2: needs 1 increment (2 → 0).
+- 0: already divisible, needs 0 operations.
+- 1: needs 2 increments (1 → 2 → 0).
+- 2: needs 1 increment (2 → 0).
 
 Thus each element contributes an independent cost determined purely by its residue; there is no interaction between elements.
 
@@ -51,21 +53,21 @@ Adding 1 affects only the chosen element, so the minimal total number of operati
 
 ## Complexity
 
-* Time: `O(n)` — single pass over the array.
-* Space: `O(1)` — constant extra state.
+- Time: `O(n)` — single pass over the array.
+- Space: `O(1)` — constant extra state.
 
 ## Edge Cases
 
-* All elements already divisible by 3 → answer 0.
-* Large values: only their residue matters; no overflow since we sum small integers.
-* Negative numbers: ensure language modulo returns a nonnegative residue (Java `%` behaves so that `(-1) % 3 == -1`; adjust with `(r + 3) % 3` if negatives can appear).
-* Empty array: answer 0.
+- All elements already divisible by 3 → answer 0.
+- Large values: only their residue matters; no overflow since we sum small integers.
+- Negative numbers: ensure language modulo returns a nonnegative residue (Java `%` behaves so that `(-1) % 3 == -1`; adjust with `(r + 3) % 3` if negatives can appear).
+- Empty array: answer 0.
 
 ## Takeaways
 
-* Problems with operations that only affect one element often decompose into independent per-element costs.
-* Cyclic residue transitions (here length 3) let you map minimal steps directly from residue.
-* Counting residues first can simplify reasoning and produce a closed-form formula (`2*c1 + c2`).
+- Problems with operations that only affect one element often decompose into independent per-element costs.
+- Cyclic residue transitions (here length 3) let you map minimal steps directly from residue.
+- Counting residues first can simplify reasoning and produce a closed-form formula (`2*c1 + c2`).
 
 ## Alternative (Counting)
 

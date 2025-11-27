@@ -1,4 +1,6 @@
-# Recap
+# 1018. Binary Prefix Divisible By 5 — how/why
+
+## Recap
 
 Given a binary array `A` (elements are 0 or 1). For every prefix `A[0..i]`, interpret the bits as a binary integer and determine whether that number is divisible by 5. Return a list of booleans `result` where `result[i]` is `true` iff the prefix value is divisible by 5.
 
@@ -38,22 +40,22 @@ Let `V_i` be the integer value of prefix `A[0..i]`. Then `V_{i+1} = 2 * V_i + b`
 
 ## Complexity
 
-* Time: `O(n)` — single pass.
-* Space: `O(n)` for output; `O(1)` auxiliary.
+- Time: `O(n)` — single pass.
+- Space: `O(n)` for output; `O(1)` auxiliary.
 
 ## Edge Cases
 
-* Empty array: return empty list.
-* Leading zeros: harmless (left shift of zero remains zero).
-* All zeros: every prefix divisible → all `true`.
-* Very long input: safe—only remainder tracked.
+- Empty array: return empty list.
+- Leading zeros: harmless (left shift of zero remains zero).
+- All zeros: every prefix divisible → all `true`.
+- Very long input: safe—only remainder tracked.
 
 ## Takeaways
 
-* When checking divisibility, keeping the running remainder often suffices.
-* Binary stream accumulation: left-shift → multiply by 2.
-* Modulo reduction each step prevents overflow and preserves correctness.
-* Pattern generalizes: for any modulus `m`, use `(rem * 2 + b) % m`.
+- When checking divisibility, keeping the running remainder often suffices.
+- Binary stream accumulation: left-shift → multiply by 2.
+- Modulo reduction each step prevents overflow and preserves correctness.
+- Pattern generalizes: for any modulus `m`, use `(rem * 2 + b) % m`.
 
 ## Alternative (Python)
 

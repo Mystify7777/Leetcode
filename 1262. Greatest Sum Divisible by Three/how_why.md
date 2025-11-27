@@ -1,4 +1,6 @@
-# Recap
+# 1262. Greatest Sum Divisible by Three — how/why
+
+## Recap
 
 Given an integer array `nums`, return the maximum possible sum of elements of the array such that it is divisible by three. You can select any subset of elements (including none or all).
 
