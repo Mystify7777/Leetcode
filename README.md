@@ -2,7 +2,7 @@
 
 Solving DSA problems with explanations for "why" and "how".
 
-Total problems: **202**
+Total problems: **203**
 
 Problems (sorted by LeetCode problem number)
 ---
@@ -797,19 +797,23 @@ Problems (sorted by LeetCode problem number)
    - [Solution.java](./3508.%20Implement%20Router/Solution.java)
    - [how_why.md](./3508.%20Implement%20Router/how_why.md)
 
-199. [3539. Find Sum of Array Product of Magical Sequences](./3539.%20Find%20Sum%20of%20Array%20Product%20of%20Magical%20Sequences/)
+199. [3512. Minimum Operations to Make Array Sum Divisible by K](./3512.%20Minimum%20Operations%20to%20Make%20Array%20Sum%20Divisible%20by%20K/)
+   - [Solution.java](./3512.%20Minimum%20Operations%20to%20Make%20Array%20Sum%20Divisible%20by%20K/Solution.java)
+   - [how_why.md](./3512.%20Minimum%20Operations%20to%20Make%20Array%20Sum%20Divisible%20by%20K/how_why.md)
+
+200. [3539. Find Sum of Array Product of Magical Sequences](./3539.%20Find%20Sum%20of%20Array%20Product%20of%20Magical%20Sequences/)
    - [Solution.java](./3539.%20Find%20Sum%20of%20Array%20Product%20of%20Magical%20Sequences/Solution.java)
    - [how_why.md](./3539.%20Find%20Sum%20of%20Array%20Product%20of%20Magical%20Sequences/how_why.md)
 
-200. [3541. Find Most Frequent Vowel and Consonant](./3541.%20Find%20Most%20Frequent%20Vowel%20and%20Consonant/)
+201. [3541. Find Most Frequent Vowel and Consonant](./3541.%20Find%20Most%20Frequent%20Vowel%20and%20Consonant/)
    - [Solution.java](./3541.%20Find%20Most%20Frequent%20Vowel%20and%20Consonant/Solution.java)
    - [how_why.md](./3541.%20Find%20Most%20Frequent%20Vowel%20and%20Consonant/how_why.md)
 
-201. [3542. Minimum Operations to Convert All Elements to Zero](./3542.%20Minimum%20Operations%20to%20Convert%20All%20Elements%20to%20Zero/)
+202. [3542. Minimum Operations to Convert All Elements to Zero](./3542.%20Minimum%20Operations%20to%20Convert%20All%20Elements%20to%20Zero/)
    - [Solution.java](./3542.%20Minimum%20Operations%20to%20Convert%20All%20Elements%20to%20Zero/Solution.java)
    - [how_why.md](./3542.%20Minimum%20Operations%20to%20Convert%20All%20Elements%20to%20Zero/how_why.md)
 
-202. [3607. Power Grid Maintenance](./3607.%20Power%20Grid%20Maintenance/)
+203. [3607. Power Grid Maintenance](./3607.%20Power%20Grid%20Maintenance/)
    - [Solution.java](./3607.%20Power%20Grid%20Maintenance/Solution.java)
    - [how_why.md](./3607.%20Power%20Grid%20Maintenance/how_why.md)
 
