@@ -2,7 +2,7 @@
 
 Solving DSA problems with explanations for "why" and "how".
 
-Total problems: **205**
+Total problems: **206**
 
 Problems (sorted by LeetCode problem number)
 ---
@@ -824,4 +824,8 @@ Problems (sorted by LeetCode problem number)
 205. [3607. Power Grid Maintenance](./3607.%20Power%20Grid%20Maintenance/)
    - [Solution.java](./3607.%20Power%20Grid%20Maintenance/Solution.java)
    - [how_why.md](./3607.%20Power%20Grid%20Maintenance/how_why.md)
+
+206. [3623. Count Number of Trapezoids I](./3623.%20Count%20Number%20of%20Trapezoids%20I/)
+   - [Solution.java](./3623.%20Count%20Number%20of%20Trapezoids%20I/Solution.java)
+   - [how_why.md](./3623.%20Count%20Number%20of%20Trapezoids%20I/how_why.md)
 
