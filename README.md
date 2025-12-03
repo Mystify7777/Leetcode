@@ -2,7 +2,7 @@
 
 Solving DSA problems with explanations for "why" and "how".
 
-Total problems: **206**
+Total problems: **207**
 
 Problems (sorted by LeetCode problem number)
 ---
@@ -828,4 +828,8 @@ Problems (sorted by LeetCode problem number)
 206. [3623. Count Number of Trapezoids I](./3623.%20Count%20Number%20of%20Trapezoids%20I/)
    - [Solution.java](./3623.%20Count%20Number%20of%20Trapezoids%20I/Solution.java)
    - [how_why.md](./3623.%20Count%20Number%20of%20Trapezoids%20I/how_why.md)
+
+207. [3625. Count Number of Trapezoids II](./3625.%20Count%20Number%20of%20Trapezoids%20II/)
+   - [Solution.java](./3625.%20Count%20Number%20of%20Trapezoids%20II/Solution.java)
+   - [how_why.md](./3625.%20Count%20Number%20of%20Trapezoids%20II/how_why.md)
 
