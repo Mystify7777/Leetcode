@@ -2,7 +2,7 @@
 
 Solving DSA problems with explanations for "why" and "how".
 
-Total problems: **216**
+Total problems: **217**
 
 Problems (sorted by LeetCode problem number)
 ---
@@ -857,15 +857,19 @@ Problems (sorted by LeetCode problem number)
    - [Solution.java](./3583.%20Count%20Special%20Triplets/Solution.java)
    - [how_why.md](./3583.%20Count%20Special%20Triplets/how_why.md)
 
-214. [3607. Power Grid Maintenance](./3607.%20Power%20Grid%20Maintenance/)
+214. [3606. Coupon Code Validator](./3606.%20Coupon%20Code%20Validator/)
+   - [Solution.java](./3606.%20Coupon%20Code%20Validator/Solution.java)
+   - [how_why.md](./3606.%20Coupon%20Code%20Validator/how_why.md)
+
+215. [3607. Power Grid Maintenance](./3607.%20Power%20Grid%20Maintenance/)
    - [Solution.java](./3607.%20Power%20Grid%20Maintenance/Solution.java)
    - [how_why.md](./3607.%20Power%20Grid%20Maintenance/how_why.md)
 
-215. [3623. Count Number of Trapezoids I](./3623.%20Count%20Number%20of%20Trapezoids%20I/)
+216. [3623. Count Number of Trapezoids I](./3623.%20Count%20Number%20of%20Trapezoids%20I/)
    - [Solution.java](./3623.%20Count%20Number%20of%20Trapezoids%20I/Solution.java)
    - [how_why.md](./3623.%20Count%20Number%20of%20Trapezoids%20I/how_why.md)
 
-216. [3625. Count Number of Trapezoids II](./3625.%20Count%20Number%20of%20Trapezoids%20II/)
+217. [3625. Count Number of Trapezoids II](./3625.%20Count%20Number%20of%20Trapezoids%20II/)
    - [Solution.java](./3625.%20Count%20Number%20of%20Trapezoids%20II/Solution.java)
    - [how_why.md](./3625.%20Count%20Number%20of%20Trapezoids%20II/how_why.md)
 
