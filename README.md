@@ -2,7 +2,7 @@
 
 Solving DSA problems with explanations for "why" and "how".
 
-Total problems: **219**
+Total problems: **220**
 
 Problems (sorted by LeetCode problem number)
 ---
@@ -853,31 +853,35 @@ Problems (sorted by LeetCode problem number)
    - [Solution.java](./3542.%20Minimum%20Operations%20to%20Convert%20All%20Elements%20to%20Zero/Solution.java)
    - [how_why.md](./3542.%20Minimum%20Operations%20to%20Convert%20All%20Elements%20to%20Zero/how_why.md)
 
-213. [3577. Count the Number of Computer Unlocking Permutations](./3577.%20Count%20the%20Number%20of%20Computer%20Unlocking%20Permutations/)
+213. [3562. Maximum Profit from Trading Stocks with Discounts](./3562.%20Maximum%20Profit%20from%20Trading%20Stocks%20with%20Discounts/)
+   - [Solution.java](./3562.%20Maximum%20Profit%20from%20Trading%20Stocks%20with%20Discounts/Solution.java)
+   - [how_why.md](./3562.%20Maximum%20Profit%20from%20Trading%20Stocks%20with%20Discounts/how_why.md)
+
+214. [3577. Count the Number of Computer Unlocking Permutations](./3577.%20Count%20the%20Number%20of%20Computer%20Unlocking%20Permutations/)
    - [Solution.java](./3577.%20Count%20the%20Number%20of%20Computer%20Unlocking%20Permutations/Solution.java)
    - [how_why.md](./3577.%20Count%20the%20Number%20of%20Computer%20Unlocking%20Permutations/how_why.md)
 
-214. [3578. Count Partitions With Max-Min Difference at Most K](./3578.%20Count%20Partitions%20With%20Max-Min%20Difference%20at%20Most%20K/)
+215. [3578. Count Partitions With Max-Min Difference at Most K](./3578.%20Count%20Partitions%20With%20Max-Min%20Difference%20at%20Most%20K/)
    - [Solution.java](./3578.%20Count%20Partitions%20With%20Max-Min%20Difference%20at%20Most%20K/Solution.java)
    - [how_why.md](./3578.%20Count%20Partitions%20With%20Max-Min%20Difference%20at%20Most%20K/how_why.md)
 
-215. [3583. Count Special Triplets](./3583.%20Count%20Special%20Triplets/)
+216. [3583. Count Special Triplets](./3583.%20Count%20Special%20Triplets/)
    - [Solution.java](./3583.%20Count%20Special%20Triplets/Solution.java)
    - [how_why.md](./3583.%20Count%20Special%20Triplets/how_why.md)
 
-216. [3606. Coupon Code Validator](./3606.%20Coupon%20Code%20Validator/)
+217. [3606. Coupon Code Validator](./3606.%20Coupon%20Code%20Validator/)
    - [Solution.java](./3606.%20Coupon%20Code%20Validator/Solution.java)
    - [how_why.md](./3606.%20Coupon%20Code%20Validator/how_why.md)
 
-217. [3607. Power Grid Maintenance](./3607.%20Power%20Grid%20Maintenance/)
+218. [3607. Power Grid Maintenance](./3607.%20Power%20Grid%20Maintenance/)
    - [Solution.java](./3607.%20Power%20Grid%20Maintenance/Solution.java)
    - [how_why.md](./3607.%20Power%20Grid%20Maintenance/how_why.md)
 
-218. [3623. Count Number of Trapezoids I](./3623.%20Count%20Number%20of%20Trapezoids%20I/)
+219. [3623. Count Number of Trapezoids I](./3623.%20Count%20Number%20of%20Trapezoids%20I/)
    - [Solution.java](./3623.%20Count%20Number%20of%20Trapezoids%20I/Solution.java)
    - [how_why.md](./3623.%20Count%20Number%20of%20Trapezoids%20I/how_why.md)
 
-219. [3625. Count Number of Trapezoids II](./3625.%20Count%20Number%20of%20Trapezoids%20II/)
+220. [3625. Count Number of Trapezoids II](./3625.%20Count%20Number%20of%20Trapezoids%20II/)
    - [Solution.java](./3625.%20Count%20Number%20of%20Trapezoids%20II/Solution.java)
    - [how_why.md](./3625.%20Count%20Number%20of%20Trapezoids%20II/how_why.md)
 
