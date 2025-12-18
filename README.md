@@ -2,7 +2,7 @@
 
 Solving DSA problems with explanations for "why" and "how".
 
-Total problems: **221**
+Total problems: **222**
 
 Problems (sorted by LeetCode problem number)
 ---
@@ -888,4 +888,8 @@ Problems (sorted by LeetCode problem number)
 221. [3625. Count Number of Trapezoids II](./3625.%20Count%20Number%20of%20Trapezoids%20II/)
    - [Solution.java](./3625.%20Count%20Number%20of%20Trapezoids%20II/Solution.java)
    - [how_why.md](./3625.%20Count%20Number%20of%20Trapezoids%20II/how_why.md)
+
+222. [3652. Best Time to Buy and Sell Stock using Strategy](./3652.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20using%20Strategy/)
+   - [Solution.java](./3652.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20using%20Strategy/Solution.java)
+   - [how_why.md](./3652.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20using%20Strategy/how_why.md)
 
