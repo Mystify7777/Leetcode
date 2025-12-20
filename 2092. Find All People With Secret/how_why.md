@@ -5,6 +5,7 @@
 At time 0, person 0 and person `firstPerson` know a secret. Given a list of meetings `[person_a, person_b, time]`, where two people meet at a specific time and exchange information they know, find all people who know the secret.
 
 A person learns the secret if:
+
 1. They meet someone who already knows the secret.
 2. The meeting happens at any time (there is no order constraint; any two people who meet will exchange all known information).
 
@@ -15,6 +16,7 @@ This is a graph connectivity problem where meetings establish relationships. How
 **Naive approach**: Simulate meetings in chronological order, mark people as knowing the secret. However, a single pass isn't enough because meetings at the same time can create transitive connections (A meets B who meets C at time t; even if only A knows the secret, both B and C should learn it through the chain).
 
 **Better approach**: Process meetings grouped by time:
+
 1. For each distinct time `t`, connect all people meeting at time `t` using Union-Find.
 2. After connecting, check which components include person 0 (who knows the secret).
 3. If a person was connected at time `t` but is **not** in the same component as person 0, they didn't know the secret before this meeting, so reset their union-find (disconnect them).
