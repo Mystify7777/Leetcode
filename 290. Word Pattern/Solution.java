@@ -39,3 +39,30 @@ class Solution {
         return true;
     }
 }
+
+//slightly fast
+/**
+import java.util.*;
+class Solution {
+    public boolean wordPattern(String pattern, String s) {
+        String[] words = s.split(" ");
+        if (pattern.length() != words.length) return false;
+
+        HashMap<Character, String> char2Word = new HashMap<>();
+        HashSet<String> usedWords = new HashSet<>();
+
+        for (int i = 0; i < pattern.length(); i++) {
+            char c = pattern.charAt(i);
+
+            if (!char2Word.containsKey(c)) {
+                if (usedWords.contains(words[i])) return false;
+                char2Word.put(c, words[i]);
+                usedWords.add(words[i]);
+            } else if (!char2Word.get(c).equals(words[i])) {
+                return false;
+            }
+        }
+        return true;
+    }
+}
+ */
