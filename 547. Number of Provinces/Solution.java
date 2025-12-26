@@ -1,4 +1,5 @@
-// 547. Number of Provinces// 547. Number of Provinces
+// 547. Number of Provinces
+/*
 class Solution {
     public int findCircleNum(int[][] M) {
         int N = M.length;
@@ -25,7 +26,7 @@ class Solution {
     }
     
 }
-/**
+*/
 class Solution {
     public int findCircleNum(int[][] isConnected){
         int n=isConnected.length;
@@ -51,4 +52,30 @@ class Solution {
             }
         }
     }
-} */
+} 
+
+/**
+class Solution {
+    private void solveDFS(int n, int[][] isConnected, int idx, boolean[] vis) {
+        vis[idx] = true;
+        for (int i = 0; i < n; i++) {
+            if (isConnected[idx][i] == 1 && !vis[i]) {
+                solveDFS(n, isConnected, i, vis);
+            }
+        }
+    }
+
+    public int findCircleNum(int[][] isConnected) {
+        int n = isConnected.length;
+        boolean[] vis = new boolean[n + 1];
+        int findConnection = 0;
+        for (int i = 0; i < n; i++) {
+            if (!vis[i]) {
+                solveDFS(n, isConnected, i, vis);
+                findConnection++;
+            }
+        }
+        return findConnection;
+    }
+}
+ */
