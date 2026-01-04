@@ -60,25 +60,25 @@ class Solution {
 
 * **Decision Tree Example (n = 2):**
 
-  ```tree
-  Start: ""
-          |
-       add "("
-          |
-      "(" (open=1, close=0)
-      /              \
-   add "("         add ")"
-      |                |
-  "((" (1,0)      "()" (1,1)
-   /     \            |
-"(()"  "((("      add "("
- /        |           |
-add ")"  invalid   "()(" (2,1)
-  |                   |
-"(())" ✓           add ")"
-                      |
-                   "()()" ✓
-  ```
+```tree
+    Start: ""
+            |
+        add "("
+            |
+        "(" (open=1, close=0)
+        /              \
+    add "("         add ")"
+        |                |
+    "((" (1,0)      "()" (1,1)
+    /     \            |
+    "(()"  "((("      add "("
+    /        |           |
+    add ")"  invalid   "()(" (2,1)
+    |                   |
+    "(())" ✓           add ")"
+                        |
+                    "()()" ✓
+```
 
 * **Valid Path Example:**
 
