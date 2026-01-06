@@ -2,7 +2,7 @@
 
 Solving DSA problems with explanations for "why" and "how".
 
-Total problems: **295**
+Total problems: **296**
 
 ## Problems (sorted by LeetCode problem number)
 
@@ -991,492 +991,497 @@ Total problems: **295**
     - [Solution.java](./1108.%20Defanging%20an%20IP%20Address/Solution.java)
     - [how_why.md](./1108.%20Defanging%20an%20IP%20Address/how_why.md)
 
-198. [1207. Unique Number of Occurrences](./1207.%20Unique%20Number%20of%20Occurrences/)
+198. [1161. Maximum Level Sum of a Binary Tree](./1161.%20Maximum%20Level%20Sum%20of%20a%20Binary%20Tree/)
+
+    - [Solution.java](./1161.%20Maximum%20Level%20Sum%20of%20a%20Binary%20Tree/Solution.java)
+    - [how_why.md](./1161.%20Maximum%20Level%20Sum%20of%20a%20Binary%20Tree/how_why.md)
+
+199. [1207. Unique Number of Occurrences](./1207.%20Unique%20Number%20of%20Occurrences/)
 
     - [Solution.java](./1207.%20Unique%20Number%20of%20Occurrences/Solution.java)
     - [how_why.md](./1207.%20Unique%20Number%20of%20Occurrences/how_why.md)
 
-199. [1262. Greatest Sum Divisible by Three](./1262.%20Greatest%20Sum%20Divisible%20by%20Three/)
+200. [1262. Greatest Sum Divisible by Three](./1262.%20Greatest%20Sum%20Divisible%20by%20Three/)
 
     - [Solution.java](./1262.%20Greatest%20Sum%20Divisible%20by%20Three/Solution.java)
     - [how_why.md](./1262.%20Greatest%20Sum%20Divisible%20by%20Three/how_why.md)
 
-200. [1337. The K Weakest Rows in a Matrix](./1337.%20The%20K%20Weakest%20Rows%20in%20a%20Matrix/)
+201. [1337. The K Weakest Rows in a Matrix](./1337.%20The%20K%20Weakest%20Rows%20in%20a%20Matrix/)
 
     - [Solution.java](./1337.%20The%20K%20Weakest%20Rows%20in%20a%20Matrix/Solution.java)
     - [how_why.md](./1337.%20The%20K%20Weakest%20Rows%20in%20a%20Matrix/how_why.md)
 
-201. [1351. Count Negative Numbers in a Sorted Matrix](./1351.%20Count%20Negative%20Numbers%20in%20a%20Sorted%20Matrix/)
+202. [1351. Count Negative Numbers in a Sorted Matrix](./1351.%20Count%20Negative%20Numbers%20in%20a%20Sorted%20Matrix/)
 
     - [Solution.java](./1351.%20Count%20Negative%20Numbers%20in%20a%20Sorted%20Matrix/Solution.java)
     - [how_why.md](./1351.%20Count%20Negative%20Numbers%20in%20a%20Sorted%20Matrix/how_why.md)
 
-202. [1390. Four Divisors](./1390.%20Four%20Divisors/)
+203. [1390. Four Divisors](./1390.%20Four%20Divisors/)
 
     - [Solution.java](./1390.%20Four%20Divisors/Solution.java)
     - [how_why.md](./1390.%20Four%20Divisors/how_why.md)
 
-203. [1411. Number of Ways to Paint N × 3 Grid](./1411.%20Number%20of%20Ways%20to%20Paint%20N%20×%203%20Grid/)
+204. [1411. Number of Ways to Paint N × 3 Grid](./1411.%20Number%20of%20Ways%20to%20Paint%20N%20×%203%20Grid/)
 
     - [Solution.java](./1411.%20Number%20of%20Ways%20to%20Paint%20N%20×%203%20Grid/Solution.java)
     - [how_why.md](./1411.%20Number%20of%20Ways%20to%20Paint%20N%20×%203%20Grid/how_why.md)
 
-204. [1437. Check If All 1's Are at Least Length K Places Away](./1437.%20Check%20If%20All%201's%20Are%20at%20Least%20Length%20K%20Places%20Away/)
+205. [1437. Check If All 1's Are at Least Length K Places Away](./1437.%20Check%20If%20All%201's%20Are%20at%20Least%20Length%20K%20Places%20Away/)
 
     - [Solution.java](./1437.%20Check%20If%20All%201's%20Are%20at%20Least%20Length%20K%20Places%20Away/Solution.java)
     - [how_why.md](./1437.%20Check%20If%20All%201's%20Are%20at%20Least%20Length%20K%20Places%20Away/how_why.md)
 
-205. [1488. Avoid Flood in The City](./1488.%20Avoid%20Flood%20in%20The%20City/)
+206. [1488. Avoid Flood in The City](./1488.%20Avoid%20Flood%20in%20The%20City/)
 
     - [Solution.java](./1488.%20Avoid%20Flood%20in%20The%20City/Solution.java)
     - [how_why.md](./1488.%20Avoid%20Flood%20in%20The%20City/how_why.md)
 
-206. [1513. Number of Substrings With Only 1s](./1513.%20Number%20of%20Substrings%20With%20Only%201s/)
+207. [1513. Number of Substrings With Only 1s](./1513.%20Number%20of%20Substrings%20With%20Only%201s/)
 
     - [Solution.java](./1513.%20Number%20of%20Substrings%20With%20Only%201s/Solution.java)
     - [how_why.md](./1513.%20Number%20of%20Substrings%20With%20Only%201s/how_why.md)
 
-207. [1518. Water Bottles](./1518.%20Water%20Bottles/)
+208. [1518. Water Bottles](./1518.%20Water%20Bottles/)
 
     - [Solution.java](./1518.%20Water%20Bottles/Solution.java)
     - [how_why.md](./1518.%20Water%20Bottles/how_why.md)
 
-208. [1523. Count Odd Numbers in an Interval Range](./1523.%20Count%20Odd%20Numbers%20in%20an%20Interval%20Range/)
+209. [1523. Count Odd Numbers in an Interval Range](./1523.%20Count%20Odd%20Numbers%20in%20an%20Interval%20Range/)
 
     - [Solution.java](./1523.%20Count%20Odd%20Numbers%20in%20an%20Interval%20Range/Solution.java)
     - [how_why.md](./1523.%20Count%20Odd%20Numbers%20in%20an%20Interval%20Range/how_why.md)
 
-209. [1526. Minimum Number of Increments on Subarrays to Form a Target Array](./1526.%20Minimum%20Number%20of%20Increments%20on%20Subarrays%20to%20Form%20a%20Target%20Array/)
+210. [1526. Minimum Number of Increments on Subarrays to Form a Target Array](./1526.%20Minimum%20Number%20of%20Increments%20on%20Subarrays%20to%20Form%20a%20Target%20Array/)
 
     - [Solution.java](./1526.%20Minimum%20Number%20of%20Increments%20on%20Subarrays%20to%20Form%20a%20Target%20Array/Solution.java)
     - [how_why.md](./1526.%20Minimum%20Number%20of%20Increments%20on%20Subarrays%20to%20Form%20a%20Target%20Array/how_why.md)
 
-210. [1539. Kth Missing Positive Number](./1539.%20Kth%20Missing%20Positive%20Number/)
+211. [1539. Kth Missing Positive Number](./1539.%20Kth%20Missing%20Positive%20Number/)
 
     - [Solution.java](./1539.%20Kth%20Missing%20Positive%20Number/Solution.java)
     - [how_why.md](./1539.%20Kth%20Missing%20Positive%20Number/how_why.md)
 
-211. [1572. Matrix Diagonal Sum](./1572.%20Matrix%20Diagonal%20Sum/)
+212. [1572. Matrix Diagonal Sum](./1572.%20Matrix%20Diagonal%20Sum/)
 
     - [Solution.java](./1572.%20Matrix%20Diagonal%20Sum/Solution.java)
     - [how_why.md](./1572.%20Matrix%20Diagonal%20Sum/how_why.md)
 
-212. [1578. Minimum Time to Make Rope Colorful](./1578.%20Minimum%20Time%20to%20Make%20Rope%20Colorful/)
+213. [1578. Minimum Time to Make Rope Colorful](./1578.%20Minimum%20Time%20to%20Make%20Rope%20Colorful/)
 
     - [Solution.java](./1578.%20Minimum%20Time%20to%20Make%20Rope%20Colorful/Solution.java)
     - [how_why.md](./1578.%20Minimum%20Time%20to%20Make%20Rope%20Colorful/how_why.md)
 
-213. [1590. Make Sum Divisible by P](./1590.%20Make%20Sum%20Divisible%20by%20P/)
+214. [1590. Make Sum Divisible by P](./1590.%20Make%20Sum%20Divisible%20by%20P/)
 
     - [Solution.java](./1590.%20Make%20Sum%20Divisible%20by%20P/Solution.java)
     - [how_why.md](./1590.%20Make%20Sum%20Divisible%20by%20P/how_why.md)
 
-214. [1611. Minimum One Bit Operations to Make Integers Zero](./1611.%20Minimum%20One%20Bit%20Operations%20to%20Make%20Integers%20Zero/)
+215. [1611. Minimum One Bit Operations to Make Integers Zero](./1611.%20Minimum%20One%20Bit%20Operations%20to%20Make%20Integers%20Zero/)
 
     - [Solution.java](./1611.%20Minimum%20One%20Bit%20Operations%20to%20Make%20Integers%20Zero/Solution.java)
     - [how_why.md](./1611.%20Minimum%20One%20Bit%20Operations%20to%20Make%20Integers%20Zero/how_why.md)
 
-215. [1625. Lexicographically Smallest String After Applying Operations](./1625.%20Lexicographically%20Smallest%20String%20After%20Applying%20Operations/)
+216. [1625. Lexicographically Smallest String After Applying Operations](./1625.%20Lexicographically%20Smallest%20String%20After%20Applying%20Operations/)
 
     - [Solution.java](./1625.%20Lexicographically%20Smallest%20String%20After%20Applying%20Operations/Solution.java)
     - [how_why.md](./1625.%20Lexicographically%20Smallest%20String%20After%20Applying%20Operations/how_why.md)
 
-216. [1716. Calculate Money in Leetcode Bank](./1716.%20Calculate%20Money%20in%20Leetcode%20Bank/)
+217. [1716. Calculate Money in Leetcode Bank](./1716.%20Calculate%20Money%20in%20Leetcode%20Bank/)
 
     - [Solution.java](./1716.%20Calculate%20Money%20in%20Leetcode%20Bank/Solution.java)
     - [how_why.md](./1716.%20Calculate%20Money%20in%20Leetcode%20Bank/how_why.md)
 
-217. [1733. Minimum Number of People to Teach](./1733.%20Minimum%20Number%20of%20People%20to%20Teach/)
+218. [1733. Minimum Number of People to Teach](./1733.%20Minimum%20Number%20of%20People%20to%20Teach/)
 
     - [Solution.java](./1733.%20Minimum%20Number%20of%20People%20to%20Teach/Solution.java)
     - [how_why.md](./1733.%20Minimum%20Number%20of%20People%20to%20Teach/how_why.md)
 
-218. [1912. Design Movie Rental System](./1912.%20Design%20Movie%20Rental%20System/)
+219. [1912. Design Movie Rental System](./1912.%20Design%20Movie%20Rental%20System/)
 
     - [Solution.java](./1912.%20Design%20Movie%20Rental%20System/Solution.java)
     - [how_why.md](./1912.%20Design%20Movie%20Rental%20System/how_why.md)
 
-219. [1925. Count Square Sum Triples](./1925.%20Count%20Square%20Sum%20Triples/)
+220. [1925. Count Square Sum Triples](./1925.%20Count%20Square%20Sum%20Triples/)
 
     - [Solution.java](./1925.%20Count%20Square%20Sum%20Triples/Solution.java)
     - [how_why.md](./1925.%20Count%20Square%20Sum%20Triples/how_why.md)
 
-220. [1930. Unique Length-3 Palindromic Subsequences](./1930.%20Unique%20Length-3%20Palindromic%20Subsequences/)
+221. [1930. Unique Length-3 Palindromic Subsequences](./1930.%20Unique%20Length-3%20Palindromic%20Subsequences/)
 
     - [Solution.java](./1930.%20Unique%20Length-3%20Palindromic%20Subsequences/Solution.java)
     - [how_why.md](./1930.%20Unique%20Length-3%20Palindromic%20Subsequences/how_why.md)
 
-221. [1935. Maximum Number of Words You Can Type](./1935.%20Maximum%20Number%20of%20Words%20You%20Can%20Type/)
+222. [1935. Maximum Number of Words You Can Type](./1935.%20Maximum%20Number%20of%20Words%20You%20Can%20Type/)
 
     - [Solution.java](./1935.%20Maximum%20Number%20of%20Words%20You%20Can%20Type/Solution.java)
     - [how_why.md](./1935.%20Maximum%20Number%20of%20Words%20You%20Can%20Type/how_why.md)
 
-222. [1970. Last Day Where You Can Still Cross](./1970.%20Last%20Day%20Where%20You%20Can%20Still%20Cross/)
+223. [1970. Last Day Where You Can Still Cross](./1970.%20Last%20Day%20Where%20You%20Can%20Still%20Cross/)
 
     - [Solution.java](./1970.%20Last%20Day%20Where%20You%20Can%20Still%20Cross/Solution.java)
     - [how_why.md](./1970.%20Last%20Day%20Where%20You%20Can%20Still%20Cross/how_why.md)
 
-223. [1975. Maximum Matrix Sum](./1975.%20Maximum%20Matrix%20Sum/)
+224. [1975. Maximum Matrix Sum](./1975.%20Maximum%20Matrix%20Sum/)
 
     - [Solution.java](./1975.%20Maximum%20Matrix%20Sum/Solution.java)
     - [how_why.md](./1975.%20Maximum%20Matrix%20Sum/how_why.md)
 
-224. [2011. Final Value of Variable After Performing Operations](./2011.%20Final%20Value%20of%20Variable%20After%20Performing%20Operations/)
+225. [2011. Final Value of Variable After Performing Operations](./2011.%20Final%20Value%20of%20Variable%20After%20Performing%20Operations/)
 
     - [Solution.java](./2011.%20Final%20Value%20of%20Variable%20After%20Performing%20Operations/Solution.java)
     - [how_why.md](./2011.%20Final%20Value%20of%20Variable%20After%20Performing%20Operations/how_why.md)
 
-225. [2043. Simple Bank System](./2043.%20Simple%20Bank%20System/)
+226. [2043. Simple Bank System](./2043.%20Simple%20Bank%20System/)
 
     - [Solution.java](./2043.%20Simple%20Bank%20System/Solution.java)
     - [how_why.md](./2043.%20Simple%20Bank%20System/how_why.md)
 
-226. [2048. Next Greater Numerically Balanced Number](./2048.%20Next%20Greater%20Numerically%20Balanced%20Number/)
+227. [2048. Next Greater Numerically Balanced Number](./2048.%20Next%20Greater%20Numerically%20Balanced%20Number/)
 
     - [Solution.java](./2048.%20Next%20Greater%20Numerically%20Balanced%20Number/Solution.java)
     - [how_why.md](./2048.%20Next%20Greater%20Numerically%20Balanced%20Number/how_why.md)
 
-227. [2054. Two Best Non-Overlapping Events](./2054.%20Two%20Best%20Non-Overlapping%20Events/)
+228. [2054. Two Best Non-Overlapping Events](./2054.%20Two%20Best%20Non-Overlapping%20Events/)
 
     - [Solution.java](./2054.%20Two%20Best%20Non-Overlapping%20Events/Solution.java)
     - [how_why.md](./2054.%20Two%20Best%20Non-Overlapping%20Events/how_why.md)
 
-228. [2092. Find All People With Secret](./2092.%20Find%20All%20People%20With%20Secret/)
+229. [2092. Find All People With Secret](./2092.%20Find%20All%20People%20With%20Secret/)
 
     - [Solution.java](./2092.%20Find%20All%20People%20With%20Secret/Solution.java)
     - [how_why.md](./2092.%20Find%20All%20People%20With%20Secret/how_why.md)
 
-229. [2110. Number of Smooth Descent Periods of a Stock](./2110.%20Number%20of%20Smooth%20Descent%20Periods%20of%20a%20Stock/)
+230. [2110. Number of Smooth Descent Periods of a Stock](./2110.%20Number%20of%20Smooth%20Descent%20Periods%20of%20a%20Stock/)
 
     - [Solution.java](./2110.%20Number%20of%20Smooth%20Descent%20Periods%20of%20a%20Stock/Solution.java)
     - [how_why.md](./2110.%20Number%20of%20Smooth%20Descent%20Periods%20of%20a%20Stock/how_why.md)
 
-230. [2125. Number of Laser Beams in a Bank](./2125.%20Number%20of%20Laser%20Beams%20in%20a%20Bank/)
+231. [2125. Number of Laser Beams in a Bank](./2125.%20Number%20of%20Laser%20Beams%20in%20a%20Bank/)
 
     - [Solution.java](./2125.%20Number%20of%20Laser%20Beams%20in%20a%20Bank/Solution.java)
     - [how_why.md](./2125.%20Number%20of%20Laser%20Beams%20in%20a%20Bank/how_why.md)
 
-231. [2141. Maximum Running Time of N Computers](./2141.%20Maximum%20Running%20Time%20of%20N%20Computers/)
+232. [2141. Maximum Running Time of N Computers](./2141.%20Maximum%20Running%20Time%20of%20N%20Computers/)
 
     - [Solution.java](./2141.%20Maximum%20Running%20Time%20of%20N%20Computers/Solution.java)
     - [how_why.md](./2141.%20Maximum%20Running%20Time%20of%20N%20Computers/how_why.md)
 
-232. [2147. Number of Ways to Divide a Long Corridor](./2147.%20Number%20of%20Ways%20to%20Divide%20a%20Long%20Corridor/)
+233. [2147. Number of Ways to Divide a Long Corridor](./2147.%20Number%20of%20Ways%20to%20Divide%20a%20Long%20Corridor/)
 
     - [Solution.java](./2147.%20Number%20of%20Ways%20to%20Divide%20a%20Long%20Corridor/Solution.java)
     - [how_why.md](./2147.%20Number%20of%20Ways%20to%20Divide%20a%20Long%20Corridor/how_why.md)
 
-233. [2154. Keep Multiplying Found Values by Two](./2154.%20Keep%20Multiplying%20Found%20Values%20by%20Two/)
+234. [2154. Keep Multiplying Found Values by Two](./2154.%20Keep%20Multiplying%20Found%20Values%20by%20Two/)
 
     - [Solution.java](./2154.%20Keep%20Multiplying%20Found%20Values%20by%20Two/Solution.java)
     - [how_why.md](./2154.%20Keep%20Multiplying%20Found%20Values%20by%20Two/how_why.md)
 
-234. [2169. Count Operations to Obtain Zero](./2169.%20Count%20Operations%20to%20Obtain%20Zero/)
+235. [2169. Count Operations to Obtain Zero](./2169.%20Count%20Operations%20to%20Obtain%20Zero/)
 
     - [Solution.java](./2169.%20Count%20Operations%20to%20Obtain%20Zero/Solution.java)
     - [how_why.md](./2169.%20Count%20Operations%20to%20Obtain%20Zero/how_why.md)
 
-235. [2197. Replace Non-Coprime Numbers in Array](./2197.%20Replace%20Non-Coprime%20Numbers%20in%20Array/)
+236. [2197. Replace Non-Coprime Numbers in Array](./2197.%20Replace%20Non-Coprime%20Numbers%20in%20Array/)
 
     - [Solution.java](./2197.%20Replace%20Non-Coprime%20Numbers%20in%20Array/Solution.java)
     - [how_why.md](./2197.%20Replace%20Non-Coprime%20Numbers%20in%20Array/how_why.md)
 
-236. [2211. Count Collisions on a Road](./2211.%20Count%20Collisions%20on%20a%20Road/)
+237. [2211. Count Collisions on a Road](./2211.%20Count%20Collisions%20on%20a%20Road/)
 
     - [Solution.java](./2211.%20Count%20Collisions%20on%20a%20Road/Solution.java)
     - [how_why.md](./2211.%20Count%20Collisions%20on%20a%20Road/how_why.md)
 
-237. [2221. Find Triangular Sum of an Array](./2221.%20Find%20Triangular%20Sum%20of%20an%20Array/)
+238. [2221. Find Triangular Sum of an Array](./2221.%20Find%20Triangular%20Sum%20of%20an%20Array/)
 
     - [Solution.java](./2221.%20Find%20Triangular%20Sum%20of%20an%20Array/Solution.java)
     - [how_why.md](./2221.%20Find%20Triangular%20Sum%20of%20an%20Array/how_why.md)
 
-238. [2257. Count Unguarded Cells in the Grid](./2257.%20Count%20Unguarded%20Cells%20in%20the%20Grid/)
+239. [2257. Count Unguarded Cells in the Grid](./2257.%20Count%20Unguarded%20Cells%20in%20the%20Grid/)
 
     - [Solution.java](./2257.%20Count%20Unguarded%20Cells%20in%20the%20Grid/Solution.java)
     - [how_why.md](./2257.%20Count%20Unguarded%20Cells%20in%20the%20Grid/how_why.md)
 
-239. [2273. Find Resultant Array After Removing Anagrams](./2273.%20Find%20Resultant%20Array%20After%20Removing%20Anagrams/)
+240. [2273. Find Resultant Array After Removing Anagrams](./2273.%20Find%20Resultant%20Array%20After%20Removing%20Anagrams/)
 
     - [Solution.java](./2273.%20Find%20Resultant%20Array%20After%20Removing%20Anagrams/Solution.java)
     - [how_why.md](./2273.%20Find%20Resultant%20Array%20After%20Removing%20Anagrams/how_why.md)
 
-240. [2300. Successful Pairs of Spells and Potions](./2300.%20Successful%20Pairs%20of%20Spells%20and%20Potions/)
+241. [2300. Successful Pairs of Spells and Potions](./2300.%20Successful%20Pairs%20of%20Spells%20and%20Potions/)
 
     - [Solution.java](./2300.%20Successful%20Pairs%20of%20Spells%20and%20Potions/Solution.java)
     - [how_why.md](./2300.%20Successful%20Pairs%20of%20Spells%20and%20Potions/how_why.md)
 
-241. [2327. Number of People Aware of a Secret](./2327.%20Number%20of%20People%20Aware%20of%20a%20Secret/)
+242. [2327. Number of People Aware of a Secret](./2327.%20Number%20of%20People%20Aware%20of%20a%20Secret/)
 
     - [Solution.java](./2327.%20Number%20of%20People%20Aware%20of%20a%20Secret/Solution.java)
     - [how_why.md](./2327.%20Number%20of%20People%20Aware%20of%20a%20Secret/how_why.md)
 
-242. [2353. Design a Food Rating System](./2353.%20Design%20a%20Food%20Rating%20System/)
+243. [2353. Design a Food Rating System](./2353.%20Design%20a%20Food%20Rating%20System/)
 
     - [Solution.java](./2353.%20Design%20a%20Food%20Rating%20System/Solution.java)
     - [how_why.md](./2353.%20Design%20a%20Food%20Rating%20System/how_why.md)
 
-243. [2402. Meeting Rooms III](./2402.%20Meeting%20Rooms%20III/)
+244. [2402. Meeting Rooms III](./2402.%20Meeting%20Rooms%20III/)
 
     - [Solution.java](./2402.%20Meeting%20Rooms%20III/Solution.java)
     - [how_why.md](./2402.%20Meeting%20Rooms%20III/how_why.md)
 
-244. [2435. Paths in Matrix Whose Sum Is Divisible by K](./2435.%20Paths%20in%20Matrix%20Whose%20Sum%20Is%20Divisible%20by%20K/)
+245. [2435. Paths in Matrix Whose Sum Is Divisible by K](./2435.%20Paths%20in%20Matrix%20Whose%20Sum%20Is%20Divisible%20by%20K/)
 
     - [Solution.java](./2435.%20Paths%20in%20Matrix%20Whose%20Sum%20Is%20Divisible%20by%20K/Solution.java)
     - [how_why.md](./2435.%20Paths%20in%20Matrix%20Whose%20Sum%20Is%20Divisible%20by%20K/how_why.md)
 
-245. [2483. Minimum Penalty for a Shop](./2483.%20Minimum%20Penalty%20for%20a%20Shop/)
+246. [2483. Minimum Penalty for a Shop](./2483.%20Minimum%20Penalty%20for%20a%20Shop/)
 
     - [Solution.java](./2483.%20Minimum%20Penalty%20for%20a%20Shop/Solution.java)
     - [how_why.md](./2483.%20Minimum%20Penalty%20for%20a%20Shop/how_why.md)
 
-246. [2528. Maximize the Minimum Powered City](./2528.%20Maximize%20the%20Minimum%20Powered%20City/)
+247. [2528. Maximize the Minimum Powered City](./2528.%20Maximize%20the%20Minimum%20Powered%20City/)
 
     - [Solution.java](./2528.%20Maximize%20the%20Minimum%20Powered%20City/Solution.java)
     - [how_why.md](./2528.%20Maximize%20the%20Minimum%20Powered%20City/how_why.md)
 
-247. [2536. Increment Submatrices by One](./2536.%20Increment%20Submatrices%20by%20One/)
+248. [2536. Increment Submatrices by One](./2536.%20Increment%20Submatrices%20by%20One/)
 
     - [Solution.java](./2536.%20Increment%20Submatrices%20by%20One/Solution.java)
     - [how_why.md](./2536.%20Increment%20Submatrices%20by%20One/how_why.md)
 
-248. [2598. Smallest Missing Non-negative Integer After Operations](./2598.%20Smallest%20Missing%20Non-negative%20Integer%20After%20Operations/)
+249. [2598. Smallest Missing Non-negative Integer After Operations](./2598.%20Smallest%20Missing%20Non-negative%20Integer%20After%20Operations/)
 
     - [Solution.java](./2598.%20Smallest%20Missing%20Non-negative%20Integer%20After%20Operations/Solution.java)
     - [how_why.md](./2598.%20Smallest%20Missing%20Non-negative%20Integer%20After%20Operations/how_why.md)
 
-249. [2654. Minimum Number of Operations to Make All Array Elements Equal to 1](./2654.%20Minimum%20Number%20of%20Operations%20to%20Make%20All%20Array%20Elements%20Equal%20to%201/)
+250. [2654. Minimum Number of Operations to Make All Array Elements Equal to 1](./2654.%20Minimum%20Number%20of%20Operations%20to%20Make%20All%20Array%20Elements%20Equal%20to%201/)
 
     - [Solution.java](./2654.%20Minimum%20Number%20of%20Operations%20to%20Make%20All%20Array%20Elements%20Equal%20to%201/Solution.java)
     - [how_why.md](./2654.%20Minimum%20Number%20of%20Operations%20to%20Make%20All%20Array%20Elements%20Equal%20to%201/how_why.md)
 
-250. [2785. Sort Vowels in a String](./2785.%20Sort%20Vowels%20in%20a%20String/)
+251. [2785. Sort Vowels in a String](./2785.%20Sort%20Vowels%20in%20a%20String/)
 
     - [Solution.java](./2785.%20Sort%20Vowels%20in%20a%20String/Solution.java)
     - [how_why.md](./2785.%20Sort%20Vowels%20in%20a%20String/how_why.md)
 
-251. [2872. Maximum Number of K-Divisible Components](./2872.%20Maximum%20Number%20of%20K-Divisible%20Components/)
+252. [2872. Maximum Number of K-Divisible Components](./2872.%20Maximum%20Number%20of%20K-Divisible%20Components/)
 
     - [Solution.java](./2872.%20Maximum%20Number%20of%20K-Divisible%20Components/Solution.java)
     - [how_why.md](./2872.%20Maximum%20Number%20of%20K-Divisible%20Components/how_why.md)
 
-252. [3003. Maximize the Number of Partitions After Operations](./3003.%20Maximize%20the%20Number%20of%20Partitions%20After%20Operations/)
+253. [3003. Maximize the Number of Partitions After Operations](./3003.%20Maximize%20the%20Number%20of%20Partitions%20After%20Operations/)
 
     - [Solution.java](./3003.%20Maximize%20the%20Number%20of%20Partitions%20After%20Operations/Solution.java)
     - [how_why.md](./3003.%20Maximize%20the%20Number%20of%20Partitions%20After%20Operations/how_why.md)
 
-253. [3074. Apple Redistribution into Boxes](./3074.%20Apple%20Redistribution%20into%20Boxes/)
+254. [3074. Apple Redistribution into Boxes](./3074.%20Apple%20Redistribution%20into%20Boxes/)
 
     - [Solution.java](./3074.%20Apple%20Redistribution%20into%20Boxes/Solution.java)
     - [how_why.md](./3074.%20Apple%20Redistribution%20into%20Boxes/how_why.md)
 
-254. [3075. Maximize Happiness of Selected Children](./3075.%20Maximize%20Happiness%20of%20Selected%20Children/)
+255. [3075. Maximize Happiness of Selected Children](./3075.%20Maximize%20Happiness%20of%20Selected%20Children/)
 
     - [Solution.java](./3075.%20Maximize%20Happiness%20of%20Selected%20Children/Solution.java)
     - [how_why.md](./3075.%20Maximize%20Happiness%20of%20Selected%20Children/how_why.md)
 
-255. [3100. Water Bottles II](./3100.%20Water%20Bottles%20II/)
+256. [3100. Water Bottles II](./3100.%20Water%20Bottles%20II/)
 
     - [Solution.java](./3100.%20Water%20Bottles%20II/Solution.java)
     - [how_why.md](./3100.%20Water%20Bottles%20II/how_why.md)
 
-256. [3147. Taking Maximum Energy From the Mystic Dungeon](./3147.%20Taking%20Maximum%20Energy%20From%20the%20Mystic%20Dungeon/)
+257. [3147. Taking Maximum Energy From the Mystic Dungeon](./3147.%20Taking%20Maximum%20Energy%20From%20the%20Mystic%20Dungeon/)
 
     - [Solution.java](./3147.%20Taking%20Maximum%20Energy%20From%20the%20Mystic%20Dungeon/Solution.java)
     - [how_why.md](./3147.%20Taking%20Maximum%20Energy%20From%20the%20Mystic%20Dungeon/how_why.md)
 
-257. [3186. Maximum Total Damage With Spell Casting](./3186.%20Maximum%20Total%20Damage%20With%20Spell%20Casting/)
+258. [3186. Maximum Total Damage With Spell Casting](./3186.%20Maximum%20Total%20Damage%20With%20Spell%20Casting/)
 
     - [Solution.java](./3186.%20Maximum%20Total%20Damage%20With%20Spell%20Casting/Solution.java)
     - [how_why.md](./3186.%20Maximum%20Total%20Damage%20With%20Spell%20Casting/how_why.md)
 
-258. [3190. Find Minimum Operations to Make All Elements Divisible by Three](./3190.%20Find%20Minimum%20Operations%20to%20Make%20All%20Elements%20Divisible%20by%20Three/)
+259. [3190. Find Minimum Operations to Make All Elements Divisible by Three](./3190.%20Find%20Minimum%20Operations%20to%20Make%20All%20Elements%20Divisible%20by%20Three/)
 
     - [Solution.java](./3190.%20Find%20Minimum%20Operations%20to%20Make%20All%20Elements%20Divisible%20by%20Three/Solution.java)
     - [how_why.md](./3190.%20Find%20Minimum%20Operations%20to%20Make%20All%20Elements%20Divisible%20by%20Three/how_why.md)
 
-259. [3217. Delete Nodes From Linked List Present in Array](./3217.%20Delete%20Nodes%20From%20Linked%20List%20Present%20in%20Array/)
+260. [3217. Delete Nodes From Linked List Present in Array](./3217.%20Delete%20Nodes%20From%20Linked%20List%20Present%20in%20Array/)
 
     - [Solution.java](./3217.%20Delete%20Nodes%20From%20Linked%20List%20Present%20in%20Array/Solution.java)
     - [how_why.md](./3217.%20Delete%20Nodes%20From%20Linked%20List%20Present%20in%20Array/how_why.md)
 
-260. [3227. Vowels Game in a String](./3227.%20Vowels%20Game%20in%20a%20String/)
+261. [3227. Vowels Game in a String](./3227.%20Vowels%20Game%20in%20a%20String/)
 
     - [Solution.java](./3227.%20Vowels%20Game%20in%20a%20String/Solution.java)
     - [how_why.md](./3227.%20Vowels%20Game%20in%20a%20String/how_why.md)
 
-261. [3228. Maximum Number of Operations to Move Ones to the End](./3228.%20Maximum%20Number%20of%20Operations%20to%20Move%20Ones%20to%20the%20End/)
+262. [3228. Maximum Number of Operations to Move Ones to the End](./3228.%20Maximum%20Number%20of%20Operations%20to%20Move%20Ones%20to%20the%20End/)
 
     - [Solution.java](./3228.%20Maximum%20Number%20of%20Operations%20to%20Move%20Ones%20to%20the%20End/Solution.java)
     - [how_why.md](./3228.%20Maximum%20Number%20of%20Operations%20to%20Move%20Ones%20to%20the%20End/how_why.md)
 
-262. [3234. Count the Number of Substrings With Dominant Ones](./3234.%20Count%20the%20Number%20of%20Substrings%20With%20Dominant%20Ones/)
+263. [3234. Count the Number of Substrings With Dominant Ones](./3234.%20Count%20the%20Number%20of%20Substrings%20With%20Dominant%20Ones/)
 
     - [Solution.java](./3234.%20Count%20the%20Number%20of%20Substrings%20With%20Dominant%20Ones/Solution.java)
     - [how_why.md](./3234.%20Count%20the%20Number%20of%20Substrings%20With%20Dominant%20Ones/how_why.md)
 
-263. [3289. The Two Sneaky Numbers of Digitville](./3289.%20The%20Two%20Sneaky%20Numbers%20of%20Digitville/)
+264. [3289. The Two Sneaky Numbers of Digitville](./3289.%20The%20Two%20Sneaky%20Numbers%20of%20Digitville/)
 
     - [Solution.java](./3289.%20The%20Two%20Sneaky%20Numbers%20of%20Digitville/Solution.java)
     - [how_why.md](./3289.%20The%20Two%20Sneaky%20Numbers%20of%20Digitville/how_why.md)
 
-264. [3318. Find X-Sum of All K-Long Subarrays I](./3318.%20Find%20X-Sum%20of%20All%20K-Long%20Subarrays%20I/)
+265. [3318. Find X-Sum of All K-Long Subarrays I](./3318.%20Find%20X-Sum%20of%20All%20K-Long%20Subarrays%20I/)
 
     - [Solution.java](./3318.%20Find%20X-Sum%20of%20All%20K-Long%20Subarrays%20I/Solution.java)
     - [how_why.md](./3318.%20Find%20X-Sum%20of%20All%20K-Long%20Subarrays%20I/how_why.md)
 
-265. [3321. Find X-Sum of All K-Long Subarrays II](./3321.%20Find%20X-Sum%20of%20All%20K-Long%20Subarrays%20II/)
+266. [3321. Find X-Sum of All K-Long Subarrays II](./3321.%20Find%20X-Sum%20of%20All%20K-Long%20Subarrays%20II/)
 
     - [Solution.java](./3321.%20Find%20X-Sum%20of%20All%20K-Long%20Subarrays%20II/Solution.java)
     - [how_why.md](./3321.%20Find%20X-Sum%20of%20All%20K-Long%20Subarrays%20II/how_why.md)
 
-266. [3346. Maximum Frequency of an Element After Performing Operations I](./3346.%20Maximum%20Frequency%20of%20an%20Element%20After%20Performing%20Operations%20I/)
+267. [3346. Maximum Frequency of an Element After Performing Operations I](./3346.%20Maximum%20Frequency%20of%20an%20Element%20After%20Performing%20Operations%20I/)
 
     - [Solution.java](./3346.%20Maximum%20Frequency%20of%20an%20Element%20After%20Performing%20Operations%20I/Solution.java)
     - [how_why.md](./3346.%20Maximum%20Frequency%20of%20an%20Element%20After%20Performing%20Operations%20I/how_why.md)
 
-267. [3347. Maximum Frequency of an Element After Performing Operations II](./3347.%20Maximum%20Frequency%20of%20an%20Element%20After%20Performing%20Operations%20II/)
+268. [3347. Maximum Frequency of an Element After Performing Operations II](./3347.%20Maximum%20Frequency%20of%20an%20Element%20After%20Performing%20Operations%20II/)
 
     - [Solution.java](./3347.%20Maximum%20Frequency%20of%20an%20Element%20After%20Performing%20Operations%20II/Solution.java)
     - [how_why.md](./3347.%20Maximum%20Frequency%20of%20an%20Element%20After%20Performing%20Operations%20II/how_why.md)
 
-268. [3349. Adjacent Increasing Subarrays Detection I](./3349.%20Adjacent%20Increasing%20Subarrays%20Detection%20I/)
+269. [3349. Adjacent Increasing Subarrays Detection I](./3349.%20Adjacent%20Increasing%20Subarrays%20Detection%20I/)
 
     - [Solution.java](./3349.%20Adjacent%20Increasing%20Subarrays%20Detection%20I/Solution.java)
     - [how_why.md](./3349.%20Adjacent%20Increasing%20Subarrays%20Detection%20I/how_why.md)
 
-269. [3350. Adjacent Increasing Subarrays Detection II](./3350.%20Adjacent%20Increasing%20Subarrays%20Detection%20II/)
+270. [3350. Adjacent Increasing Subarrays Detection II](./3350.%20Adjacent%20Increasing%20Subarrays%20Detection%20II/)
 
     - [Solution.java](./3350.%20Adjacent%20Increasing%20Subarrays%20Detection%20II/Solution.java)
     - [how_why.md](./3350.%20Adjacent%20Increasing%20Subarrays%20Detection%20II/how_why.md)
 
-270. [3354. Make Array Elements Equal to Zero](./3354.%20Make%20Array%20Elements%20Equal%20to%20Zero/)
+271. [3354. Make Array Elements Equal to Zero](./3354.%20Make%20Array%20Elements%20Equal%20to%20Zero/)
 
     - [Solution.java](./3354.%20Make%20Array%20Elements%20Equal%20to%20Zero/Solution.java)
     - [how_why.md](./3354.%20Make%20Array%20Elements%20Equal%20to%20Zero/how_why.md)
 
-271. [3370. Smallest Number With All Set Bits](./3370.%20Smallest%20Number%20With%20All%20Set%20Bits/)
+272. [3370. Smallest Number With All Set Bits](./3370.%20Smallest%20Number%20With%20All%20Set%20Bits/)
 
     - [Solution.java](./3370.%20Smallest%20Number%20With%20All%20Set%20Bits/Solution.java)
     - [how_why.md](./3370.%20Smallest%20Number%20With%20All%20Set%20Bits/how_why.md)
 
-272. [3381. Maximum Subarray Sum With Length Divisible by K](./3381.%20Maximum%20Subarray%20Sum%20With%20Length%20Divisible%20by%20K/)
+273. [3381. Maximum Subarray Sum With Length Divisible by K](./3381.%20Maximum%20Subarray%20Sum%20With%20Length%20Divisible%20by%20K/)
 
     - [Solution.java](./3381.%20Maximum%20Subarray%20Sum%20With%20Length%20Divisible%20by%20K/Solution.java)
     - [how_why.md](./3381.%20Maximum%20Subarray%20Sum%20With%20Length%20Divisible%20by%20K/how_why.md)
 
-273. [3397. Maximum Number of Distinct Elements After Operations](./3397.%20Maximum%20Number%20of%20Distinct%20Elements%20After%20Operations/)
+274. [3397. Maximum Number of Distinct Elements After Operations](./3397.%20Maximum%20Number%20of%20Distinct%20Elements%20After%20Operations/)
 
     - [Solution.java](./3397.%20Maximum%20Number%20of%20Distinct%20Elements%20After%20Operations/Solution.java)
     - [how_why.md](./3397.%20Maximum%20Number%20of%20Distinct%20Elements%20After%20Operations/how_why.md)
 
-274. [3408. Design Task Manager](./3408.%20Design%20Task%20Manager/)
+275. [3408. Design Task Manager](./3408.%20Design%20Task%20Manager/)
 
     - [Solution.java](./3408.%20Design%20Task%20Manager/Solution.java)
     - [how_why.md](./3408.%20Design%20Task%20Manager/how_why.md)
 
-275. [3432. Count Partitions with Even Sum Difference](./3432.%20Count%20Partitions%20with%20Even%20Sum%20Difference/)
+276. [3432. Count Partitions with Even Sum Difference](./3432.%20Count%20Partitions%20with%20Even%20Sum%20Difference/)
 
     - [Solution.java](./3432.%20Count%20Partitions%20with%20Even%20Sum%20Difference/Solution.java)
     - [how_why.md](./3432.%20Count%20Partitions%20with%20Even%20Sum%20Difference/how_why.md)
 
-276. [3433. Count Mentions Per User](./3433.%20Count%20Mentions%20Per%20User/)
+277. [3433. Count Mentions Per User](./3433.%20Count%20Mentions%20Per%20User/)
 
     - [Solution.java](./3433.%20Count%20Mentions%20Per%20User/Solution.java)
     - [how_why.md](./3433.%20Count%20Mentions%20Per%20User/how_why.md)
 
-277. [3461. Check If Digits Are Equal in String After Operations I](./3461.%20Check%20If%20Digits%20Are%20Equal%20in%20String%20After%20Operations%20I/)
+278. [3461. Check If Digits Are Equal in String After Operations I](./3461.%20Check%20If%20Digits%20Are%20Equal%20in%20String%20After%20Operations%20I/)
 
     - [Solution.java](./3461.%20Check%20If%20Digits%20Are%20Equal%20in%20String%20After%20Operations%20I/Solution.java)
     - [how_why.md](./3461.%20Check%20If%20Digits%20Are%20Equal%20in%20String%20After%20Operations%20I/how_why.md)
 
-278. [3484. Design Spreadsheet](./3484.%20Design%20Spreadsheet/)
+279. [3484. Design Spreadsheet](./3484.%20Design%20Spreadsheet/)
 
     - [Solution.java](./3484.%20Design%20Spreadsheet/Solution.java)
     - [how_why.md](./3484.%20Design%20Spreadsheet/how_why.md)
 
-279. [3494. Find the Minimum Amount of Time to Brew Potions](./3494.%20Find%20the%20Minimum%20Amount%20of%20Time%20to%20Brew%20Potions/)
+280. [3494. Find the Minimum Amount of Time to Brew Potions](./3494.%20Find%20the%20Minimum%20Amount%20of%20Time%20to%20Brew%20Potions/)
 
     - [Solution.java](./3494.%20Find%20the%20Minimum%20Amount%20of%20Time%20to%20Brew%20Potions/Solution.java)
     - [how_why.md](./3494.%20Find%20the%20Minimum%20Amount%20of%20Time%20to%20Brew%20Potions/how_why.md)
 
-280. [3508. Implement Router](./3508.%20Implement%20Router/)
+281. [3508. Implement Router](./3508.%20Implement%20Router/)
 
     - [Solution.java](./3508.%20Implement%20Router/Solution.java)
     - [how_why.md](./3508.%20Implement%20Router/how_why.md)
 
-281. [3512. Minimum Operations to Make Array Sum Divisible by K](./3512.%20Minimum%20Operations%20to%20Make%20Array%20Sum%20Divisible%20by%20K/)
+282. [3512. Minimum Operations to Make Array Sum Divisible by K](./3512.%20Minimum%20Operations%20to%20Make%20Array%20Sum%20Divisible%20by%20K/)
 
     - [Solution.java](./3512.%20Minimum%20Operations%20to%20Make%20Array%20Sum%20Divisible%20by%20K/Solution.java)
     - [how_why.md](./3512.%20Minimum%20Operations%20to%20Make%20Array%20Sum%20Divisible%20by%20K/how_why.md)
 
-282. [3531. Count Covered Buildings](./3531.%20Count%20Covered%20Buildings/)
+283. [3531. Count Covered Buildings](./3531.%20Count%20Covered%20Buildings/)
 
     - [Solution.java](./3531.%20Count%20Covered%20Buildings/Solution.java)
     - [how_why.md](./3531.%20Count%20Covered%20Buildings/how_why.md)
 
-283. [3539. Find Sum of Array Product of Magical Sequences](./3539.%20Find%20Sum%20of%20Array%20Product%20of%20Magical%20Sequences/)
+284. [3539. Find Sum of Array Product of Magical Sequences](./3539.%20Find%20Sum%20of%20Array%20Product%20of%20Magical%20Sequences/)
 
     - [Solution.java](./3539.%20Find%20Sum%20of%20Array%20Product%20of%20Magical%20Sequences/Solution.java)
     - [how_why.md](./3539.%20Find%20Sum%20of%20Array%20Product%20of%20Magical%20Sequences/how_why.md)
 
-284. [3541. Find Most Frequent Vowel and Consonant](./3541.%20Find%20Most%20Frequent%20Vowel%20and%20Consonant/)
+285. [3541. Find Most Frequent Vowel and Consonant](./3541.%20Find%20Most%20Frequent%20Vowel%20and%20Consonant/)
 
     - [Solution.java](./3541.%20Find%20Most%20Frequent%20Vowel%20and%20Consonant/Solution.java)
     - [how_why.md](./3541.%20Find%20Most%20Frequent%20Vowel%20and%20Consonant/how_why.md)
 
-285. [3542. Minimum Operations to Convert All Elements to Zero](./3542.%20Minimum%20Operations%20to%20Convert%20All%20Elements%20to%20Zero/)
+286. [3542. Minimum Operations to Convert All Elements to Zero](./3542.%20Minimum%20Operations%20to%20Convert%20All%20Elements%20to%20Zero/)
 
     - [Solution.java](./3542.%20Minimum%20Operations%20to%20Convert%20All%20Elements%20to%20Zero/Solution.java)
     - [how_why.md](./3542.%20Minimum%20Operations%20to%20Convert%20All%20Elements%20to%20Zero/how_why.md)
 
-286. [3562. Maximum Profit from Trading Stocks with Discounts](./3562.%20Maximum%20Profit%20from%20Trading%20Stocks%20with%20Discounts/)
+287. [3562. Maximum Profit from Trading Stocks with Discounts](./3562.%20Maximum%20Profit%20from%20Trading%20Stocks%20with%20Discounts/)
 
     - [Solution.java](./3562.%20Maximum%20Profit%20from%20Trading%20Stocks%20with%20Discounts/Solution.java)
     - [how_why.md](./3562.%20Maximum%20Profit%20from%20Trading%20Stocks%20with%20Discounts/how_why.md)
 
-287. [3573. Best Time to Buy and Sell Stock V](./3573.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20V/)
+288. [3573. Best Time to Buy and Sell Stock V](./3573.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20V/)
 
     - [Solution.java](./3573.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20V/Solution.java)
     - [how_why.md](./3573.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20V/how_why.md)
 
-288. [3577. Count the Number of Computer Unlocking Permutations](./3577.%20Count%20the%20Number%20of%20Computer%20Unlocking%20Permutations/)
+289. [3577. Count the Number of Computer Unlocking Permutations](./3577.%20Count%20the%20Number%20of%20Computer%20Unlocking%20Permutations/)
 
     - [Solution.java](./3577.%20Count%20the%20Number%20of%20Computer%20Unlocking%20Permutations/Solution.java)
     - [how_why.md](./3577.%20Count%20the%20Number%20of%20Computer%20Unlocking%20Permutations/how_why.md)
 
-289. [3578. Count Partitions With Max-Min Difference at Most K](./3578.%20Count%20Partitions%20With%20Max-Min%20Difference%20at%20Most%20K/)
+290. [3578. Count Partitions With Max-Min Difference at Most K](./3578.%20Count%20Partitions%20With%20Max-Min%20Difference%20at%20Most%20K/)
 
     - [Solution.java](./3578.%20Count%20Partitions%20With%20Max-Min%20Difference%20at%20Most%20K/Solution.java)
     - [how_why.md](./3578.%20Count%20Partitions%20With%20Max-Min%20Difference%20at%20Most%20K/how_why.md)
 
-290. [3583. Count Special Triplets](./3583.%20Count%20Special%20Triplets/)
+291. [3583. Count Special Triplets](./3583.%20Count%20Special%20Triplets/)
 
     - [Solution.java](./3583.%20Count%20Special%20Triplets/Solution.java)
     - [how_why.md](./3583.%20Count%20Special%20Triplets/how_why.md)
 
-291. [3606. Coupon Code Validator](./3606.%20Coupon%20Code%20Validator/)
+292. [3606. Coupon Code Validator](./3606.%20Coupon%20Code%20Validator/)
 
     - [Solution.java](./3606.%20Coupon%20Code%20Validator/Solution.java)
     - [how_why.md](./3606.%20Coupon%20Code%20Validator/how_why.md)
 
-292. [3607. Power Grid Maintenance](./3607.%20Power%20Grid%20Maintenance/)
+293. [3607. Power Grid Maintenance](./3607.%20Power%20Grid%20Maintenance/)
 
     - [Solution.java](./3607.%20Power%20Grid%20Maintenance/Solution.java)
     - [how_why.md](./3607.%20Power%20Grid%20Maintenance/how_why.md)
 
-293. [3623. Count Number of Trapezoids I](./3623.%20Count%20Number%20of%20Trapezoids%20I/)
+294. [3623. Count Number of Trapezoids I](./3623.%20Count%20Number%20of%20Trapezoids%20I/)
 
     - [Solution.java](./3623.%20Count%20Number%20of%20Trapezoids%20I/Solution.java)
     - [how_why.md](./3623.%20Count%20Number%20of%20Trapezoids%20I/how_why.md)
 
-294. [3625. Count Number of Trapezoids II](./3625.%20Count%20Number%20of%20Trapezoids%20II/)
+295. [3625. Count Number of Trapezoids II](./3625.%20Count%20Number%20of%20Trapezoids%20II/)
 
     - [Solution.java](./3625.%20Count%20Number%20of%20Trapezoids%20II/Solution.java)
     - [how_why.md](./3625.%20Count%20Number%20of%20Trapezoids%20II/how_why.md)
 
-295. [3652. Best Time to Buy and Sell Stock using Strategy](./3652.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20using%20Strategy/)
+296. [3652. Best Time to Buy and Sell Stock using Strategy](./3652.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20using%20Strategy/)
 
     - [Solution.java](./3652.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20using%20Strategy/Solution.java)
     - [how_why.md](./3652.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20using%20Strategy/how_why.md)
