@@ -87,6 +87,7 @@ Process (right to left):
 Reverse `sb` -> "10101". Result = "10101".
 
 Notes:
+
 - We used characters to compute bits (`char - '0'`) to avoid integer parsing of whole strings.
 - The loop condition includes `carry` to handle final carry-out.
 
