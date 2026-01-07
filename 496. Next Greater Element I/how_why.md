@@ -112,3 +112,8 @@ public int[] nextGreaterElement(int[] nums1, int[] nums2) {
     return res;
 }
 ```
+
+## Implementation Notes
+
+- The stack can be implemented with `ArrayDeque<Integer>` or a plain `int[]` and pointer to avoid object overhead from `java.util.Stack`.
+- When values are known to be within a small bound (e.g., 0..10000 in this problem), using a pre-sized array `nextGreater[value]` is faster than a `HashMap<Integer,Integer>` for lookups.

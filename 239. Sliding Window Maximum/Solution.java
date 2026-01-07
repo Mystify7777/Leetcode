@@ -1,6 +1,4 @@
-// 239. Sliding Window Maximum
-import java.util.ArrayDeque;
-import java.util.Deque;
+// 239. Sliding Window Maximum239. Sliding Window Maximum
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
   // assume nums is not null
@@ -30,3 +28,29 @@ class Solution {
   return result;
 }
 }
+
+class Solution2 {
+    public int[] maxSlidingWindow(int[] nums, int k) {
+        int[] ans = new int[nums.length-k+1];
+        int[] pre = new int[nums.length];
+        int[] suf = new int[nums.length];
+
+        for(int i = 0; i <nums.length; i++){
+            if(i%k==0) pre[i] = nums[i]; 
+            else pre[i] = Math.max(pre[i-1], nums[i]);
+        }
+
+        suf[nums.length-1] = nums[nums.length-1];
+        for(int i = nums.length-2; i >=0; i--){
+            if((i+1)%k==0) suf[i] = nums[i]; 
+            else suf[i] = Math.max(suf[i+1], nums[i]);
+        }
+
+        for(int i = 0; i < ans.length; i++){
+            ans[i] = Math.max(pre[i+k-1], suf[i]);
+        }
+        return ans;
+    }
+}
+// is it optimized?
+// why is it faster?

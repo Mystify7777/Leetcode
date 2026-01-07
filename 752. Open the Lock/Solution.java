@@ -114,6 +114,16 @@ class Solution {
 }
  */
  /**
+ Explanation for the array/arithmetics version below:
+ - State encoding: each 4-digit lock state is treated as an integer in [0,9999].
+ - `seen[next]` is a boolean visited array for O(1) checks; deadends are pre-marked.
+ - For each dequeued `curr`, we iterate each wheel place `j = 1,10,100,1000`.
+     - `mask` extracts the digit at that place: `(curr % (j * 10)) / j`.
+     - `masked = curr - mask * j` zeroes that digit so we can write a new one.
+     - The inner `k` loop uses `k = 1` and `k += 8` to generate +1 and -1 modulo 10
+         (since (d+1)%10 and (d+9)%10 are the two neighbors).
+     - `next = masked + ((mask + k) % 10) * j` sets the digit to its neighbor.
+ - BFS ensures minimal turns; we early-return when we hit `target`.
  umm??
  class Solution {
     public int openLock(String[] deadends, String target) {

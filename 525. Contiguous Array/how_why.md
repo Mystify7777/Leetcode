@@ -73,3 +73,8 @@ class Solution {
 - Transform `0` to `-1` to convert the problem to longest zero-sum subarray.
 - Use a hash map from `count` to earliest index, seeded with `0 -> -1`.
 - Update `best` whenever the same `count` reappears.
+
+## Optimizations and Variants
+
+- Avoid mutating the input array: maintain a running `balance += (nums[i] == 1 ? 1 : -1)` instead of rewriting 0→-1.
+- If memory is acceptable and you want to avoid HashMap overhead, use an `int[] firstIndex` of size `2*n + 1` (offset by `n` to handle negative balances). Initialize entries to `-2` (unseen) and set `firstIndex[balance + n]` only once. This keeps `O(n)` time with better constants at `O(n)` space.

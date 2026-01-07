@@ -225,6 +225,22 @@ Example: Start="0000", Target="9999"
 
 ---
 
+## Variant: Integer-Encoded BFS (Array-based)
+
+Instead of strings, you can encode states as integers in `[0..9999]` and use arrays for speed:
+
+- Encode `"d0d1d2d3"` as `d0*1000 + d1*100 + d2*10 + d3`.
+- Use `boolean[] dead` and `boolean[] seen` for O(1) checks and low overhead.
+- For each state `curr`, iterate wheel positions `j ∈ {1,10,100,1000}`:
+  - Extract digit: `mask = (curr % (10*j)) / j`
+  - Zero that digit: `masked = curr - mask*j`
+  - Neighbors are `masked + ((mask + 1) % 10)*j` and `masked + ((mask + 9) % 10)*j` (±1 with wraparound)
+- Standard BFS on integers ensures minimal turns; stop when reaching `target`.
+
+This avoids substring creation and hash work on strings, improving constants while keeping the same `O(10^4)` bounds.
+
+---
+
 ## Comparison
 
 | Approach | Time | Space | Notes |

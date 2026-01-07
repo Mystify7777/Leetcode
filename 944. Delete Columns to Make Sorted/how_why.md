@@ -82,3 +82,9 @@ The solution also includes a refactored version that:
 - Converts strings to char arrays (slight optimization to avoid repeated `charAt()` calls)
 - Uses a separate `isSort()` helper function for clarity
 - May have slightly better performance due to fewer method calls
+
+## Notes
+
+- The char[] conversion variant reduces repeated `charAt()` calls and can improve cache locality, but allocates an extra matrix; both approaches remain `O(m*n)`.
+- Small micro-opt: initialize `character` from row 0 and start the inner loop at row 1 to avoid a redundant self-compare.
+- Early `break` on a bad column is key to avoiding unnecessary work.
