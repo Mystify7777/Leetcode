@@ -27,10 +27,14 @@ for idx, (num, name) in enumerate(dirs, start=1):
     lines.append(f"{idx}. [{name}]({base})\n\n")
     sol_path = ROOT / name / "Solution.java"
     hw_path = ROOT / name / "how_why.md"
+
+    # Indent sub-items enough to remain nested even after the list index hits 3+ digits.
+    sub_indent = ' ' * max(4, len(str(idx)) + 2)
+
     if sol_path.exists():
-        lines.append(f"    - [Solution.java]({base}Solution.java)\n")
+        lines.append(f"{sub_indent}- [Solution.java]({base}Solution.java)\n")
     if hw_path.exists():
-        lines.append(f"    - [how_why.md]({base}how_why.md)\n")
+        lines.append(f"{sub_indent}- [how_why.md]({base}how_why.md)\n")
     lines.append("\n")
 
 out.write_text(''.join(lines), encoding='utf-8')
