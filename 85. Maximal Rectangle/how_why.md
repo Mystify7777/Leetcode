@@ -148,7 +148,7 @@ class Solution {
         return ans;
     }
 }
-````
+```
 
 ### 🧩 How It Works
 
