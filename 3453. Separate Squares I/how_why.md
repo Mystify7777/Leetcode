@@ -1,19 +1,69 @@
-Problem
-- Find the minimum y-coordinate of a horizontal line that splits the total area of given axis-aligned squares into equal top and bottom parts (squares can overlap).
+# How & Why: LeetCode 3453 - Separate Squares I
 
-Key idea
-- The area above the line is monotonic: as the line moves up, top area decreases and bottom area increases. That monotonicity lets us binary-search the answer.
+## Problem
 
-Algorithm
-1) Binary search on y between a loose lower bound (0) and upper bound (2e9). Iterate ~60 times to get double precision.
-2) For a candidate line, iterate all squares and compute how much of each square lies above vs. below the line:
-	- If the line is entirely below the square: all area counts as above.
-	- If entirely above: all area counts as below.
-	- If it cuts the square: split by the intersection height and add partial areas to above/below.
-3) If above area > below area, move the search window up (line too low); else move it down. Return the upper bound after iterations.
+Find the minimum y-coordinate of a horizontal line that splits the total area of given axis-aligned squares into equal top and bottom parts (squares can overlap).
 
-Correctness sketch
-- For any y, define f(y) = area_above(y) - area_below(y). As y increases, area_above is non-increasing and area_below is non-decreasing, so f(y) is monotonically non-increasing. The target line occurs where f(y)=0. Binary search on monotone f(y) converges to the smallest y with f(y)≤0, which is the minimal line balancing areas.
+## Intuition
 
-Complexity
-- Each helper evaluation scans all squares: O(n). Binary search does O(log(precision)) iterations (~60), so O(n·60) time and O(1) extra space.
+- As the horizontal line moves upward, area above decreases monotonically and area below increases. The balance point can be found via binary search on y.
+
+## Brute Force Approach
+
+- **Idea:** Sample many y-levels and compute areas each time.
+- **Complexity:** Very high and imprecise; not practical.
+
+## My Approach (Binary Search on y) — from Solution.java
+
+- **Idea:** Binary search over y; for a candidate y, compute area_above and area_below by intersecting the line with each square. Move search window based on which side has more area.
+- **Complexity:** Time $O(n \cdot \text{iters})$ (≈60 iters), Space $O(1)$.
+- **Core snippet:**
+
+```java
+double diff(double y){
+	double above=0, below=0;
+	for (int[] s: squares){
+		double top=s[1]+s[2], bot=s[1], side=s[2];
+		if (y<=bot) above+=side*side;
+		else if (y>=top) below+=side*side;
+		else { double ah=top-y, bh=y-bot; above+=side*ah; below+=side*bh; }
+	}
+	return above-below;
+}
+double lo=0, hi=2e9;
+for(int i=0;i<60;i++){ double mid=(lo+hi)/2; if(diff(mid)>0) lo=mid; else hi=mid; }
+return hi;
+```
+
+## Most Optimal Approach
+
+- Same binary search, but tighten bounds to [minY, maxY] and reuse total area (Solution2). Complexity unchanged; numerically cleaner.
+
+## Edge Cases
+
+- Single square → answer is its bottom y plus half its side.
+- All squares strictly above/below initial bounds: ensure bounds cover all squares (use minY/maxY).
+- Overlapping squares: count full area for each; overlaps accumulate as required.
+
+## Comparison Table
+
+| Approach | Idea | Time | Space | Notes |
+| --- | --- | --- | --- | --- |
+| Brute sampling | Try many y samples | High | O(1) | Inaccurate/slow |
+| Binary search (used) | Monotone area diff, wide bounds | O(n·iters) | O(1) | Simple; uses loose [0,2e9] |
+| Binary search with tight bounds (Solution2) | Same, but [minY,maxY] | O(n·iters) | O(1) | Better numeric stability |
+
+## Example Walkthrough
+
+Squares: `[(0,0,2)]`
+
+- Total area = 4. Binary search finds y where above=below=2 → y = 0 + 1 = 1.
+
+## Insights
+
+- Defining a monotone function (area_above - area_below) enables root-finding via binary search without explicit integration.
+
+## References to Similar Problems
+
+- 3454. Separate Squares II (sweep-line exact split)
+- 410. Split Array Largest Sum (binary search on monotone predicate pattern)
