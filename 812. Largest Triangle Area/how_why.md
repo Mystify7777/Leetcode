@@ -1,76 +1,65 @@
-# How & Why – 812. Largest Triangle Area
+# How & Why: LeetCode 812 - Largest Triangle Area
 
 ## Problem
 
-Given `points` in the 2D plane, return the largest area of any triangle formed by **three different points**.
+Given `n` points in 2D, return the maximum area of any triangle formed by three distinct points.
 
----
+## Intuition
 
-## 1. Brute Force with Shoelace Formula ✅ (First version)
+- Use the shoelace (cross-product) formula for triangle area; no need for trigonometry.
+- Input size is small (`n <= 50`), so checking all triplets is fine.
 
-**Idea:**
+## Brute Force Approach
 
-* Any triangle area from points `(x1,y1), (x2,y2), (x3,y3)` can be computed using the **Shoelace Formula**:
+- **Idea:** Enumerate all triples, compute area with the shoelace formula, take the max.
+- **Complexity:** Time $O(n^3)$, Space $O(1)$; acceptable for constraints.
 
-$$
-\text{Area} = \frac{1}{2} \cdot |x_1(y_2-y_3) + x_2(y_3-y_1) + x_3(y_1-y_2)|
-$$
+## My Approach (Shoelace over all triplets) — from Solution.java
 
-* Check **all triplets (i, j, k)**.
-* Keep track of maximum area.
-
-**Complexity:**
-
-* O(n³) time (since all triplets).
-* O(1) space.
-* Works fine because `n ≤ 50`.
-
----
-
-## 2. Alternative Attempt (Second version in your code)
-
-This code:
+- **Idea:** For each `(i,j,k)`, area = $0.5 * |x_1(y_2-y_3) + x_2(y_3-y_1) + x_3(y_1-y_2)|$; track the maximum.
+- **Complexity:** Time $O(n^3)$, Space $O(1)$.
+- **Core snippet:**
 
 ```java
-area(p1, p2) // computes trapezoid-like area
+double best = 0;
+for (int i=0;i<n;i++) for (int j=i+1;j<n;j++) for (int k=j+1;k<n;k++) {
+    int x1=pts[i][0], y1=pts[i][1];
+    int x2=pts[j][0], y2=pts[j][1];
+    int x3=pts[k][0], y3=pts[k][1];
+    double area = 0.5 * Math.abs(x1*(y2-y3) + x2*(y3-y1) + x3*(y1-y2));
+    best = Math.max(best, area);
+}
 ```
 
-It tries to decompose the triangle into trapezoids, but it’s **not mathematically correct for arbitrary coordinates**. It might pass on some test cases but will **fail on edge cases** because trapezoid decomposition doesn’t guarantee exact triangle area unless the points align in a very specific way.
+## Most Optimal Approach
 
-That’s why the **shoelace-based version** is the correct + widely accepted solution.
+- Asymptotically the $O(n^3)$ brute force is optimal under given limits; no faster method needed. Use shoelace for correctness and simplicity.
 
----
+## Edge Cases
+
+- All points collinear → maximum area is 0.
+- Duplicate points → still handled; triangles with coincident vertices have area 0.
+- Very large coordinates → use `double`/`long` in cross-product to avoid overflow.
+
+## Comparison Table
+
+| Approach | Idea | Time | Space | Notes |
+| --- | --- | --- | --- | --- |
+| Shoelace over all triplets (used) | Enumerate triples, cross-product area | O(n^3) | O(1) | Correct, simple, fine for n<=50 |
+| Trapezoid sum (discarded) | Approx via trapezoids on edges | Wrong | O(n^3) | Not geometrically correct |
 
 ## Example Walkthrough
 
-Input:
+`points = [[0,0],[0,2],[2,0],[0,1]]`
 
-```
-points = [[0,0], [0,1], [1,0], [0,2], [2,0]]
-```
+- Triangle (0,0),(0,2),(2,0): area = 2.0
+- Other triangles are smaller or equal → maximum = 2.0.
 
-All possible triangles (just a few key ones):
+## Insights
 
-1. (0,0), (0,1), (1,0)
-   Area = 0.5
+- Shoelace/cross-product is the canonical way to compute polygon/triangle area robustly with integers.
 
-2. (0,0), (0,2), (2,0)
-   Area = 2.0 ✅ (largest so far)
+## References to Similar Problems
 
-3. (0,1), (0,2), (2,0)
-   Area = 2.0
-
-4. (0,2), (1,0), (2,0)
-   Area = 2.0
-
-→ Maximum = **2.0**
-
----
-
-## Takeaway
-
-* ✅ The **shoelace formula (first version)** is correct and clean.
-* ❌ The **trapezoid method (second version)** is not reliable for general cases.
-* Brute-force O(n³) is acceptable because of small input size.
-
----
+- 149. Max Points on a Line (collinearity checks use cross products)
+- 963. Minimum Area Rectangle II (geometry on point sets)
