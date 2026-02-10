@@ -2,7 +2,7 @@
 
 Solving DSA problems with explanations for "why" and "how".
 
-Total problems: **361**
+Total problems: **362**
 
 ## Problems (sorted by LeetCode problem number)
 
@@ -1810,4 +1810,9 @@ Total problems: **361**
 
      - [Solution.java](./3652.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20using%20Strategy/Solution.java)
      - [how_why.md](./3652.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20using%20Strategy/how_why.md)
+
+362. [3719. Longest Balanced Subarray I](./3719.%20Longest%20Balanced%20Subarray%20I/)
+
+     - [Solution.java](./3719.%20Longest%20Balanced%20Subarray%20I/Solution.java)
+     - [how_why.md](./3719.%20Longest%20Balanced%20Subarray%20I/how_why.md)
 
