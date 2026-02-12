@@ -2,7 +2,7 @@
 
 Solving DSA problems with explanations for "why" and "how".
 
-Total problems: **362**
+Total problems: **364**
 
 ## Problems (sorted by LeetCode problem number)
 
@@ -1811,8 +1811,18 @@ Total problems: **362**
      - [Solution.java](./3652.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20using%20Strategy/Solution.java)
      - [how_why.md](./3652.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20using%20Strategy/how_why.md)
 
-362. [3719. Longest Balanced Subarray I](./3719.%20Longest%20Balanced%20Subarray%20I/)
+362. [3713. Longest Balanced Substring I](./3713.%20Longest%20Balanced%20Substring%20I/)
+
+     - [Solution.java](./3713.%20Longest%20Balanced%20Substring%20I/Solution.java)
+     - [how_why.md](./3713.%20Longest%20Balanced%20Substring%20I/how_why.md)
+
+363. [3719. Longest Balanced Subarray I](./3719.%20Longest%20Balanced%20Subarray%20I/)
 
      - [Solution.java](./3719.%20Longest%20Balanced%20Subarray%20I/Solution.java)
      - [how_why.md](./3719.%20Longest%20Balanced%20Subarray%20I/how_why.md)
+
+364. [3721. Longest Balanced Subarray II](./3721.%20Longest%20Balanced%20Subarray%20II/)
+
+     - [Solution.java](./3721.%20Longest%20Balanced%20Subarray%20II/Solution.java)
+     - [how_why.md](./3721.%20Longest%20Balanced%20Subarray%20II/how_why.md)
 
