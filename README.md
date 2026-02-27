@@ -2,7 +2,7 @@
 
 Solving DSA problems with explanations for "why" and "how".
 
-Total problems: **377**
+Total problems: **378**
 
 ## Problems (sorted by LeetCode problem number)
 
@@ -1871,22 +1871,27 @@ Total problems: **377**
      - [Solution.java](./3652.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20using%20Strategy/Solution.java)
      - [how_why.md](./3652.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20using%20Strategy/how_why.md)
 
-374. [3713. Longest Balanced Substring I](./3713.%20Longest%20Balanced%20Substring%20I/)
+374. [3666. Minimum Operations to Equalize Binary String](./3666.%20Minimum%20Operations%20to%20Equalize%20Binary%20String/)
+
+     - [Solution.java](./3666.%20Minimum%20Operations%20to%20Equalize%20Binary%20String/Solution.java)
+     - [how_why.md](./3666.%20Minimum%20Operations%20to%20Equalize%20Binary%20String/how_why.md)
+
+375. [3713. Longest Balanced Substring I](./3713.%20Longest%20Balanced%20Substring%20I/)
 
      - [Solution.java](./3713.%20Longest%20Balanced%20Substring%20I/Solution.java)
      - [how_why.md](./3713.%20Longest%20Balanced%20Substring%20I/how_why.md)
 
-375. [3714. Longest Balanced Substring II](./3714.%20Longest%20Balanced%20Substring%20II/)
+376. [3714. Longest Balanced Substring II](./3714.%20Longest%20Balanced%20Substring%20II/)
 
      - [Solution.java](./3714.%20Longest%20Balanced%20Substring%20II/Solution.java)
      - [how_why.md](./3714.%20Longest%20Balanced%20Substring%20II/how_why.md)
 
-376. [3719. Longest Balanced Subarray I](./3719.%20Longest%20Balanced%20Subarray%20I/)
+377. [3719. Longest Balanced Subarray I](./3719.%20Longest%20Balanced%20Subarray%20I/)
 
      - [Solution.java](./3719.%20Longest%20Balanced%20Subarray%20I/Solution.java)
      - [how_why.md](./3719.%20Longest%20Balanced%20Subarray%20I/how_why.md)
 
-377. [3721. Longest Balanced Subarray II](./3721.%20Longest%20Balanced%20Subarray%20II/)
+378. [3721. Longest Balanced Subarray II](./3721.%20Longest%20Balanced%20Subarray%20II/)
 
      - [Solution.java](./3721.%20Longest%20Balanced%20Subarray%20II/Solution.java)
      - [how_why.md](./3721.%20Longest%20Balanced%20Subarray%20II/how_why.md)
