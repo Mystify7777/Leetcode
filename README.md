@@ -2,7 +2,7 @@
 
 Solving DSA problems with explanations for "why" and "how".
 
-Total problems: **390**
+Total problems: **391**
 
 ## Problems (sorted by LeetCode problem number)
 
@@ -1881,77 +1881,82 @@ Total problems: **390**
      - [Solution.java](./3583.%20Count%20Special%20Triplets/Solution.java)
      - [how_why.md](./3583.%20Count%20Special%20Triplets/how_why.md)
 
-376. [3606. Coupon Code Validator](./3606.%20Coupon%20Code%20Validator/)
+376. [3600. Maximize Spanning Tree Stability with Upgrades](./3600.%20Maximize%20Spanning%20Tree%20Stability%20with%20Upgrades/)
+
+     - [Solution.java](./3600.%20Maximize%20Spanning%20Tree%20Stability%20with%20Upgrades/Solution.java)
+     - [how_why.md](./3600.%20Maximize%20Spanning%20Tree%20Stability%20with%20Upgrades/how_why.md)
+
+377. [3606. Coupon Code Validator](./3606.%20Coupon%20Code%20Validator/)
 
      - [Solution.java](./3606.%20Coupon%20Code%20Validator/Solution.java)
      - [how_why.md](./3606.%20Coupon%20Code%20Validator/how_why.md)
 
-377. [3607. Power Grid Maintenance](./3607.%20Power%20Grid%20Maintenance/)
+378. [3607. Power Grid Maintenance](./3607.%20Power%20Grid%20Maintenance/)
 
      - [Solution.java](./3607.%20Power%20Grid%20Maintenance/Solution.java)
      - [how_why.md](./3607.%20Power%20Grid%20Maintenance/how_why.md)
 
-378. [3623. Count Number of Trapezoids I](./3623.%20Count%20Number%20of%20Trapezoids%20I/)
+379. [3623. Count Number of Trapezoids I](./3623.%20Count%20Number%20of%20Trapezoids%20I/)
 
      - [Solution.java](./3623.%20Count%20Number%20of%20Trapezoids%20I/Solution.java)
      - [how_why.md](./3623.%20Count%20Number%20of%20Trapezoids%20I/how_why.md)
 
-379. [3625. Count Number of Trapezoids II](./3625.%20Count%20Number%20of%20Trapezoids%20II/)
+380. [3625. Count Number of Trapezoids II](./3625.%20Count%20Number%20of%20Trapezoids%20II/)
 
      - [Solution.java](./3625.%20Count%20Number%20of%20Trapezoids%20II/Solution.java)
      - [how_why.md](./3625.%20Count%20Number%20of%20Trapezoids%20II/how_why.md)
 
-380. [3634. Minimum Removals to Balance Array](./3634.%20Minimum%20Removals%20to%20Balance%20Array/)
+381. [3634. Minimum Removals to Balance Array](./3634.%20Minimum%20Removals%20to%20Balance%20Array/)
 
      - [Solution.java](./3634.%20Minimum%20Removals%20to%20Balance%20Array/Solution.java)
      - [how_why.md](./3634.%20Minimum%20Removals%20to%20Balance%20Array/how_why.md)
 
-381. [3637. Trionic Array I](./3637.%20Trionic%20Array%20I/)
+382. [3637. Trionic Array I](./3637.%20Trionic%20Array%20I/)
 
      - [Solution.java](./3637.%20Trionic%20Array%20I/Solution.java)
      - [how_why.md](./3637.%20Trionic%20Array%20I/how_why.md)
 
-382. [3640. Trionic Array II](./3640.%20Trionic%20Array%20II/)
+383. [3640. Trionic Array II](./3640.%20Trionic%20Array%20II/)
 
      - [Solution.java](./3640.%20Trionic%20Array%20II/Solution.java)
      - [how_why.md](./3640.%20Trionic%20Array%20II/how_why.md)
 
-383. [3650. Minimum Cost Path with Edge Reversals](./3650.%20Minimum%20Cost%20Path%20with%20Edge%20Reversals/)
+384. [3650. Minimum Cost Path with Edge Reversals](./3650.%20Minimum%20Cost%20Path%20with%20Edge%20Reversals/)
 
      - [Solution.java](./3650.%20Minimum%20Cost%20Path%20with%20Edge%20Reversals/Solution.java)
      - [how_why.md](./3650.%20Minimum%20Cost%20Path%20with%20Edge%20Reversals/how_why.md)
 
-384. [3651. Minimum Cost Path with Teleportations](./3651.%20Minimum%20Cost%20Path%20with%20Teleportations/)
+385. [3651. Minimum Cost Path with Teleportations](./3651.%20Minimum%20Cost%20Path%20with%20Teleportations/)
 
      - [Solution.java](./3651.%20Minimum%20Cost%20Path%20with%20Teleportations/Solution.java)
      - [how_why.md](./3651.%20Minimum%20Cost%20Path%20with%20Teleportations/how_why.md)
 
-385. [3652. Best Time to Buy and Sell Stock using Strategy](./3652.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20using%20Strategy/)
+386. [3652. Best Time to Buy and Sell Stock using Strategy](./3652.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20using%20Strategy/)
 
      - [Solution.java](./3652.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20using%20Strategy/Solution.java)
      - [how_why.md](./3652.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20using%20Strategy/how_why.md)
 
-386. [3666. Minimum Operations to Equalize Binary String](./3666.%20Minimum%20Operations%20to%20Equalize%20Binary%20String/)
+387. [3666. Minimum Operations to Equalize Binary String](./3666.%20Minimum%20Operations%20to%20Equalize%20Binary%20String/)
 
      - [Solution.java](./3666.%20Minimum%20Operations%20to%20Equalize%20Binary%20String/Solution.java)
      - [how_why.md](./3666.%20Minimum%20Operations%20to%20Equalize%20Binary%20String/how_why.md)
 
-387. [3713. Longest Balanced Substring I](./3713.%20Longest%20Balanced%20Substring%20I/)
+388. [3713. Longest Balanced Substring I](./3713.%20Longest%20Balanced%20Substring%20I/)
 
      - [Solution.java](./3713.%20Longest%20Balanced%20Substring%20I/Solution.java)
      - [how_why.md](./3713.%20Longest%20Balanced%20Substring%20I/how_why.md)
 
-388. [3714. Longest Balanced Substring II](./3714.%20Longest%20Balanced%20Substring%20II/)
+389. [3714. Longest Balanced Substring II](./3714.%20Longest%20Balanced%20Substring%20II/)
 
      - [Solution.java](./3714.%20Longest%20Balanced%20Substring%20II/Solution.java)
      - [how_why.md](./3714.%20Longest%20Balanced%20Substring%20II/how_why.md)
 
-389. [3719. Longest Balanced Subarray I](./3719.%20Longest%20Balanced%20Subarray%20I/)
+390. [3719. Longest Balanced Subarray I](./3719.%20Longest%20Balanced%20Subarray%20I/)
 
      - [Solution.java](./3719.%20Longest%20Balanced%20Subarray%20I/Solution.java)
      - [how_why.md](./3719.%20Longest%20Balanced%20Subarray%20I/how_why.md)
 
-390. [3721. Longest Balanced Subarray II](./3721.%20Longest%20Balanced%20Subarray%20II/)
+391. [3721. Longest Balanced Subarray II](./3721.%20Longest%20Balanced%20Subarray%20II/)
 
      - [Solution.java](./3721.%20Longest%20Balanced%20Subarray%20II/Solution.java)
      - [how_why.md](./3721.%20Longest%20Balanced%20Subarray%20II/how_why.md)
