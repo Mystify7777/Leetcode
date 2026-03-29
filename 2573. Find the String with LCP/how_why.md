@@ -14,13 +14,13 @@ Given an `n x n` LCP matrix where `lcp[i][j]` is the length of the longest commo
 
 1. Initialize `word` with null chars, `current = 'a'`.
 2. For `i` from `0` to `n-1`:
-	- If `word[i]` is unset, assign `current` (fail if past `'z'`).
-	- For every `j > i`, if `lcp[i][j] > 0`, set `word[j] = word[i]` (tie positions sharing the first char of their suffixes).
-	- Increment `current` for the next new group.
+   - If `word[i]` is unset, assign `current` (fail if past `'z'`).
+   - For every `j > i`, if `lcp[i][j] > 0`, set `word[j] = word[i]` (tie positions sharing the first char of their suffixes).
+   - Increment `current` for the next new group.
 3. Validate matrix consistency by scanning from bottom-right to top-left:
-	- If `word[i] != word[j]`, require `lcp[i][j] == 0`.
-	- If equal: on last row/col require `lcp[i][j] == 1`; else require `lcp[i][j] == lcp[i+1][j+1] + 1`.
-	- Any violation ⇒ return empty string.
+   - If `word[i] != word[j]`, require `lcp[i][j] == 0`.
+   - If equal: on last row/col require `lcp[i][j] == 1`; else require `lcp[i][j] == lcp[i+1][j+1] + 1`.
+   - Any violation ⇒ return empty string.
 4. Return the constructed string if validation passes.
 
 ## Why it works
