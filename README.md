@@ -2,7 +2,7 @@
 
 Solving DSA problems with explanations for "why" and "how".
 
-Total problems: **419**
+Total problems: **420**
 
 ## Problems (sorted by LeetCode problem number)
 
@@ -2099,4 +2099,9 @@ Total problems: **419**
 
      - [Solution.java](./3721.%20Longest%20Balanced%20Subarray%20II/Solution.java)
      - [how_why.md](./3721.%20Longest%20Balanced%20Subarray%20II/how_why.md)
+
+420. [3740. Minimum Distance Between Three Equal Elements I](./3740.%20Minimum%20Distance%20Between%20Three%20Equal%20Elements%20I/)
+
+     - [Solution.java](./3740.%20Minimum%20Distance%20Between%20Three%20Equal%20Elements%20I/Solution.java)
+     - [how_why.md](./3740.%20Minimum%20Distance%20Between%20Three%20Equal%20Elements%20I/how_why.md)
 
