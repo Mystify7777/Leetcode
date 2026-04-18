@@ -2,7 +2,7 @@
 
 Solving DSA problems with explanations for "why" and "how".
 
-Total problems: **426**
+Total problems: **427**
 
 ## Problems (sorted by LeetCode problem number)
 
@@ -2134,4 +2134,9 @@ Total problems: **426**
 
      - [Solution.java](./3761.%20Minimum%20Absolute%20Distance%20Between%20Mirror%20Pairs/Solution.java)
      - [how_why.md](./3761.%20Minimum%20Absolute%20Distance%20Between%20Mirror%20Pairs/how_why.md)
+
+427. [3783. Mirror Distance of an Integer](./3783.%20Mirror%20Distance%20of%20an%20Integer/)
+
+     - [Solution.java](./3783.%20Mirror%20Distance%20of%20an%20Integer/Solution.java)
+     - [how_why.md](./3783.%20Mirror%20Distance%20of%20an%20Integer/how_why.md)
 
