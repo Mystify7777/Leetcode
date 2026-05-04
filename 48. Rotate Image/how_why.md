@@ -1,112 +1,71 @@
-# How_Why.md
+# How Why - Explanation 48. Rotate Image
+
+[48. Rotate Image](https://leetcode.com/problems/rotate-image/)
 
 ## Problem
 
-You are given an `n x n` 2D matrix representing an image. Rotate the image by **90 degrees clockwise**, in-place (without using extra space for another matrix).
+Given an `n x n` matrix, rotate it 90 degrees clockwise in-place.
 
----
+## Intuition
 
-## How (Step-by-step Solution)
+A clockwise rotation can be broken into two simpler in-place operations:
 
-### Approach: Transpose + Reverse
+1. Transpose the matrix.
+2. Reverse each row.
 
-1. **Transpose the matrix**  
-   - Swap elements across the diagonal.  
-   - i.e., for all `i < j`: swap `matrix[i][j]` and `matrix[j][i]`.
+After the transpose, rows become columns. Reversing each row fixes the orientation and produces the final rotated matrix.
 
-   Example (after transpose):
+## Approach (Transpose + Reverse)
 
-    ```text
-    1 2 3       1 4 7
-    4 5 6  -->  2 5 8
-    7 8 9       3 6 9
-    ```
+1. Traverse the upper triangle of the matrix, including the diagonal.
+2. Swap `matrix[i][j]` with `matrix[j][i]` to transpose the matrix.
+3. For each row, swap the leftmost and rightmost elements, moving inward.
+4. The matrix is now rotated 90 degrees clockwise.
 
-2. **Reverse each row**  
+This matches [48. Rotate Image/Solution.java](48.%20Rotate%20Image/Solution.java).
 
-    - Swap left and right elements in each row.  
-    - This gives the 90° clockwise rotation.
+## Why This Works
 
-    Example (after row reversal):
+Transpose converts the matrix from row-major orientation to column-major orientation. For a clockwise rotation, the left-to-right order inside each row must also be reversed. Combining these two operations is exactly equivalent to rotating the matrix 90 degrees clockwise.
 
-    ```text
-    1 4 7       7 4 1
-    2 5 8  -->  8 5 2
-    3 6 9       9 6 3
-    ```
+Because all swaps are done directly inside the original matrix, no extra matrix is needed.
 
-3. Done — matrix is rotated **in-place**.
+## Complexity
 
----
-
-## Why (Reasoning)
-
-- A **clockwise rotation** can be decomposed into two steps:
-
-1. **Transpose** (rows → columns).
-2. **Reverse rows** (to fix orientation).
-
-- This avoids needing extra space and works directly within the matrix.
-
----
-
-## Complexity Analysis
-
-- **Time Complexity**: O(n²) (every element visited during transpose and reverse).  
-- **Space Complexity**: O(1) (in-place swaps only).
-
----
+- Time: `O(n^2)`.
+- Space: `O(1)`.
 
 ## Example Walkthrough
 
-### Input
+Input:
 
 ```text
-[
-[1,2,3],
-[4,5,6],
+[1,2,3]
+[4,5,6]
 [7,8,9]
-]
 ```
 
-### Step 1: Transpose
+After transpose:
 
 ```text
-[
-[1,4,7],
-[2,5,8],
+[1,4,7]
+[2,5,8]
 [3,6,9]
-]
 ```
 
-### Step 2: Reverse each row
+After reversing each row:
 
 ```text
-[
-[7,4,1],
-[8,5,2],
+[7,4,1]
+[8,5,2]
 [9,6,3]
-]
 ```
 
-### Output
+## Edge Cases
 
-```text
-[
-[7,4,1],
-[8,5,2],
-[9,6,3]
-]
-```
+- `n = 1`: the matrix stays the same.
+- Even/odd sizes: the same transpose + row-reverse logic applies.
 
----
+## Alternate View
 
-## Alternate Approaches
-
-1. **Rotate layer by layer (4-way swap)**  
-   - Rotate elements on the boundary first, then inner layers.  
-   - More complex but avoids two passes.
-
-2. **Using extra matrix** (not in-place)  
-   - Place element `matrix[i][j]` into `newMatrix[j][n-1-i]`.  
-   - Requires O(n²) extra space.
+You can also think of this as moving element `(i, j)` to `(j, n - 1 - i)`, but the transpose + reverse method is the cleanest in-place implementation.
