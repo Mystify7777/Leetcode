@@ -1,143 +1,59 @@
-# How\_Why.md: Rotate List (LeetCode 61)
+# How Why - Explanation 61. Rotate List
+
+[61. Rotate List](https://leetcode.com/problems/rotate-list/)
 
 ## Problem
 
-Given the head of a singly-linked list and an integer `k`, rotate the list to the right by `k` places.
+Given the head of a singly-linked list and an integer `k`, rotate the list to the right by `k` places and return the new head.
 
-**Example:**
+Example: `1 -> 2 -> 3 -> 4 -> 5` rotated right by `2` becomes `4 -> 5 -> 1 -> 2 -> 3`.
 
-```java
-Input: 1->2->3->4->5->NULL, k = 2
-Output: 4->5->1->2->3->NULL
-```
+## Intuition
 
----
+Rotating a list right by `k` is equivalent to:
+1. Finding the node at position `len - k` from the head.
+2. Breaking the link after that node.
+3. Connecting the tail to the old head.
 
-## Brute-force Approach
+By using a dummy node and two pointers (one to find the total length and another to find the breaking point), we can do this efficiently.
 
-### Idea
+## Approach (Two-Pointer with Dummy Node)
 
-* Move the last element to the front **`k` times**.
-* For each rotation:
+1. Handle edge cases: if head is null or single node, return as is.
+2. Create a dummy node pointing to head.
+3. Count the total length by traversing to the tail with the fast pointer.
+4. Normalize `k = k % length` (handle cases where `k >= length`).
+5. Move the slow pointer `length - k` steps forward to locate the breaking point.
+6. Reconnect: make the tail point to the original head (circular), update the new head, and break the circle.
+7. Return the new head.
 
-  1. Traverse to the second-to-last node.
-  2. Move the last node to the front.
-* Repeat `k` times.
+This is implemented in [61. Rotate List/Solution.java](61.%20Rotate%20List/Solution.java).
 
-### Code
+## Why This Works
 
-```java
-public ListNode rotateRightBF(ListNode head, int k) {
-    if (head == null || head.next == null) return head;
-    int length = 0;
-    ListNode temp = head;
-    while (temp != null) { length++; temp = temp.next; }
-    
-    k = k % length;
-    for (int i = 0; i < k; i++) {
-        ListNode prev = null, curr = head;
-        while (curr.next != null) {
-            prev = curr;
-            curr = curr.next;
-        }
-        prev.next = null;
-        curr.next = head;
-        head = curr;
-    }
-    return head;
-}
-```
+After rotating right by `k`, the list breaks at position `len - k` from the start. By moving the slow pointer to that position, we identify where to split the list. Temporarily making it circular and then breaking at the correct point accomplishes the rotation in one pass.
 
-### Example Walkthrough
+## Complexity
 
-```java
-Input: 1->2->3->4->5, k=2
-Step 1: Move last node 5 → front: 5->1->2->3->4
-Step 2: Move last node 4 → front: 4->5->1->2->3
-```
+- Time: `O(n)` (single traversal to find length and locate the breaking point).
+- Space: `O(1)` (only pointers, no extra data structures).
 
-**Limitations:**
+## Edge Cases
 
-* **Time Complexity:** O(k \* n) — inefficient for large `k` or long lists.
-* Repeated traversals of the list make it slow.
+- `k = 0` or `k % len = 0`: no rotation, return original list.
+- Single node: return as is.
+- Empty list: return as is.
+- `k > len`: normalize using modulo.
 
----
+## Example Walkthrough
 
-## User Approach (Two-pointer + List Length)
+Input: `1 -> 2 -> 3 -> 4 -> 5`, `k = 2`
 
-### Idea_
-
-1. Compute the **length** of the list.
-2. Use **two pointers** (`slow` and `fast`) to locate the node before the new head.
-3. Make the list **circular** temporarily.
-4. Break the circle at the correct position.
-
-### Code_
-
-```java
-public ListNode rotateRight(ListNode head, int n) {
-    if (head == null || head.next == null) return head;
-
-    ListNode dummy = new ListNode(0);
-    dummy.next = head;
-    ListNode fast = dummy, slow = dummy;
-
-    int length = 0;
-    while (fast.next != null) { 
-        fast = fast.next; 
-        length++; 
-    }
-
-    int steps = length - n % length;
-    for (int i = 0; i < steps; i++) slow = slow.next;
-
-    fast.next = dummy.next; // make circular
-    dummy.next = slow.next; // new head
-    slow.next = null;       // break circle
-
-    return dummy.next;
-}
-```
-
-### Example Walkthrough_
-
-```java
-Input: 1->2->3->4->5, k=2
-Step 1: length = 5
-Step 2: steps = 5 - 2 % 5 = 3
-Step 3: slow moves 3 steps → points to 3
-Step 4: fast points to 5 → link 5.next = 1 (circular)
-Step 5: new head = slow.next = 4
-Step 6: break circle: slow.next = null
-Result: 4->5->1->2->3
-```
-
-**Advantages:**
-
-* **Time Complexity:** O(n)
-* **Space Complexity:** O(1)
-* Handles large `k` efficiently using modulo.
-
----
-
-## Optimized Approach
-
-* The user approach is **already optimal**:
-
-  * Only traverses the list twice: once to get the length, once to reach the rotation point.
-  * Handles edge cases:
-
-    * `k >= length`
-    * Empty list or single-node list
-* No extra data structures needed.
-
----
-
-### Key Takeaways
-
-1. Avoid brute-force by using **list length + modulo**.
-2. Two-pointer technique locates the split point efficiently.
-3. Temporarily converting to a circular list simplifies rotation logic.
-4. Always handle edge cases: `head == null`, `head.next == null`, `k >= length`.
-
----
+1. Total length = 5, `k = 2 % 5 = 2`.
+2. Break position from head: `5 - 2 = 3`.
+3. Move slow pointer 3 steps: points to node `3`.
+4. Fast pointer is at node `5` (tail).
+5. Make circular: `5.next = 1` (old head).
+6. New head: `slow.next = 4`.
+7. Break circle: `3.next = null`.
+8. Result: `4 -> 5 -> 1 -> 2 -> 3`.
