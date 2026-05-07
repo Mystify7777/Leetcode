@@ -2,7 +2,7 @@
 
 Solving DSA problems with explanations for "why" and "how".
 
-Total problems: **443**
+Total problems: **444**
 
 ## Problems (sorted by LeetCode problem number)
 
@@ -2165,57 +2165,62 @@ Total problems: **443**
      - [Solution.java](./3655.%20XOR%20After%20Range%20Multiplication%20Queries%20II/Solution.java)
      - [how_why.md](./3655.%20XOR%20After%20Range%20Multiplication%20Queries%20II/how_why.md)
 
-433. [3661. Maximum Walls Destroyed by Robots](./3661.%20Maximum%20Walls%20Destroyed%20by%20Robots/)
+433. [3660. Jump Game IX](./3660.%20Jump%20Game%20IX/)
+
+     - [Solution.java](./3660.%20Jump%20Game%20IX/Solution.java)
+     - [how_why.md](./3660.%20Jump%20Game%20IX/how_why.md)
+
+434. [3661. Maximum Walls Destroyed by Robots](./3661.%20Maximum%20Walls%20Destroyed%20by%20Robots/)
 
      - [Solution.java](./3661.%20Maximum%20Walls%20Destroyed%20by%20Robots/Solution.java)
      - [how_why.md](./3661.%20Maximum%20Walls%20Destroyed%20by%20Robots/how_why.md)
 
-434. [3666. Minimum Operations to Equalize Binary String](./3666.%20Minimum%20Operations%20to%20Equalize%20Binary%20String/)
+435. [3666. Minimum Operations to Equalize Binary String](./3666.%20Minimum%20Operations%20to%20Equalize%20Binary%20String/)
 
      - [Solution.java](./3666.%20Minimum%20Operations%20to%20Equalize%20Binary%20String/Solution.java)
      - [how_why.md](./3666.%20Minimum%20Operations%20to%20Equalize%20Binary%20String/how_why.md)
 
-435. [3713. Longest Balanced Substring I](./3713.%20Longest%20Balanced%20Substring%20I/)
+436. [3713. Longest Balanced Substring I](./3713.%20Longest%20Balanced%20Substring%20I/)
 
      - [Solution.java](./3713.%20Longest%20Balanced%20Substring%20I/Solution.java)
      - [how_why.md](./3713.%20Longest%20Balanced%20Substring%20I/how_why.md)
 
-436. [3714. Longest Balanced Substring II](./3714.%20Longest%20Balanced%20Substring%20II/)
+437. [3714. Longest Balanced Substring II](./3714.%20Longest%20Balanced%20Substring%20II/)
 
      - [Solution.java](./3714.%20Longest%20Balanced%20Substring%20II/Solution.java)
      - [how_why.md](./3714.%20Longest%20Balanced%20Substring%20II/how_why.md)
 
-437. [3719. Longest Balanced Subarray I](./3719.%20Longest%20Balanced%20Subarray%20I/)
+438. [3719. Longest Balanced Subarray I](./3719.%20Longest%20Balanced%20Subarray%20I/)
 
      - [Solution.java](./3719.%20Longest%20Balanced%20Subarray%20I/Solution.java)
      - [how_why.md](./3719.%20Longest%20Balanced%20Subarray%20I/how_why.md)
 
-438. [3721. Longest Balanced Subarray II](./3721.%20Longest%20Balanced%20Subarray%20II/)
+439. [3721. Longest Balanced Subarray II](./3721.%20Longest%20Balanced%20Subarray%20II/)
 
      - [Solution.java](./3721.%20Longest%20Balanced%20Subarray%20II/Solution.java)
      - [how_why.md](./3721.%20Longest%20Balanced%20Subarray%20II/how_why.md)
 
-439. [3740. Minimum Distance Between Three Equal Elements I](./3740.%20Minimum%20Distance%20Between%20Three%20Equal%20Elements%20I/)
+440. [3740. Minimum Distance Between Three Equal Elements I](./3740.%20Minimum%20Distance%20Between%20Three%20Equal%20Elements%20I/)
 
      - [Solution.java](./3740.%20Minimum%20Distance%20Between%20Three%20Equal%20Elements%20I/Solution.java)
      - [how_why.md](./3740.%20Minimum%20Distance%20Between%20Three%20Equal%20Elements%20I/how_why.md)
 
-440. [3741. Minimum Distance Between Three Equal Elements II](./3741.%20Minimum%20Distance%20Between%20Three%20Equal%20Elements%20II/)
+441. [3741. Minimum Distance Between Three Equal Elements II](./3741.%20Minimum%20Distance%20Between%20Three%20Equal%20Elements%20II/)
 
      - [Solution.java](./3741.%20Minimum%20Distance%20Between%20Three%20Equal%20Elements%20II/Solution.java)
      - [how_why.md](./3741.%20Minimum%20Distance%20Between%20Three%20Equal%20Elements%20II/how_why.md)
 
-441. [3742. Maximum Path Score in a Grid](./3742.%20Maximum%20Path%20Score%20in%20a%20Grid/)
+442. [3742. Maximum Path Score in a Grid](./3742.%20Maximum%20Path%20Score%20in%20a%20Grid/)
 
      - [Solution.java](./3742.%20Maximum%20Path%20Score%20in%20a%20Grid/Solution.java)
      - [how_why.md](./3742.%20Maximum%20Path%20Score%20in%20a%20Grid/how_why.md)
 
-442. [3761. Minimum Absolute Distance Between Mirror Pairs](./3761.%20Minimum%20Absolute%20Distance%20Between%20Mirror%20Pairs/)
+443. [3761. Minimum Absolute Distance Between Mirror Pairs](./3761.%20Minimum%20Absolute%20Distance%20Between%20Mirror%20Pairs/)
 
      - [Solution.java](./3761.%20Minimum%20Absolute%20Distance%20Between%20Mirror%20Pairs/Solution.java)
      - [how_why.md](./3761.%20Minimum%20Absolute%20Distance%20Between%20Mirror%20Pairs/how_why.md)
 
-443. [3783. Mirror Distance of an Integer](./3783.%20Mirror%20Distance%20of%20an%20Integer/)
+444. [3783. Mirror Distance of an Integer](./3783.%20Mirror%20Distance%20of%20an%20Integer/)
 
      - [Solution.java](./3783.%20Mirror%20Distance%20of%20an%20Integer/Solution.java)
      - [how_why.md](./3783.%20Mirror%20Distance%20of%20an%20Integer/how_why.md)
