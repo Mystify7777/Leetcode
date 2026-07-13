@@ -1,0 +1,617 @@
+# Sequential Digits
+
+**LeetCode 1291**
+
+---
+
+# Problem Overview
+
+A **sequential digit number** is a number where every digit is exactly one greater than the previous digit.
+
+Examples
+
+```
+12
+123
+2345
+56789
+```
+
+Valid because
+
+```
+1 → 2
+
+2 → 3
+
+3 → 4
+
+...
+```
+
+Examples that are **not** sequential
+
+```
+135
+
+122
+
+421
+
+989
+```
+
+Given two integers
+
+```
+low
+high
+```
+
+return **all sequential digit numbers** within the inclusive range
+
+```
+[low, high]
+```
+
+The numbers must be returned in increasing order.
+
+---
+
+# Example
+
+Input
+
+```
+low = 100
+high = 300
+```
+
+Sequential numbers are
+
+```
+123
+
+234
+```
+
+Output
+
+```
+[123,234]
+```
+
+---
+
+# Key Observation
+
+There are **very few sequential numbers**.
+
+Let's list them.
+
+```
+1
+2
+3
+...
+9
+
+12
+23
+34
+45
+56
+67
+78
+89
+
+123
+234
+345
+...
+
+123456789
+```
+
+There are only
+
+```
+45
+```
+
+such numbers.
+
+That means we don't need any complicated algorithm.
+
+We can generate them once and simply filter the required range.
+
+---
+
+# How the Solution Works
+
+The solution precomputes **every possible sequential digit number**.
+
+Later,
+
+each query only scans this list.
+
+---
+
+# Step 1: Create an Array
+
+```java
+static final int[] q = new int[45];
+```
+
+There are exactly
+
+```
+45
+```
+
+possible sequential numbers.
+
+So we store them in a fixed array.
+
+---
+
+# Step 2: Insert One-Digit Numbers
+
+```java
+for (int i = 1; i < 10; i++)
+    q[n++] = i;
+```
+
+Initially
+
+```
+q
+
+=
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+```
+
+These become the starting points for generating longer numbers.
+
+---
+
+# Step 3: Generate Larger Sequential Numbers
+
+The clever part is
+
+```java
+for (int i = 0; i < n; i++) {
+    int d = q[i] % 10;
+
+    if (d < 9)
+        q[n++] = q[i] * 10 + d + 1;
+}
+```
+
+Notice that
+
+```
+n
+```
+
+keeps increasing during the loop.
+
+Therefore,
+
+newly created numbers are also processed,
+
+making this effectively a **Breadth-First Search (BFS)** over sequential numbers.
+
+---
+
+# Understanding the Generation
+
+Suppose
+
+```
+Current number
+
+12
+```
+
+Last digit
+
+```
+2
+```
+
+Next sequential digit
+
+```
+3
+```
+
+New number
+
+```
+12 × 10 + 3
+
+=
+
+123
+```
+
+---
+
+Now process
+
+```
+123
+```
+
+Last digit
+
+```
+3
+```
+
+Append
+
+```
+4
+```
+
+Result
+
+```
+1234
+```
+
+---
+
+Again
+
+```
+1234
+
+↓
+
+12345
+
+↓
+
+123456
+
+↓
+
+1234567
+
+↓
+
+12345678
+
+↓
+
+123456789
+```
+
+Once the last digit becomes
+
+```
+9
+```
+
+generation stops.
+
+---
+
+# Why This Is BFS
+
+Initially
+
+Queue
+
+```
+1
+2
+3
+...
+9
+```
+
+Processing
+
+```
+1
+
+↓
+
+12
+```
+
+Processing
+
+```
+2
+
+↓
+
+23
+```
+
+Processing
+
+```
+12
+
+↓
+
+123
+```
+
+Processing
+
+```
+23
+
+↓
+
+234
+```
+
+And so on.
+
+Every newly created number is appended to the same array,
+
+which behaves exactly like a queue.
+
+---
+
+# Generated Numbers
+
+Eventually,
+
+the array contains
+
+```
+1
+2
+3
+4
+5
+6
+7
+8
+9
+
+12
+23
+34
+45
+56
+67
+78
+89
+
+123
+234
+345
+456
+567
+678
+789
+
+1234
+2345
+3456
+4567
+5678
+6789
+
+12345
+23456
+34567
+45678
+56789
+
+123456
+234567
+345678
+456789
+
+1234567
+2345678
+3456789
+
+12345678
+23456789
+
+123456789
+```
+
+Exactly
+
+```
+45
+```
+
+numbers.
+
+---
+
+# Step 4: Answer the Query
+
+Now simply iterate through
+
+```
+q
+```
+
+```java
+for (int x : q)
+    if (x >= low && x <= high)
+        res.add(x);
+```
+
+Every sequential number within the range is added to the answer.
+
+Since
+
+```
+q
+```
+
+is generated in increasing order,
+
+the result is automatically sorted.
+
+No additional sorting is needed.
+
+---
+
+# Why This Works
+
+Every sequential number is built from a shorter sequential number.
+
+Example
+
+```
+12345
+```
+
+comes from
+
+```
+1234
+```
+
+Appending
+
+```
+5
+```
+
+maintains the sequential property.
+
+Conversely,
+
+every valid sequential number can be constructed in exactly this manner.
+
+Therefore,
+
+the generation process produces
+
+- every valid sequential number
+- no invalid numbers
+- no duplicates
+
+---
+
+# Complexity Analysis
+
+Let
+
+```
+K = number of sequential numbers
+```
+
+Since
+
+```
+K = 45
+```
+
+which is constant,
+
+Generation
+
+```
+O(45)
+```
+
+Query
+
+```
+O(45)
+```
+
+Overall
+
+```
+O(1)
+```
+
+for practical purposes.
+
+---
+
+# Space Complexity
+
+The array stores
+
+```
+45
+```
+
+integers.
+
+Therefore
+
+```
+O(45)
+
+≈
+
+O(1)
+```
+
+---
+
+# Why Precompute?
+
+Suppose we tried checking every number between
+
+```
+low
+
+and
+
+high
+```
+
+For each number,
+
+we would need to inspect every digit.
+
+If
+
+```
+high = 10^9
+```
+
+that becomes extremely inefficient.
+
+Instead,
+
+the solution recognizes that there are only **45 possible answers** in the entire integer range.
+
+By generating them once,
+
+every query becomes a simple filtering operation.
+
+---
+
+# Summary
+
+The algorithm exploits an important observation:
+
+- There are only **45** sequential digit numbers.
+- Every sequential number can be generated by appending the next digit to a shorter sequential number.
+- A BFS-style generation produces all valid numbers in increasing order.
+- The final answer is obtained by filtering the precomputed list to include only numbers within `[low, high]`.
+
+This transforms what could have been a digit-by-digit validation problem into a simple constant-time lookup over a tiny precomputed set.
