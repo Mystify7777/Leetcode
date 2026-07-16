@@ -2,7 +2,7 @@
 
 Solving DSA problems with explanations for "why" and "how".
 
-Total problems: **488**
+Total problems: **489**
 
 ## Problems (sorted by LeetCode problem number)
 
@@ -2444,4 +2444,8 @@ Total problems: **488**
 
      - [Solution.java](./3838.%20Weighted%20Word%20Mapping/Solution.java)
      - [how_why.md](./3838.%20Weighted%20Word%20Mapping/how_why.md)
+
+489. [3867. Sum of GCD of Formed Pairs](./3867.%20Sum%20of%20GCD%20of%20Formed%20Pairs/)
+
+     - [Solution.java](./3867.%20Sum%20of%20GCD%20of%20Formed%20Pairs/Solution.java)
 
